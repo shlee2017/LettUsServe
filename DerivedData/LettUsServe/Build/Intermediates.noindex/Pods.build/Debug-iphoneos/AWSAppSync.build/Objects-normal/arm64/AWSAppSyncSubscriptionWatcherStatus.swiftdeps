@@ -1,0 +1,218 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AWSAppSyncSubscriptionWatcherStatus"
+provides-nominal:
+- "10AWSAppSync0aB25SubscriptionWatcherStatusO"
+- "So16AWSIoTMQTTStatusV"
+provides-member:
+- ["10AWSAppSync0aB25SubscriptionWatcherStatusO", ""]
+- ["So16AWSIoTMQTTStatusV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AWSAppSyncSubscriptionError"
+- "AWSAppSyncSubscriptionWatcherStatus"
+- "AWSIoTMQTTStatus"
+- "CustomStringConvertible"
+- "String"
+depends-member:
+- !private ["10AWSAppSync0aB17SubscriptionErrorO", "connectionError"]
+- !private ["10AWSAppSync0aB17SubscriptionErrorO", "connectionRefused"]
+- !private ["10AWSAppSync0aB17SubscriptionErrorO", "disconnected"]
+- !private ["10AWSAppSync0aB17SubscriptionErrorO", "protocolError"]
+- !private ["10AWSAppSync0aB17SubscriptionErrorO", "unknownMQTTConnectionStatus"]
+- ["10AWSAppSync0aB25SubscriptionWatcherStatusO", "AWSAppSyncSubscriptionError"]
+- ["10AWSAppSync0aB25SubscriptionWatcherStatusO", "connected"]
+- ["10AWSAppSync0aB25SubscriptionWatcherStatusO", "connecting"]
+- ["10AWSAppSync0aB25SubscriptionWatcherStatusO", "disconnected"]
+- ["10AWSAppSync0aB25SubscriptionWatcherStatusO", "error"]
+- ["So16AWSIoTMQTTStatusV", "AWSAppSyncSubscriptionWatcherStatus"]
+- ["So16AWSIoTMQTTStatusV", "String"]
+- ["So16AWSIoTMQTTStatusV", "connected"]
+- ["So16AWSIoTMQTTStatusV", "connecting"]
+- ["So16AWSIoTMQTTStatusV", "connectionError"]
+- ["So16AWSIoTMQTTStatusV", "connectionRefused"]
+- ["So16AWSIoTMQTTStatusV", "deinit"]
+- ["So16AWSIoTMQTTStatusV", "description"]
+- ["So16AWSIoTMQTTStatusV", "disconnected"]
+- ["So16AWSIoTMQTTStatusV", "protocolError"]
+- ["So16AWSIoTMQTTStatusV", "toSubscriptionWatcherStatus"]
+- ["So16AWSIoTMQTTStatusV", "unknown"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "connected"]
+- ["s23CustomStringConvertibleP", "connecting"]
+- ["s23CustomStringConvertibleP", "connectionError"]
+- ["s23CustomStringConvertibleP", "connectionRefused"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "disconnected"]
+- ["s23CustomStringConvertibleP", "protocolError"]
+- ["s23CustomStringConvertibleP", "unknown"]
+- ["SQ", "connected"]
+- ["SQ", "connecting"]
+- ["SQ", "connectionError"]
+- ["SQ", "connectionRefused"]
+- ["SQ", "description"]
+- ["SQ", "disconnected"]
+- ["SQ", "protocolError"]
+- ["SQ", "unknown"]
+- !private ["s5ErrorP", "connectionError"]
+- !private ["s5ErrorP", "connectionRefused"]
+- !private ["s5ErrorP", "disconnected"]
+- !private ["s5ErrorP", "protocolError"]
+- !private ["s5ErrorP", "unknownMQTTConnectionStatus"]
+- ["SH", "connected"]
+- ["SH", "connecting"]
+- ["SH", "connectionError"]
+- ["SH", "connectionRefused"]
+- ["SH", "description"]
+- ["SH", "disconnected"]
+- ["SH", "protocolError"]
+- ["SH", "unknown"]
+- !private ["10Foundation14LocalizedErrorP", "connectionError"]
+- !private ["10Foundation14LocalizedErrorP", "connectionRefused"]
+- !private ["10Foundation14LocalizedErrorP", "disconnected"]
+- !private ["10Foundation14LocalizedErrorP", "protocolError"]
+- !private ["10Foundation14LocalizedErrorP", "unknownMQTTConnectionStatus"]
+- ["SY", "connected"]
+- ["SY", "connecting"]
+- ["SY", "connectionError"]
+- ["SY", "connectionRefused"]
+- ["SY", "description"]
+- ["SY", "disconnected"]
+- ["SY", "protocolError"]
+- ["SY", "unknown"]
+depends-nominal:
+- !private "10AWSAppSync0aB17SubscriptionErrorO"
+- "10AWSAppSync0aB25SubscriptionWatcherStatusO"
+- "So16AWSIoTMQTTStatusV"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "s5ErrorP"
+- "SH"
+- !private "10Foundation14LocalizedErrorP"
+- "SY"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Modules/SQLite.swiftmodule/arm64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDB.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/GZIP/AWSGZIP.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTS.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLog+LOGV.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/AWSAppSync/AWSAppSync-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/AWSCore/AWSCore-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSGeneric.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/AWSAppSync.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSTaskCompletionSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMDiskCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMMemoryCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMantle.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/AWSCore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/UICKeyChainStore/AWSUICKeyChainStore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSSignature.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDASLLogCapture.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabase.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLite/SQLite.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseQueue.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel+NSCoding.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLiteObjc/include/SQLite-Bridging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSLogging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Networking/AWSNetworking.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLog.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSCocoaLumberjack.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSTask.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabasePool.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSServiceEnum.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationToken.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSValidation.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenRegistration.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLResponseSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLReflection.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSError+AWSMTLModelException.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSInfo.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSCredentialsProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSIdentityProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Networking/AWSURLSessionManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDASLLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDOSLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDTTYLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDFileLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDAbstractDatabaseLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestRetryHandler.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLValueTransformer.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/Internal/AppSyncLogHelper.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLJSONAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLManagedObjectAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDDispatchQueueLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDContextFilterLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDMultiFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSExecutor.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/MQTTSDK/AWSIoTMQTTTypes.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLogMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDAssertMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLegacyMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDB+AWSHelpers.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSBolts.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMResultSet.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/MQTTSDK/AWSIoTMQTTClient.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSClientContext.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSSynchronizedMutableDictionary.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSCategory.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/KSReachability/AWSKSReachability.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentity.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSAppSync.build/unextended-module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ReachabilitySwift.build/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SQLite.swift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "83ebb07a7b69423f447ceb32b69b13fd"

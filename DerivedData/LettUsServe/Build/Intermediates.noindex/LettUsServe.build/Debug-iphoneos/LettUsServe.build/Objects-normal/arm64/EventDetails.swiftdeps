@@ -1,0 +1,523 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EventDetailsViewController"
+provides-nominal:
+- "11LettUsServe26EventDetailsViewControllerC"
+provides-member:
+- ["11LettUsServe26EventDetailsViewControllerC", ""]
+provides-dynamic-lookup:
+- "descTextField"
+- "eventNameLabel"
+- "viewDidLoad"
+- "whenLabel"
+- "whereLabel"
+depends-top-level:
+- "AWSAppSyncClient"
+- !private "AppDelegate"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Event"
+- "EventDetailsViewController"
+- !private "UIApplication"
+- "UILabel"
+- "UITextView"
+- "UIViewController"
+depends-member:
+- !private ["11LettUsServe11AppDelegateC", "appSyncClient"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "UIApplication"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "appSyncClient"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "descTextField"]
+- !private ["s7CVarArgP", "event"]
+- !private ["s7CVarArgP", "eventNameLabel"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "whenLabel"]
+- !private ["s7CVarArgP", "whereLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "appSyncClient"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "descTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "event"]
+- !private ["s28CustomDebugStringConvertibleP", "eventNameLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "whenLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "whereLabel"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appSyncClient"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "descTextField"]
+- !private ["s23CustomStringConvertibleP", "event"]
+- !private ["s23CustomStringConvertibleP", "eventNameLabel"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "whenLabel"]
+- !private ["s23CustomStringConvertibleP", "whereLabel"]
+- !private ["Se", "text"]
+- !private ["SE", "text"]
+- !private ["SQ", "UIApplication"]
+- ["SQ", ""]
+- !private ["SQ", "appSyncClient"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "descTextField"]
+- !private ["SQ", "event"]
+- !private ["SQ", "eventNameLabel"]
+- !private ["SQ", "init"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "text"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "whenLabel"]
+- !private ["SQ", "whereLabel"]
+- !private ["11LettUsServe5EventV", "description"]
+- !private ["11LettUsServe5EventV", "name"]
+- !private ["11LettUsServe5EventV", "when"]
+- !private ["11LettUsServe5EventV", "where"]
+- ["11LettUsServe26EventDetailsViewControllerC", "AWSAppSyncClient"]
+- !private ["11LettUsServe26EventDetailsViewControllerC", "AppDelegate"]
+- ["11LettUsServe26EventDetailsViewControllerC", "Event"]
+- !private ["11LettUsServe26EventDetailsViewControllerC", "UIApplication"]
+- ["11LettUsServe26EventDetailsViewControllerC", "UILabel"]
+- ["11LettUsServe26EventDetailsViewControllerC", "UITextView"]
+- ["11LettUsServe26EventDetailsViewControllerC", "appSyncClient"]
+- ["11LettUsServe26EventDetailsViewControllerC", "deinit"]
+- ["11LettUsServe26EventDetailsViewControllerC", "descTextField"]
+- ["11LettUsServe26EventDetailsViewControllerC", "event"]
+- ["11LettUsServe26EventDetailsViewControllerC", "eventNameLabel"]
+- ["11LettUsServe26EventDetailsViewControllerC", "init"]
+- ["11LettUsServe26EventDetailsViewControllerC", "viewDidLoad"]
+- ["11LettUsServe26EventDetailsViewControllerC", "whenLabel"]
+- ["11LettUsServe26EventDetailsViewControllerC", "whereLabel"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["10AWSAppSync15GraphQLFragmentP", "description"]
+- !private ["10AWSAppSync15GraphQLFragmentP", "name"]
+- !private ["10AWSAppSync15GraphQLFragmentP", "when"]
+- !private ["10AWSAppSync15GraphQLFragmentP", "where"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "text"]
+- !private ["10AWSAppSync19GraphQLSelectionSetP", "description"]
+- !private ["10AWSAppSync19GraphQLSelectionSetP", "name"]
+- !private ["10AWSAppSync19GraphQLSelectionSetP", "when"]
+- !private ["10AWSAppSync19GraphQLSelectionSetP", "where"]
+- !private ["SH", "UIApplication"]
+- ["SH", ""]
+- !private ["SH", "appSyncClient"]
+- !private ["SH", "delegate"]
+- !private ["SH", "descTextField"]
+- !private ["SH", "event"]
+- !private ["SH", "eventNameLabel"]
+- !private ["SH", "init"]
+- !private ["SH", "shared"]
+- !private ["SH", "text"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "whenLabel"]
+- !private ["SH", "whereLabel"]
+- !private ["10AWSAppSync13JSONEncodableP", "text"]
+- !private ["So8NSCodingP", "UIApplication"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "appSyncClient"]
+- !private ["So8NSCodingP", "descTextField"]
+- !private ["So8NSCodingP", "event"]
+- !private ["So8NSCodingP", "eventNameLabel"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "whenLabel"]
+- !private ["So8NSCodingP", "whereLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "UIApplication"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "appSyncClient"]
+- !private ["So26NSExtensionRequestHandlingP", "descTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "event"]
+- !private ["So26NSExtensionRequestHandlingP", "eventNameLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "whenLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "whereLabel"]
+- ["So8NSObjectC", "AWSAppSyncClient"]
+- !private ["So8NSObjectC", "AppDelegate"]
+- ["So8NSObjectC", "Event"]
+- !private ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UITextView"]
+- ["So8NSObjectC", "appSyncClient"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "descTextField"]
+- ["So8NSObjectC", "event"]
+- ["So8NSObjectC", "eventNameLabel"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "whenLabel"]
+- ["So8NSObjectC", "whereLabel"]
+- !private ["So8NSObjectP", "UIApplication"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "appSyncClient"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "descTextField"]
+- !private ["So8NSObjectP", "event"]
+- !private ["So8NSObjectP", "eventNameLabel"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "whenLabel"]
+- !private ["So8NSObjectP", "whereLabel"]
+- !private ["Sq", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "UIApplication"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "appSyncClient"]
+- !private ["So21UIAppearanceContainerP", "descTextField"]
+- !private ["So21UIAppearanceContainerP", "event"]
+- !private ["So21UIAppearanceContainerP", "eventNameLabel"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "whenLabel"]
+- !private ["So21UIAppearanceContainerP", "whereLabel"]
+- !private ["So13UIApplicationC", "delegate"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So21UIApplicationDelegateP", "appSyncClient"]
+- !private ["So18UIContentContainerP", "UIApplication"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "appSyncClient"]
+- !private ["So18UIContentContainerP", "descTextField"]
+- !private ["So18UIContentContainerP", "event"]
+- !private ["So18UIContentContainerP", "eventNameLabel"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "whenLabel"]
+- !private ["So18UIContentContainerP", "whereLabel"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "UIApplication"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "appSyncClient"]
+- !private ["So18UIFocusEnvironmentP", "descTextField"]
+- !private ["So18UIFocusEnvironmentP", "event"]
+- !private ["So18UIFocusEnvironmentP", "eventNameLabel"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "whenLabel"]
+- !private ["So18UIFocusEnvironmentP", "whereLabel"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So30UIFocusItemScrollableContainerP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "appSyncClient"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "descTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "event"]
+- !private ["So30UIPasteConfigurationSupportingP", "eventNameLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "whenLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "whereLabel"]
+- ["So11UIResponderC", "AWSAppSyncClient"]
+- !private ["So11UIResponderC", "AppDelegate"]
+- ["So11UIResponderC", "Event"]
+- !private ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UITextView"]
+- ["So11UIResponderC", "appSyncClient"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "descTextField"]
+- ["So11UIResponderC", "event"]
+- ["So11UIResponderC", "eventNameLabel"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "whenLabel"]
+- ["So11UIResponderC", "whereLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "appSyncClient"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "descTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "event"]
+- !private ["So30UIResponderStandardEditActionsP", "eventNameLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "whenLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "whereLabel"]
+- !private ["So12UIScrollViewC", "text"]
+- !private ["So16UIStateRestoringP", "UIApplication"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "appSyncClient"]
+- !private ["So16UIStateRestoringP", "descTextField"]
+- !private ["So16UIStateRestoringP", "event"]
+- !private ["So16UIStateRestoringP", "eventNameLabel"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "whenLabel"]
+- !private ["So16UIStateRestoringP", "whereLabel"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So10UITextViewC", "text"]
+- !private ["So18UITraitEnvironmentP", "UIApplication"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "appSyncClient"]
+- !private ["So18UITraitEnvironmentP", "descTextField"]
+- !private ["So18UITraitEnvironmentP", "event"]
+- !private ["So18UITraitEnvironmentP", "eventNameLabel"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "whenLabel"]
+- !private ["So18UITraitEnvironmentP", "whereLabel"]
+- !private ["So23UIUserActivityRestoringP", "UIApplication"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "appSyncClient"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "descTextField"]
+- !private ["So23UIUserActivityRestoringP", "event"]
+- !private ["So23UIUserActivityRestoringP", "eventNameLabel"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "whenLabel"]
+- !private ["So23UIUserActivityRestoringP", "whereLabel"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "AWSAppSyncClient"]
+- !private ["So16UIViewControllerC", "AppDelegate"]
+- ["So16UIViewControllerC", "Event"]
+- !private ["So16UIViewControllerC", "UIApplication"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UITextView"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "appSyncClient"]
+- ["So16UIViewControllerC", "descTextField"]
+- ["So16UIViewControllerC", "event"]
+- ["So16UIViewControllerC", "eventNameLabel"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "whenLabel"]
+- ["So16UIViewControllerC", "whereLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appSyncClient"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "descTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "event"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "eventNameLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "whenLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "whereLabel"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["6SQLite13_OptionalTypeP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- !private "11LettUsServe11AppDelegateC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "11LettUsServe5EventV"
+- "11LettUsServe26EventDetailsViewControllerC"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "10AWSAppSync15GraphQLFragmentP"
+- !private "10AWSAppSync17GraphQLInputValueP"
+- !private "10AWSAppSync19GraphQLSelectionSetP"
+- "SH"
+- !private "10AWSAppSync13JSONEncodableP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So21UIApplicationDelegateP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So10UIKeyInputP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So10UITextViewC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "6SQLite13_OptionalTypeP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Modules/AWSAppSync.swiftmodule/arm64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Modules/SQLite.swiftmodule/arm64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLog+LOGV.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AWSAppSync-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite.swift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSGeneric.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AWSAppSync.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDASLLogCapture.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLog.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCocoaLumberjack.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLReflection.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSError+AWSMTLModelException.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDASLLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDOSLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDTTYLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDFileLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDAbstractDatabaseLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AppSyncLogHelper.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDDispatchQueueLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDContextFilterLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDMultiFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AWSIoTMQTTTypes.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLogMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDAssertMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLegacyMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDB+AWSHelpers.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AWSAppSync-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AWSIoTMQTTClient.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1312b1ed0639bb28623055be8a139e3c"

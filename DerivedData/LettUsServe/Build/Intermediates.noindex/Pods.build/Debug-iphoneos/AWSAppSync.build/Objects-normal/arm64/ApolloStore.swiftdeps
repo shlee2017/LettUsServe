@@ -1,0 +1,569 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CacheKeyForObject"
+- "DidChangeKeysFunc"
+- "ApolloStoreSubscriber"
+- "ApolloStore"
+provides-nominal:
+- "10AWSAppSync21ApolloStoreSubscriberP"
+- "10AWSAppSync11ApolloStoreC"
+- "10AWSAppSync11ApolloStoreC15ReadTransactionC"
+- "10AWSAppSync11ApolloStoreC20ReadWriteTransactionC"
+provides-member:
+- ["10AWSAppSync21ApolloStoreSubscriberP", ""]
+- ["10AWSAppSync11ApolloStoreC", ""]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", ""]
+- ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!=="
+- !private "??"
+- "AnyObject"
+- "ApolloStore"
+- "ApolloStoreSubscriber"
+- !private "Array"
+- "AssignmentPrecedence"
+- "CacheKey"
+- "CacheKeyForObject"
+- "CastingPrecedence"
+- "DataLoader"
+- "DidChangeKeysFunc"
+- "DispatchQueue"
+- !private "GraphQLDependencyTracker"
+- "GraphQLExecutor"
+- "GraphQLMap"
+- "GraphQLQuery"
+- "GraphQLResult"
+- "GraphQLResultAccumulator"
+- !private "GraphQLResultNormalizer"
+- "GraphQLSelection"
+- "GraphQLSelectionSet"
+- !private "GraphQLSelectionSetMapper"
+- !private "JSONDecodingError"
+- "JSONObject"
+- "JSONValue"
+- "NormalizedCache"
+- "OperationResultHandler"
+- "Promise"
+- "ReadWriteLock"
+- "Record"
+- "RecordSet"
+- !private "Reference"
+- "ResultOrPromise"
+- "Set"
+- "UnsafeMutableRawPointer"
+- "Void"
+- !private "type"
+- !private "whenAll"
+- !private "zip"
+depends-member:
+- ["10AWSAppSync11ApolloStoreC", "ApolloStoreSubscriber"]
+- !private ["10AWSAppSync11ApolloStoreC", "Array"]
+- ["10AWSAppSync11ApolloStoreC", "CacheKey"]
+- ["10AWSAppSync11ApolloStoreC", "CacheKeyForObject"]
+- ["10AWSAppSync11ApolloStoreC", "DataLoader"]
+- ["10AWSAppSync11ApolloStoreC", "DidChangeKeysFunc"]
+- ["10AWSAppSync11ApolloStoreC", "DispatchQueue"]
+- !private ["10AWSAppSync11ApolloStoreC", "GraphQLDependencyTracker"]
+- ["10AWSAppSync11ApolloStoreC", "GraphQLExecutor"]
+- ["10AWSAppSync11ApolloStoreC", "GraphQLMap"]
+- ["10AWSAppSync11ApolloStoreC", "GraphQLQuery"]
+- ["10AWSAppSync11ApolloStoreC", "GraphQLResult"]
+- ["10AWSAppSync11ApolloStoreC", "GraphQLResultAccumulator"]
+- !private ["10AWSAppSync11ApolloStoreC", "GraphQLResultNormalizer"]
+- ["10AWSAppSync11ApolloStoreC", "GraphQLSelection"]
+- ["10AWSAppSync11ApolloStoreC", "GraphQLSelectionSet"]
+- !private ["10AWSAppSync11ApolloStoreC", "GraphQLSelectionSetMapper"]
+- !private ["10AWSAppSync11ApolloStoreC", "JSONDecodingError"]
+- ["10AWSAppSync11ApolloStoreC", "JSONObject"]
+- ["10AWSAppSync11ApolloStoreC", "JSONValue"]
+- ["10AWSAppSync11ApolloStoreC", "NormalizedCache"]
+- ["10AWSAppSync11ApolloStoreC", "OperationResultHandler"]
+- ["10AWSAppSync11ApolloStoreC", "Promise"]
+- ["10AWSAppSync11ApolloStoreC", "ReadTransaction"]
+- ["10AWSAppSync11ApolloStoreC", "ReadWriteLock"]
+- ["10AWSAppSync11ApolloStoreC", "ReadWriteTransaction"]
+- ["10AWSAppSync11ApolloStoreC", "Record"]
+- ["10AWSAppSync11ApolloStoreC", "RecordSet"]
+- !private ["10AWSAppSync11ApolloStoreC", "Reference"]
+- ["10AWSAppSync11ApolloStoreC", "ResultOrPromise"]
+- ["10AWSAppSync11ApolloStoreC", "Set"]
+- ["10AWSAppSync11ApolloStoreC", "UnsafeMutableRawPointer"]
+- ["10AWSAppSync11ApolloStoreC", "Void"]
+- !private ["10AWSAppSync11ApolloStoreC", "cache"]
+- ["10AWSAppSync11ApolloStoreC", "cacheKeyForObject"]
+- !private ["10AWSAppSync11ApolloStoreC", "cacheLock"]
+- ["10AWSAppSync11ApolloStoreC", "clearCache"]
+- ["10AWSAppSync11ApolloStoreC", "deinit"]
+- !private ["10AWSAppSync11ApolloStoreC", "didChangeKeys"]
+- ["10AWSAppSync11ApolloStoreC", "init"]
+- ["10AWSAppSync11ApolloStoreC", "load"]
+- ["10AWSAppSync11ApolloStoreC", "publish"]
+- !private ["10AWSAppSync11ApolloStoreC", "queue"]
+- ["10AWSAppSync11ApolloStoreC", "subscribe"]
+- !private ["10AWSAppSync11ApolloStoreC", "subscribers"]
+- !private ["10AWSAppSync11ApolloStoreC", "type"]
+- ["10AWSAppSync11ApolloStoreC", "unsubscribe"]
+- !private ["10AWSAppSync11ApolloStoreC", "whenAll"]
+- ["10AWSAppSync11ApolloStoreC", "withinReadTransaction"]
+- ["10AWSAppSync11ApolloStoreC", "withinReadWriteTransaction"]
+- !private ["10AWSAppSync11ApolloStoreC", "zip"]
+- ["10AWSAppSync21ApolloStoreSubscriberP", "ApolloStore"]
+- ["10AWSAppSync21ApolloStoreSubscriberP", "CacheKey"]
+- ["10AWSAppSync21ApolloStoreSubscriberP", "Set"]
+- ["10AWSAppSync21ApolloStoreSubscriberP", "UnsafeMutableRawPointer"]
+- ["10AWSAppSync21ApolloStoreSubscriberP", "store"]
+- !private ["Sa", "append"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "map"]
+- !private ["So17OS_dispatch_queueC8DispatchE10AttributesV", "concurrent"]
+- !private ["SK", "append"]
+- !private ["SK", "filter"]
+- !private ["SK", "map"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "fields"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "key"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "success"]
+- !private ["10AWSAppSync10DataLoaderC", "dispatch"]
+- ["10AWSAppSync10DataLoaderC", "init"]
+- !private ["10AWSAppSync10DataLoaderC", "subscript"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "append"]
+- !private ["Se", "filter"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- !private ["So17OS_dispatch_queueC", "init"]
+- !private ["8Dispatch0A13WorkItemFlagsV", "barrier"]
+- !private ["SE", "append"]
+- !private ["SE", "filter"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "append"]
+- !private ["SQ", "async"]
+- !private ["SQ", "barrier"]
+- !private ["SQ", "cache"]
+- !private ["SQ", "concurrent"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "global"]
+- !private ["SQ", "init"]
+- !private ["SQ", "key"]
+- !private ["SQ", "map"]
+- !private ["SQ", "subscript"]
+- !private ["s5ErrorP", "missingValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "barrier"]
+- !private ["s25ExpressibleByArrayLiteralP", "concurrent"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["10AWSAppSync24GraphQLDependencyTrackerC", "deinit"]
+- !private ["10AWSAppSync24GraphQLDependencyTrackerC", "init"]
+- !private ["10AWSAppSync15GraphQLExecutorC", "cacheKeyForObject"]
+- !private ["10AWSAppSync15GraphQLExecutorC", "dispatchDataLoads"]
+- !private ["10AWSAppSync15GraphQLExecutorC", "execute"]
+- !private ["10AWSAppSync15GraphQLExecutorC", "init"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "append"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "filter"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "map"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "subscript"]
+- !private ["10AWSAppSync16GraphQLOperationP", "Data"]
+- !private ["10AWSAppSync16GraphQLOperationP", "rootCacheKey"]
+- !private ["10AWSAppSync16GraphQLOperationP", "variables"]
+- !private ["10AWSAppSync12GraphQLQueryP", "Data"]
+- !private ["10AWSAppSync12GraphQLQueryP", "rootCacheKey"]
+- !private ["10AWSAppSync12GraphQLQueryP", "variables"]
+- !private ["10AWSAppSync18GraphQLResolveInfoV", "cacheKeyForField"]
+- !private ["10AWSAppSync18GraphQLResolveInfoV", "responseKeyForField"]
+- !private ["10AWSAppSync13GraphQLResultV", "init"]
+- !private ["10AWSAppSync24GraphQLResultAccumulatorP", "init"]
+- !private ["10AWSAppSync23GraphQLResultNormalizerC", "deinit"]
+- !private ["10AWSAppSync23GraphQLResultNormalizerC", "init"]
+- !private ["10AWSAppSync19GraphQLSelectionSetP", "jsonObject"]
+- !private ["10AWSAppSync19GraphQLSelectionSetP", "selections"]
+- !private ["10AWSAppSync25GraphQLSelectionSetMapperC", "deinit"]
+- !private ["10AWSAppSync25GraphQLSelectionSetMapperC", "init"]
+- !private ["SH", "append"]
+- !private ["SH", "async"]
+- !private ["SH", "cache"]
+- !private ["SH", "filter"]
+- !private ["SH", "global"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "subscript"]
+- !private ["10AWSAppSync17JSONDecodingErrorO", "deinit"]
+- !private ["10AWSAppSync17JSONDecodingErrorO", "missingValue"]
+- !private ["10AWSAppSync13JSONEncodableP", "append"]
+- !private ["10AWSAppSync13JSONEncodableP", "filter"]
+- !private ["10AWSAppSync13JSONEncodableP", "map"]
+- !private ["10AWSAppSync13JSONEncodableP", "subscript"]
+- !private ["10Foundation14LocalizedErrorP", "missingValue"]
+- !private ["10AWSAppSync9MatchableP", "missingValue"]
+- !private ["SM", "append"]
+- !private ["SM", "filter"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "global"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "global"]
+- !private ["So8NSObjectP", "init"]
+- !private ["10AWSAppSync15NormalizedCacheP", "clear"]
+- ["10AWSAppSync15NormalizedCacheP", "loadRecords"]
+- !private ["10AWSAppSync15NormalizedCacheP", "merge"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- !private ["So9OS_objectC", "init"]
+- !private ["s9OptionSetP", "barrier"]
+- !private ["s9OptionSetP", "concurrent"]
+- !private ["10AWSAppSync7PromiseC", "andThen"]
+- !private ["10AWSAppSync7PromiseC", "await"]
+- !private ["10AWSAppSync7PromiseC", "catch"]
+- !private ["10AWSAppSync7PromiseC", "finally"]
+- !private ["10AWSAppSync7PromiseC", "flatMap"]
+- !private ["10AWSAppSync7PromiseC", "init"]
+- !private ["10AWSAppSync7PromiseC", "map"]
+- !private ["Sk", "append"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "map"]
+- !private ["Sm", "append"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "map"]
+- !private ["SY", "barrier"]
+- !private ["SY", "concurrent"]
+- !private ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "Array"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "CacheKey"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "CacheKeyForObject"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "DataLoader"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "DidChangeKeysFunc"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "GraphQLExecutor"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "GraphQLMap"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "GraphQLQuery"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "GraphQLResultAccumulator"]
+- !private ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "GraphQLResultNormalizer"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "GraphQLSelection"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "GraphQLSelectionSet"]
+- !private ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "GraphQLSelectionSetMapper"]
+- !private ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "JSONDecodingError"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "JSONObject"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "JSONValue"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "NormalizedCache"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "Promise"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "Record"]
+- !private ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "Reference"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "ResultOrPromise"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "Void"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", ""]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "cache"]
+- !private ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "cacheKeyForObject"]
+- !private ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "complete"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "execute"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "init"]
+- !private ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "loadObject"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "loadRecords"]
+- !private ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "loader"]
+- !private ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "loader.storage"]
+- !private ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "makeExecutor"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "read"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "readObject"]
+- !private ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "type"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "update"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "updateChangedKeysFunc"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "updateObject"]
+- !private ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "whenAll"]
+- ["10AWSAppSync11ApolloStoreC15ReadTransactionC", "write"]
+- ["10AWSAppSync13ReadWriteLockC", "init"]
+- !private ["10AWSAppSync13ReadWriteLockC", "lockForReading"]
+- !private ["10AWSAppSync13ReadWriteLockC", "lockForWriting"]
+- !private ["10AWSAppSync13ReadWriteLockC", "unlock"]
+- !private ["10AWSAppSync13ReadWriteLockC", "withWriteLock"]
+- ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "CacheKey"]
+- ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "CacheKeyForObject"]
+- ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "DidChangeKeysFunc"]
+- ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "GraphQLMap"]
+- ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "GraphQLQuery"]
+- !private ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "GraphQLResultNormalizer"]
+- ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "GraphQLSelection"]
+- ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "GraphQLSelectionSet"]
+- ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "JSONObject"]
+- ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "NormalizedCache"]
+- ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "Void"]
+- !private ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "cache"]
+- ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "init"]
+- !private ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "makeExecutor"]
+- !private ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "read"]
+- !private ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "readObject"]
+- !private ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "type"]
+- ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "update"]
+- !private ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "updateChangedKeysFunc"]
+- ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "updateObject"]
+- ["10AWSAppSync11ApolloStoreC20ReadWriteTransactionC", "write"]
+- !private ["10AWSAppSync6RecordV", "fields"]
+- !private ["10AWSAppSync9ReferenceV", "key"]
+- !private ["10AWSAppSync6ResultO", "success"]
+- !private ["10AWSAppSync15ResultOrPromiseO", "map"]
+- !private ["10AWSAppSync15ResultOrPromiseO", "promise"]
+- !private ["10AWSAppSync15ResultOrPromiseO", "result"]
+- !private ["ST", "append"]
+- !private ["ST", "filter"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "barrier"]
+- !private ["s10SetAlgebraP", "concurrent"]
+- !private ["10AWSAppSync13GraphQLResultV6SourceO", "cache"]
+- !private ["10AWSAppSync15Zip2AccumulatorC", "deinit"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "10AWSAppSync11ApolloStoreC"
+- "10AWSAppSync21ApolloStoreSubscriberP"
+- !private "Sa"
+- !private "So17OS_dispatch_queueC8DispatchE10AttributesV"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "10AWSAppSync10DataLoaderC"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "8Dispatch0A13WorkItemFlagsV"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "10AWSAppSync24GraphQLDependencyTrackerC"
+- !private "10AWSAppSync15GraphQLExecutorC"
+- !private "10AWSAppSync17GraphQLInputValueP"
+- !private "10AWSAppSync16GraphQLOperationP"
+- !private "10AWSAppSync12GraphQLQueryP"
+- !private "10AWSAppSync18GraphQLResolveInfoV"
+- !private "10AWSAppSync13GraphQLResultV"
+- !private "10AWSAppSync24GraphQLResultAccumulatorP"
+- !private "10AWSAppSync23GraphQLResultNormalizerC"
+- !private "10AWSAppSync19GraphQLSelectionSetP"
+- !private "10AWSAppSync25GraphQLSelectionSetMapperC"
+- !private "SH"
+- !private "10AWSAppSync17JSONDecodingErrorO"
+- !private "10AWSAppSync13JSONEncodableP"
+- !private "10Foundation14LocalizedErrorP"
+- !private "10AWSAppSync9MatchableP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "10AWSAppSync15NormalizedCacheP"
+- !private "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "10AWSAppSync7PromiseC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "10AWSAppSync11ApolloStoreC15ReadTransactionC"
+- "10AWSAppSync13ReadWriteLockC"
+- "10AWSAppSync11ApolloStoreC20ReadWriteTransactionC"
+- !private "10AWSAppSync6RecordV"
+- !private "10AWSAppSync9ReferenceV"
+- !private "10AWSAppSync6ResultO"
+- !private "10AWSAppSync15ResultOrPromiseO"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "10AWSAppSync13GraphQLResultV6SourceO"
+- !private "10AWSAppSync15Zip2AccumulatorC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Modules/SQLite.swiftmodule/arm64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDB.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/GZIP/AWSGZIP.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTS.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLog+LOGV.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/AWSAppSync/AWSAppSync-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/AWSCore/AWSCore-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSGeneric.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/AWSAppSync.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSTaskCompletionSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMDiskCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMMemoryCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMantle.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/AWSCore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/UICKeyChainStore/AWSUICKeyChainStore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSSignature.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDASLLogCapture.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabase.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLite/SQLite.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseQueue.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel+NSCoding.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLiteObjc/include/SQLite-Bridging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSLogging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Networking/AWSNetworking.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLog.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSCocoaLumberjack.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSTask.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabasePool.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSServiceEnum.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationToken.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSValidation.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenRegistration.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLResponseSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLReflection.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSError+AWSMTLModelException.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSInfo.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSCredentialsProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSIdentityProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Networking/AWSURLSessionManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDASLLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDOSLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDTTYLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDFileLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDAbstractDatabaseLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestRetryHandler.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLValueTransformer.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/Internal/AppSyncLogHelper.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLJSONAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLManagedObjectAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDDispatchQueueLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDContextFilterLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDMultiFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSExecutor.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/MQTTSDK/AWSIoTMQTTTypes.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLogMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDAssertMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLegacyMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDB+AWSHelpers.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSBolts.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMResultSet.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/MQTTSDK/AWSIoTMQTTClient.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSClientContext.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSSynchronizedMutableDictionary.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSCategory.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/KSReachability/AWSKSReachability.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentity.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSAppSync.build/unextended-module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ReachabilitySwift.build/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SQLite.swift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "64108197fe2c666b2965f12d44851950"

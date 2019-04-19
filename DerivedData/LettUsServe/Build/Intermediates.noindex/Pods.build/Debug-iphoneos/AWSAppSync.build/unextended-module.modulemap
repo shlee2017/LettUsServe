@@ -1,0 +1,10 @@
+framework module AWSAppSync {
+  umbrella header "AWSAppSync-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AWSAppSync.__Swift {
+    exclude header "AWSAppSync-Swift.h"
+}

@@ -1,0 +1,1243 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AddEventMutation"
+- "DeleteEventMutation"
+- "CommentOnEventMutation"
+- "GetEventQuery"
+- "ListEventsQuery"
+- "NewCommentOnEventSubscription"
+- "Event"
+provides-nominal:
+- "11LettUsServe16AddEventMutationC"
+- "11LettUsServe16AddEventMutationC4DataV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V9FragmentsV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV"
+- "11LettUsServe19DeleteEventMutationC"
+- "11LettUsServe19DeleteEventMutationC4DataV"
+- "11LettUsServe19DeleteEventMutationC4DataV0dE0V"
+- "11LettUsServe22CommentOnEventMutationC"
+- "11LettUsServe22CommentOnEventMutationC4DataV"
+- "11LettUsServe22CommentOnEventMutationC4DataV0deF0V"
+- "11LettUsServe13GetEventQueryC"
+- "11LettUsServe13GetEventQueryC4DataV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V9FragmentsV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC"
+- "11LettUsServe15ListEventsQueryC4DataV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV9FragmentsV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV"
+- "11LettUsServe29NewCommentOnEventSubscriptionC"
+- "11LettUsServe29NewCommentOnEventSubscriptionC4DataV"
+- "11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V"
+- "11LettUsServe5EventV"
+- "11LettUsServe5EventV7CommentV"
+- "11LettUsServe5EventV7CommentV4ItemV"
+provides-member:
+- ["11LettUsServe16AddEventMutationC", ""]
+- ["11LettUsServe16AddEventMutationC4DataV", ""]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", ""]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V9FragmentsV", ""]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV", ""]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV", ""]
+- ["11LettUsServe19DeleteEventMutationC", ""]
+- ["11LettUsServe19DeleteEventMutationC4DataV", ""]
+- ["11LettUsServe19DeleteEventMutationC4DataV0dE0V", ""]
+- ["11LettUsServe22CommentOnEventMutationC", ""]
+- ["11LettUsServe22CommentOnEventMutationC4DataV", ""]
+- ["11LettUsServe22CommentOnEventMutationC4DataV0deF0V", ""]
+- ["11LettUsServe13GetEventQueryC", ""]
+- ["11LettUsServe13GetEventQueryC4DataV", ""]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", ""]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V9FragmentsV", ""]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV", ""]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV", ""]
+- ["11LettUsServe15ListEventsQueryC", ""]
+- ["11LettUsServe15ListEventsQueryC4DataV", ""]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", ""]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", ""]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV9FragmentsV", ""]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV", ""]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV", ""]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", ""]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV", ""]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V", ""]
+- ["11LettUsServe5EventV", ""]
+- ["11LettUsServe5EventV7CommentV", ""]
+- ["11LettUsServe5EventV7CommentV4ItemV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+="
+- "AddEventMutation"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "CommentOnEventMutation"
+- "DeleteEventMutation"
+- "Event"
+- "GetEventQuery"
+- "GraphQLField"
+- "GraphQLFragment"
+- "GraphQLID"
+- "GraphQLMap"
+- "GraphQLMutation"
+- "GraphQLQuery"
+- "GraphQLSelection"
+- "GraphQLSelectionSet"
+- "GraphQLSubscription"
+- "GraphQLVariable"
+- "Int"
+- "ListEventsQuery"
+- "NewCommentOnEventSubscription"
+- "Snapshot"
+- "String"
+- "StringLiteralType"
+depends-member:
+- ["11LettUsServe16AddEventMutationC", "Data"]
+- ["11LettUsServe16AddEventMutationC", "Event"]
+- ["11LettUsServe16AddEventMutationC", "GraphQLField"]
+- ["11LettUsServe16AddEventMutationC", "GraphQLID"]
+- ["11LettUsServe16AddEventMutationC", "GraphQLMap"]
+- ["11LettUsServe16AddEventMutationC", "GraphQLSelection"]
+- ["11LettUsServe16AddEventMutationC", "GraphQLSelectionSet"]
+- ["11LettUsServe16AddEventMutationC", "GraphQLVariable"]
+- ["11LettUsServe16AddEventMutationC", "Snapshot"]
+- ["11LettUsServe16AddEventMutationC", "String"]
+- ["11LettUsServe16AddEventMutationC", "deinit"]
+- ["11LettUsServe16AddEventMutationC", "description"]
+- ["11LettUsServe16AddEventMutationC", "init"]
+- ["11LettUsServe16AddEventMutationC", "name"]
+- ["11LettUsServe16AddEventMutationC", "operationIdentifier"]
+- ["11LettUsServe16AddEventMutationC", "operationString"]
+- ["11LettUsServe16AddEventMutationC", "requestString"]
+- ["11LettUsServe16AddEventMutationC", "rootCacheKey"]
+- ["11LettUsServe16AddEventMutationC", "variables"]
+- ["11LettUsServe16AddEventMutationC", "when"]
+- ["11LettUsServe16AddEventMutationC", "where"]
+- !private ["Sa", "map"]
+- !private ["SK", "appending"]
+- !private ["SK", "map"]
+- !private ["6SQLite7BindingP", "appending"]
+- !private ["s7CVarArgP", "appending"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "updateValue"]
+- !private ["Sl", "appending"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "updateValue"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV", "GraphQLField"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV", "GraphQLField"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV", "GraphQLField"]
+- ["11LettUsServe5EventV7CommentV", "GraphQLField"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV", "GraphQLID"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV", "GraphQLID"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV", "GraphQLID"]
+- ["11LettUsServe5EventV7CommentV", "GraphQLID"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV", "GraphQLSelection"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV", "GraphQLSelection"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV", "GraphQLSelection"]
+- ["11LettUsServe5EventV7CommentV", "GraphQLSelection"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV", "GraphQLSelectionSet"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV", "GraphQLSelectionSet"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV", "GraphQLSelectionSet"]
+- ["11LettUsServe5EventV7CommentV", "GraphQLSelectionSet"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV", "Item"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV", "Item"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV", "Item"]
+- ["11LettUsServe5EventV7CommentV", "Item"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV", "Snapshot"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV", "Snapshot"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV", "Snapshot"]
+- ["11LettUsServe5EventV7CommentV", "Snapshot"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV", "String"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV", "String"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV", "String"]
+- ["11LettUsServe5EventV7CommentV", "String"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV", "__typename"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV", "__typename"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV", "__typename"]
+- ["11LettUsServe5EventV7CommentV", "__typename"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV", "deinit"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV", "deinit"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV", "deinit"]
+- ["11LettUsServe5EventV7CommentV", "deinit"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV", "init"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV", "init"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV", "init"]
+- ["11LettUsServe5EventV7CommentV", "init"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV", "items"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV", "items"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV", "items"]
+- ["11LettUsServe5EventV7CommentV", "items"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV", "possibleTypes"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV", "possibleTypes"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV", "possibleTypes"]
+- ["11LettUsServe5EventV7CommentV", "possibleTypes"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV", "selections"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV", "selections"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV", "selections"]
+- ["11LettUsServe5EventV7CommentV", "selections"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV", "snapshot"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV", "snapshot"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV", "snapshot"]
+- ["11LettUsServe5EventV7CommentV", "snapshot"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV0deF0V", "GraphQLField"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV0deF0V", "GraphQLID"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV0deF0V", "GraphQLSelection"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV0deF0V", "Snapshot"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV0deF0V", "String"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV0deF0V", "__typename"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV0deF0V", "commentId"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV0deF0V", "content"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV0deF0V", "createdAt"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV0deF0V", "deinit"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV0deF0V", "eventId"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV0deF0V", "init"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV0deF0V", "possibleTypes"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV0deF0V", "selections"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV0deF0V", "snapshot"]
+- ["11LettUsServe22CommentOnEventMutationC", "Data"]
+- ["11LettUsServe22CommentOnEventMutationC", "GraphQLField"]
+- ["11LettUsServe22CommentOnEventMutationC", "GraphQLID"]
+- ["11LettUsServe22CommentOnEventMutationC", "GraphQLMap"]
+- ["11LettUsServe22CommentOnEventMutationC", "GraphQLSelection"]
+- ["11LettUsServe22CommentOnEventMutationC", "GraphQLSelectionSet"]
+- ["11LettUsServe22CommentOnEventMutationC", "GraphQLVariable"]
+- ["11LettUsServe22CommentOnEventMutationC", "Snapshot"]
+- ["11LettUsServe22CommentOnEventMutationC", "String"]
+- ["11LettUsServe22CommentOnEventMutationC", "content"]
+- ["11LettUsServe22CommentOnEventMutationC", "createdAt"]
+- ["11LettUsServe22CommentOnEventMutationC", "deinit"]
+- ["11LettUsServe22CommentOnEventMutationC", "eventId"]
+- ["11LettUsServe22CommentOnEventMutationC", "init"]
+- ["11LettUsServe22CommentOnEventMutationC", "operationIdentifier"]
+- ["11LettUsServe22CommentOnEventMutationC", "operationString"]
+- ["11LettUsServe22CommentOnEventMutationC", "requestString"]
+- ["11LettUsServe22CommentOnEventMutationC", "rootCacheKey"]
+- ["11LettUsServe22CommentOnEventMutationC", "variables"]
+- !private ["SL", "appending"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "Comment"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "Event"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "Fragments"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "GraphQLField"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "GraphQLID"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "GraphQLSelection"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "GraphQLSelectionSet"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "Snapshot"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "String"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "__typename"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "comments"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "deinit"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "description"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "fragments"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "id"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "init"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "name"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "possibleTypes"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "selections"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "snapshot"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "when"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V", "where"]
+- !private ["s28CustomDebugStringConvertibleP", "appending"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "updateValue"]
+- !private ["s17CustomReflectableP", "appending"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "updateValue"]
+- !private ["s23CustomStringConvertibleP", "appending"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "updateValue"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV", "CommentOnEvent"]
+- ["11LettUsServe16AddEventMutationC4DataV", "CreateEvent"]
+- ["11LettUsServe19DeleteEventMutationC4DataV", "DeleteEvent"]
+- ["11LettUsServe13GetEventQueryC4DataV", "Event"]
+- ["11LettUsServe15ListEventsQueryC4DataV", "Event"]
+- ["11LettUsServe16AddEventMutationC4DataV", "Event"]
+- ["11LettUsServe13GetEventQueryC4DataV", "GetEvent"]
+- ["11LettUsServe13GetEventQueryC4DataV", "GraphQLField"]
+- ["11LettUsServe15ListEventsQueryC4DataV", "GraphQLField"]
+- ["11LettUsServe16AddEventMutationC4DataV", "GraphQLField"]
+- ["11LettUsServe19DeleteEventMutationC4DataV", "GraphQLField"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV", "GraphQLField"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV", "GraphQLField"]
+- ["11LettUsServe13GetEventQueryC4DataV", "GraphQLID"]
+- ["11LettUsServe15ListEventsQueryC4DataV", "GraphQLID"]
+- ["11LettUsServe16AddEventMutationC4DataV", "GraphQLID"]
+- ["11LettUsServe19DeleteEventMutationC4DataV", "GraphQLID"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV", "GraphQLID"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV", "GraphQLID"]
+- ["11LettUsServe13GetEventQueryC4DataV", "GraphQLSelection"]
+- ["11LettUsServe15ListEventsQueryC4DataV", "GraphQLSelection"]
+- ["11LettUsServe16AddEventMutationC4DataV", "GraphQLSelection"]
+- ["11LettUsServe19DeleteEventMutationC4DataV", "GraphQLSelection"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV", "GraphQLSelection"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV", "GraphQLSelection"]
+- ["11LettUsServe13GetEventQueryC4DataV", "GraphQLSelectionSet"]
+- ["11LettUsServe15ListEventsQueryC4DataV", "GraphQLSelectionSet"]
+- ["11LettUsServe16AddEventMutationC4DataV", "GraphQLSelectionSet"]
+- ["11LettUsServe19DeleteEventMutationC4DataV", "GraphQLSelectionSet"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV", "GraphQLSelectionSet"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV", "GraphQLSelectionSet"]
+- ["11LettUsServe13GetEventQueryC4DataV", "GraphQLVariable"]
+- ["11LettUsServe15ListEventsQueryC4DataV", "GraphQLVariable"]
+- ["11LettUsServe16AddEventMutationC4DataV", "GraphQLVariable"]
+- ["11LettUsServe19DeleteEventMutationC4DataV", "GraphQLVariable"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV", "GraphQLVariable"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV", "GraphQLVariable"]
+- ["11LettUsServe15ListEventsQueryC4DataV", "ListEvent"]
+- ["11LettUsServe13GetEventQueryC4DataV", "Snapshot"]
+- ["11LettUsServe15ListEventsQueryC4DataV", "Snapshot"]
+- ["11LettUsServe16AddEventMutationC4DataV", "Snapshot"]
+- ["11LettUsServe19DeleteEventMutationC4DataV", "Snapshot"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV", "Snapshot"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV", "Snapshot"]
+- ["11LettUsServe13GetEventQueryC4DataV", "String"]
+- ["11LettUsServe15ListEventsQueryC4DataV", "String"]
+- ["11LettUsServe16AddEventMutationC4DataV", "String"]
+- ["11LettUsServe19DeleteEventMutationC4DataV", "String"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV", "String"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV", "String"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV", "SubscribeToEventComment"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV", "commentOnEvent"]
+- ["11LettUsServe16AddEventMutationC4DataV", "createEvent"]
+- ["11LettUsServe13GetEventQueryC4DataV", "deinit"]
+- ["11LettUsServe15ListEventsQueryC4DataV", "deinit"]
+- ["11LettUsServe16AddEventMutationC4DataV", "deinit"]
+- ["11LettUsServe19DeleteEventMutationC4DataV", "deinit"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV", "deinit"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV", "deinit"]
+- ["11LettUsServe19DeleteEventMutationC4DataV", "deleteEvent"]
+- ["11LettUsServe13GetEventQueryC4DataV", "getEvent"]
+- ["11LettUsServe13GetEventQueryC4DataV", "init"]
+- ["11LettUsServe15ListEventsQueryC4DataV", "init"]
+- ["11LettUsServe16AddEventMutationC4DataV", "init"]
+- ["11LettUsServe19DeleteEventMutationC4DataV", "init"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV", "init"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV", "init"]
+- ["11LettUsServe15ListEventsQueryC4DataV", "listEvents"]
+- ["11LettUsServe13GetEventQueryC4DataV", "possibleTypes"]
+- ["11LettUsServe15ListEventsQueryC4DataV", "possibleTypes"]
+- ["11LettUsServe16AddEventMutationC4DataV", "possibleTypes"]
+- ["11LettUsServe19DeleteEventMutationC4DataV", "possibleTypes"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV", "possibleTypes"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV", "possibleTypes"]
+- ["11LettUsServe13GetEventQueryC4DataV", "selections"]
+- ["11LettUsServe15ListEventsQueryC4DataV", "selections"]
+- ["11LettUsServe16AddEventMutationC4DataV", "selections"]
+- ["11LettUsServe19DeleteEventMutationC4DataV", "selections"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV", "selections"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV", "selections"]
+- ["11LettUsServe13GetEventQueryC4DataV", "snapshot"]
+- ["11LettUsServe15ListEventsQueryC4DataV", "snapshot"]
+- ["11LettUsServe16AddEventMutationC4DataV", "snapshot"]
+- ["11LettUsServe19DeleteEventMutationC4DataV", "snapshot"]
+- ["11LettUsServe22CommentOnEventMutationC4DataV", "snapshot"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV", "snapshot"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV", "subscribeToEventComments"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "appending"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["Se", "updateValue"]
+- ["11LettUsServe19DeleteEventMutationC4DataV0dE0V", "GraphQLField"]
+- ["11LettUsServe19DeleteEventMutationC4DataV0dE0V", "GraphQLID"]
+- ["11LettUsServe19DeleteEventMutationC4DataV0dE0V", "GraphQLSelection"]
+- ["11LettUsServe19DeleteEventMutationC4DataV0dE0V", "Snapshot"]
+- ["11LettUsServe19DeleteEventMutationC4DataV0dE0V", "String"]
+- ["11LettUsServe19DeleteEventMutationC4DataV0dE0V", "__typename"]
+- ["11LettUsServe19DeleteEventMutationC4DataV0dE0V", "deinit"]
+- ["11LettUsServe19DeleteEventMutationC4DataV0dE0V", "description"]
+- ["11LettUsServe19DeleteEventMutationC4DataV0dE0V", "id"]
+- ["11LettUsServe19DeleteEventMutationC4DataV0dE0V", "init"]
+- ["11LettUsServe19DeleteEventMutationC4DataV0dE0V", "name"]
+- ["11LettUsServe19DeleteEventMutationC4DataV0dE0V", "possibleTypes"]
+- ["11LettUsServe19DeleteEventMutationC4DataV0dE0V", "selections"]
+- ["11LettUsServe19DeleteEventMutationC4DataV0dE0V", "snapshot"]
+- ["11LettUsServe19DeleteEventMutationC", "Data"]
+- ["11LettUsServe19DeleteEventMutationC", "GraphQLField"]
+- ["11LettUsServe19DeleteEventMutationC", "GraphQLID"]
+- ["11LettUsServe19DeleteEventMutationC", "GraphQLMap"]
+- ["11LettUsServe19DeleteEventMutationC", "GraphQLSelection"]
+- ["11LettUsServe19DeleteEventMutationC", "GraphQLSelectionSet"]
+- ["11LettUsServe19DeleteEventMutationC", "GraphQLVariable"]
+- ["11LettUsServe19DeleteEventMutationC", "Snapshot"]
+- ["11LettUsServe19DeleteEventMutationC", "String"]
+- ["11LettUsServe19DeleteEventMutationC", "deinit"]
+- ["11LettUsServe19DeleteEventMutationC", "id"]
+- ["11LettUsServe19DeleteEventMutationC", "init"]
+- ["11LettUsServe19DeleteEventMutationC", "operationIdentifier"]
+- ["11LettUsServe19DeleteEventMutationC", "operationString"]
+- ["11LettUsServe19DeleteEventMutationC", "requestString"]
+- ["11LettUsServe19DeleteEventMutationC", "rootCacheKey"]
+- ["11LettUsServe19DeleteEventMutationC", "variables"]
+- !private ["SD", "subscript"]
+- !private ["SD", "updateValue"]
+- !private ["SE", "appending"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SE", "updateValue"]
+- !private ["SQ", "appending"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "map"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "updateValue"]
+- ["11LettUsServe5EventV", "Comment"]
+- ["11LettUsServe5EventV", "GraphQLField"]
+- ["11LettUsServe5EventV", "GraphQLID"]
+- ["11LettUsServe5EventV", "GraphQLSelection"]
+- ["11LettUsServe5EventV", "GraphQLSelectionSet"]
+- ["11LettUsServe5EventV", "Snapshot"]
+- ["11LettUsServe5EventV", "String"]
+- ["11LettUsServe5EventV", "__typename"]
+- ["11LettUsServe5EventV", "comments"]
+- ["11LettUsServe5EventV", "deinit"]
+- ["11LettUsServe5EventV", "description"]
+- ["11LettUsServe5EventV", "fragmentString"]
+- ["11LettUsServe5EventV", "id"]
+- ["11LettUsServe5EventV", "init"]
+- ["11LettUsServe5EventV", "name"]
+- ["11LettUsServe5EventV", "possibleTypes"]
+- ["11LettUsServe5EventV", "selections"]
+- ["11LettUsServe5EventV", "snapshot"]
+- ["11LettUsServe5EventV", "when"]
+- ["11LettUsServe5EventV", "where"]
+- !private ["6SQLite11ExpressibleP", "appending"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "updateValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "appending"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s32ExpressibleByStringInterpolationP", "appending"]
+- !private ["s26ExpressibleByStringLiteralP", "appending"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "appending"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V9FragmentsV", "Event"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV9FragmentsV", "Event"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V9FragmentsV", "Event"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V9FragmentsV", "Snapshot"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV9FragmentsV", "Snapshot"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V9FragmentsV", "Snapshot"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V9FragmentsV", "event"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV9FragmentsV", "event"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V9FragmentsV", "event"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V9FragmentsV", "init"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV9FragmentsV", "init"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V9FragmentsV", "init"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V9FragmentsV", "snapshot"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV9FragmentsV", "snapshot"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V9FragmentsV", "snapshot"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "Comment"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "Event"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "Fragments"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "GraphQLField"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "GraphQLID"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "GraphQLSelection"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "GraphQLSelectionSet"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "Snapshot"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "String"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "__typename"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "comments"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "deinit"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "description"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "fragments"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "id"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "init"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "name"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "possibleTypes"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "selections"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "snapshot"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "when"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V", "where"]
+- ["11LettUsServe13GetEventQueryC", "Data"]
+- ["11LettUsServe13GetEventQueryC", "Event"]
+- ["11LettUsServe13GetEventQueryC", "GraphQLField"]
+- ["11LettUsServe13GetEventQueryC", "GraphQLID"]
+- ["11LettUsServe13GetEventQueryC", "GraphQLMap"]
+- ["11LettUsServe13GetEventQueryC", "GraphQLSelection"]
+- ["11LettUsServe13GetEventQueryC", "GraphQLSelectionSet"]
+- ["11LettUsServe13GetEventQueryC", "GraphQLVariable"]
+- ["11LettUsServe13GetEventQueryC", "Snapshot"]
+- ["11LettUsServe13GetEventQueryC", "String"]
+- ["11LettUsServe13GetEventQueryC", "deinit"]
+- ["11LettUsServe13GetEventQueryC", "id"]
+- ["11LettUsServe13GetEventQueryC", "init"]
+- ["11LettUsServe13GetEventQueryC", "operationIdentifier"]
+- ["11LettUsServe13GetEventQueryC", "operationString"]
+- ["11LettUsServe13GetEventQueryC", "requestString"]
+- ["11LettUsServe13GetEventQueryC", "rootCacheKey"]
+- ["11LettUsServe13GetEventQueryC", "variables"]
+- ["10AWSAppSync12GraphQLFieldV", "init"]
+- ["10AWSAppSync15GraphQLFragmentP", "Comment"]
+- ["10AWSAppSync15GraphQLFragmentP", "GraphQLField"]
+- ["10AWSAppSync15GraphQLFragmentP", "GraphQLID"]
+- ["10AWSAppSync15GraphQLFragmentP", "String"]
+- ["10AWSAppSync15GraphQLFragmentP", ""]
+- !private ["10AWSAppSync15GraphQLFragmentP", "fragmentString"]
+- ["10AWSAppSync15GraphQLFragmentP", "init"]
+- ["10AWSAppSync15GraphQLFragmentP", "possibleTypes"]
+- ["10AWSAppSync15GraphQLFragmentP", "selections"]
+- ["10AWSAppSync15GraphQLFragmentP", "snapshot"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "appending"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "flatMap"]
+- ["10AWSAppSync17GraphQLInputValueP", "init"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "map"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "subscript"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "updateValue"]
+- ["10AWSAppSync15GraphQLMutationP", "Data"]
+- !private ["10AWSAppSync15GraphQLMutationP", "Event"]
+- ["10AWSAppSync15GraphQLMutationP", "GraphQLField"]
+- ["10AWSAppSync15GraphQLMutationP", "GraphQLID"]
+- ["10AWSAppSync15GraphQLMutationP", "GraphQLVariable"]
+- ["10AWSAppSync15GraphQLMutationP", "String"]
+- ["10AWSAppSync15GraphQLMutationP", ""]
+- !private ["10AWSAppSync15GraphQLMutationP", "content"]
+- !private ["10AWSAppSync15GraphQLMutationP", "createdAt"]
+- !private ["10AWSAppSync15GraphQLMutationP", "description"]
+- !private ["10AWSAppSync15GraphQLMutationP", "eventId"]
+- !private ["10AWSAppSync15GraphQLMutationP", "id"]
+- !private ["10AWSAppSync15GraphQLMutationP", "name"]
+- ["10AWSAppSync15GraphQLMutationP", "operationIdentifier"]
+- ["10AWSAppSync15GraphQLMutationP", "operationString"]
+- ["10AWSAppSync15GraphQLMutationP", "requestString"]
+- ["10AWSAppSync15GraphQLMutationP", "rootCacheKey"]
+- ["10AWSAppSync15GraphQLMutationP", "variables"]
+- !private ["10AWSAppSync15GraphQLMutationP", "when"]
+- !private ["10AWSAppSync15GraphQLMutationP", "where"]
+- ["10AWSAppSync16GraphQLOperationP", "Data"]
+- !private ["10AWSAppSync16GraphQLOperationP", "Event"]
+- ["10AWSAppSync16GraphQLOperationP", "GraphQLField"]
+- ["10AWSAppSync16GraphQLOperationP", "GraphQLID"]
+- ["10AWSAppSync16GraphQLOperationP", "GraphQLVariable"]
+- ["10AWSAppSync16GraphQLOperationP", "String"]
+- ["10AWSAppSync16GraphQLOperationP", ""]
+- !private ["10AWSAppSync16GraphQLOperationP", "content"]
+- !private ["10AWSAppSync16GraphQLOperationP", "createdAt"]
+- !private ["10AWSAppSync16GraphQLOperationP", "description"]
+- !private ["10AWSAppSync16GraphQLOperationP", "eventId"]
+- !private ["10AWSAppSync16GraphQLOperationP", "id"]
+- !private ["10AWSAppSync16GraphQLOperationP", "limit"]
+- !private ["10AWSAppSync16GraphQLOperationP", "name"]
+- !private ["10AWSAppSync16GraphQLOperationP", "nextToken"]
+- ["10AWSAppSync16GraphQLOperationP", "operationIdentifier"]
+- ["10AWSAppSync16GraphQLOperationP", "operationString"]
+- ["10AWSAppSync16GraphQLOperationP", "requestString"]
+- ["10AWSAppSync16GraphQLOperationP", "rootCacheKey"]
+- ["10AWSAppSync16GraphQLOperationP", "variables"]
+- !private ["10AWSAppSync16GraphQLOperationP", "when"]
+- !private ["10AWSAppSync16GraphQLOperationP", "where"]
+- ["10AWSAppSync17GraphQLOutputTypeO", "list"]
+- ["10AWSAppSync17GraphQLOutputTypeO", "nonNull"]
+- ["10AWSAppSync17GraphQLOutputTypeO", "object"]
+- ["10AWSAppSync17GraphQLOutputTypeO", "scalar"]
+- ["10AWSAppSync12GraphQLQueryP", "Data"]
+- !private ["10AWSAppSync12GraphQLQueryP", "Event"]
+- ["10AWSAppSync12GraphQLQueryP", "GraphQLField"]
+- ["10AWSAppSync12GraphQLQueryP", "GraphQLID"]
+- ["10AWSAppSync12GraphQLQueryP", "GraphQLVariable"]
+- ["10AWSAppSync12GraphQLQueryP", "String"]
+- ["10AWSAppSync12GraphQLQueryP", ""]
+- !private ["10AWSAppSync12GraphQLQueryP", "id"]
+- !private ["10AWSAppSync12GraphQLQueryP", "limit"]
+- !private ["10AWSAppSync12GraphQLQueryP", "nextToken"]
+- ["10AWSAppSync12GraphQLQueryP", "operationIdentifier"]
+- ["10AWSAppSync12GraphQLQueryP", "operationString"]
+- ["10AWSAppSync12GraphQLQueryP", "requestString"]
+- ["10AWSAppSync12GraphQLQueryP", "rootCacheKey"]
+- ["10AWSAppSync12GraphQLQueryP", "variables"]
+- ["10AWSAppSync16GraphQLSelectionP", "init"]
+- ["10AWSAppSync19GraphQLSelectionSetP", "Comment"]
+- ["10AWSAppSync19GraphQLSelectionSetP", "CommentOnEvent"]
+- ["10AWSAppSync19GraphQLSelectionSetP", "CreateEvent"]
+- ["10AWSAppSync19GraphQLSelectionSetP", "DeleteEvent"]
+- !private ["10AWSAppSync19GraphQLSelectionSetP", "Event"]
+- !private ["10AWSAppSync19GraphQLSelectionSetP", "Fragments"]
+- ["10AWSAppSync19GraphQLSelectionSetP", "GetEvent"]
+- ["10AWSAppSync19GraphQLSelectionSetP", "GraphQLField"]
+- ["10AWSAppSync19GraphQLSelectionSetP", "GraphQLID"]
+- ["10AWSAppSync19GraphQLSelectionSetP", "GraphQLVariable"]
+- ["10AWSAppSync19GraphQLSelectionSetP", "Item"]
+- ["10AWSAppSync19GraphQLSelectionSetP", "ListEvent"]
+- ["10AWSAppSync19GraphQLSelectionSetP", "String"]
+- ["10AWSAppSync19GraphQLSelectionSetP", "SubscribeToEventComment"]
+- ["10AWSAppSync19GraphQLSelectionSetP", ""]
+- !private ["10AWSAppSync19GraphQLSelectionSetP", "fragmentString"]
+- ["10AWSAppSync19GraphQLSelectionSetP", "init"]
+- ["10AWSAppSync19GraphQLSelectionSetP", "possibleTypes"]
+- ["10AWSAppSync19GraphQLSelectionSetP", "selections"]
+- ["10AWSAppSync19GraphQLSelectionSetP", "snapshot"]
+- ["10AWSAppSync19GraphQLSubscriptionP", "Data"]
+- ["10AWSAppSync19GraphQLSubscriptionP", "GraphQLField"]
+- ["10AWSAppSync19GraphQLSubscriptionP", "GraphQLID"]
+- ["10AWSAppSync19GraphQLSubscriptionP", "GraphQLVariable"]
+- ["10AWSAppSync19GraphQLSubscriptionP", "String"]
+- ["10AWSAppSync19GraphQLSubscriptionP", ""]
+- !private ["10AWSAppSync19GraphQLSubscriptionP", "eventId"]
+- ["10AWSAppSync19GraphQLSubscriptionP", "operationIdentifier"]
+- ["10AWSAppSync19GraphQLSubscriptionP", "operationString"]
+- ["10AWSAppSync19GraphQLSubscriptionP", "requestString"]
+- ["10AWSAppSync19GraphQLSubscriptionP", "rootCacheKey"]
+- ["10AWSAppSync19GraphQLSubscriptionP", "variables"]
+- ["10AWSAppSync15GraphQLVariableV", "init"]
+- !private ["SH", "appending"]
+- !private ["SH", "flatMap"]
+- !private ["SH", "map"]
+- !private ["SH", "subscript"]
+- !private ["SH", "updateValue"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "Comment"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "Event"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "Fragments"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV", "GraphQLField"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "GraphQLField"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV", "GraphQLField"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV", "GraphQLField"]
+- ["11LettUsServe5EventV7CommentV4ItemV", "GraphQLField"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV", "GraphQLID"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "GraphQLID"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV", "GraphQLID"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV", "GraphQLID"]
+- ["11LettUsServe5EventV7CommentV4ItemV", "GraphQLID"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV", "GraphQLSelection"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "GraphQLSelection"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV", "GraphQLSelection"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV", "GraphQLSelection"]
+- ["11LettUsServe5EventV7CommentV4ItemV", "GraphQLSelection"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "GraphQLSelectionSet"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV", "Snapshot"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "Snapshot"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV", "Snapshot"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV", "Snapshot"]
+- ["11LettUsServe5EventV7CommentV4ItemV", "Snapshot"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV", "String"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "String"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV", "String"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV", "String"]
+- ["11LettUsServe5EventV7CommentV4ItemV", "String"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV", "__typename"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "__typename"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV", "__typename"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV", "__typename"]
+- ["11LettUsServe5EventV7CommentV4ItemV", "__typename"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV", "commentId"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV", "commentId"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV", "commentId"]
+- ["11LettUsServe5EventV7CommentV4ItemV", "commentId"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "comments"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV", "content"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV", "content"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV", "content"]
+- ["11LettUsServe5EventV7CommentV4ItemV", "content"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV", "createdAt"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV", "createdAt"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV", "createdAt"]
+- ["11LettUsServe5EventV7CommentV4ItemV", "createdAt"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV", "deinit"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "deinit"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV", "deinit"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV", "deinit"]
+- ["11LettUsServe5EventV7CommentV4ItemV", "deinit"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "description"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV", "eventId"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV", "eventId"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV", "eventId"]
+- ["11LettUsServe5EventV7CommentV4ItemV", "eventId"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "fragments"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "id"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV", "init"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "init"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV", "init"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV", "init"]
+- ["11LettUsServe5EventV7CommentV4ItemV", "init"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "name"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV", "possibleTypes"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "possibleTypes"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV", "possibleTypes"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV", "possibleTypes"]
+- ["11LettUsServe5EventV7CommentV4ItemV", "possibleTypes"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV", "selections"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "selections"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV", "selections"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV", "selections"]
+- ["11LettUsServe5EventV7CommentV4ItemV", "selections"]
+- ["11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV", "snapshot"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "snapshot"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV", "snapshot"]
+- ["11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV", "snapshot"]
+- ["11LettUsServe5EventV7CommentV4ItemV", "snapshot"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "when"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV", "where"]
+- !private ["10AWSAppSync13JSONDecodableP", "appending"]
+- !private ["10AWSAppSync13JSONEncodableP", "appending"]
+- !private ["10AWSAppSync13JSONEncodableP", "flatMap"]
+- !private ["10AWSAppSync13JSONEncodableP", "map"]
+- !private ["10AWSAppSync13JSONEncodableP", "subscript"]
+- !private ["10AWSAppSync13JSONEncodableP", "updateValue"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", "Event"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", "GraphQLField"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", "GraphQLID"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", "GraphQLSelection"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", "GraphQLSelectionSet"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", "Item"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", "Snapshot"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", "String"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", "__typename"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", "deinit"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", "init"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", "items"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", "nextToken"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", "possibleTypes"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", "selections"]
+- ["11LettUsServe15ListEventsQueryC4DataV0D5EventV", "snapshot"]
+- ["11LettUsServe15ListEventsQueryC", "Data"]
+- ["11LettUsServe15ListEventsQueryC", "Event"]
+- ["11LettUsServe15ListEventsQueryC", "GraphQLField"]
+- ["11LettUsServe15ListEventsQueryC", "GraphQLID"]
+- ["11LettUsServe15ListEventsQueryC", "GraphQLMap"]
+- ["11LettUsServe15ListEventsQueryC", "GraphQLSelection"]
+- ["11LettUsServe15ListEventsQueryC", "GraphQLSelectionSet"]
+- ["11LettUsServe15ListEventsQueryC", "GraphQLVariable"]
+- ["11LettUsServe15ListEventsQueryC", "Int"]
+- ["11LettUsServe15ListEventsQueryC", "Snapshot"]
+- ["11LettUsServe15ListEventsQueryC", "String"]
+- ["11LettUsServe15ListEventsQueryC", "deinit"]
+- ["11LettUsServe15ListEventsQueryC", "init"]
+- ["11LettUsServe15ListEventsQueryC", "limit"]
+- ["11LettUsServe15ListEventsQueryC", "nextToken"]
+- ["11LettUsServe15ListEventsQueryC", "operationIdentifier"]
+- ["11LettUsServe15ListEventsQueryC", "operationString"]
+- ["11LettUsServe15ListEventsQueryC", "requestString"]
+- ["11LettUsServe15ListEventsQueryC", "rootCacheKey"]
+- ["11LettUsServe15ListEventsQueryC", "variables"]
+- !private ["s25LosslessStringConvertibleP", "appending"]
+- !private ["s10MirrorPathP", "appending"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So8NSCodingP", "appending"]
+- !private ["So9NSCopyingP", "appending"]
+- !private ["So21NSItemProviderReadingP", "appending"]
+- !private ["So21NSItemProviderWritingP", "appending"]
+- !private ["So16NSMutableCopyingP", "appending"]
+- !private ["So8NSObjectC", "appending"]
+- !private ["So8NSObjectP", "appending"]
+- !private ["So14NSSecureCodingP", "appending"]
+- !private ["So8NSStringC", "appending"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "Data"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "GraphQLField"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "GraphQLID"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "GraphQLMap"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "GraphQLSelection"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "GraphQLSelectionSet"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "GraphQLVariable"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "Snapshot"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "String"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "deinit"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "eventId"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "init"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "operationIdentifier"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "operationString"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "requestString"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "rootCacheKey"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC", "variables"]
+- !private ["Sq", "flatMap"]
+- !private ["Sk", "map"]
+- !private ["Sm", "appending"]
+- !private ["Sm", "map"]
+- !private ["ST", "appending"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["ST", "updateValue"]
+- !private ["SS", "appending"]
+- !private ["Sy", "appending"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V", "GraphQLField"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V", "GraphQLID"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V", "GraphQLSelection"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V", "Snapshot"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V", "String"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V", "__typename"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V", "commentId"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V", "content"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V", "createdAt"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V", "deinit"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V", "eventId"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V", "init"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V", "possibleTypes"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V", "selections"]
+- ["11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V", "snapshot"]
+- !private ["s16TextOutputStreamP", "appending"]
+- !private ["s20TextOutputStreamableP", "appending"]
+- !private ["6SQLite5ValueP", "appending"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appending"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "appending"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "appending"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "appending"]
+- !private ["s19_HasContiguousBytesP", "appending"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "appending"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "updateValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appending"]
+- !private ["s21_ObjectiveCBridgeableP", "appending"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "updateValue"]
+- !private ["6SQLite13_OptionalTypeP", "flatMap"]
+depends-nominal:
+- "11LettUsServe16AddEventMutationC"
+- !private "Sa"
+- !private "SK"
+- !private "6SQLite7BindingP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV"
+- "11LettUsServe5EventV7CommentV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV"
+- "11LettUsServe5EventV7CommentV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV"
+- "11LettUsServe5EventV7CommentV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV"
+- "11LettUsServe5EventV7CommentV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV"
+- "11LettUsServe5EventV7CommentV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV"
+- "11LettUsServe5EventV7CommentV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV"
+- "11LettUsServe5EventV7CommentV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV"
+- "11LettUsServe5EventV7CommentV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV"
+- "11LettUsServe5EventV7CommentV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV"
+- "11LettUsServe5EventV7CommentV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV"
+- "11LettUsServe5EventV7CommentV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV"
+- "11LettUsServe5EventV7CommentV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV"
+- "11LettUsServe5EventV7CommentV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV"
+- "11LettUsServe5EventV7CommentV"
+- "11LettUsServe22CommentOnEventMutationC4DataV0deF0V"
+- "11LettUsServe22CommentOnEventMutationC"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "11LettUsServe22CommentOnEventMutationC4DataV"
+- "11LettUsServe16AddEventMutationC4DataV"
+- "11LettUsServe19DeleteEventMutationC4DataV"
+- "11LettUsServe13GetEventQueryC4DataV"
+- "11LettUsServe15ListEventsQueryC4DataV"
+- "11LettUsServe16AddEventMutationC4DataV"
+- "11LettUsServe13GetEventQueryC4DataV"
+- "11LettUsServe15ListEventsQueryC4DataV"
+- "11LettUsServe16AddEventMutationC4DataV"
+- "11LettUsServe19DeleteEventMutationC4DataV"
+- "11LettUsServe22CommentOnEventMutationC4DataV"
+- "11LettUsServe29NewCommentOnEventSubscriptionC4DataV"
+- "11LettUsServe13GetEventQueryC4DataV"
+- "11LettUsServe15ListEventsQueryC4DataV"
+- "11LettUsServe16AddEventMutationC4DataV"
+- "11LettUsServe19DeleteEventMutationC4DataV"
+- "11LettUsServe22CommentOnEventMutationC4DataV"
+- "11LettUsServe29NewCommentOnEventSubscriptionC4DataV"
+- "11LettUsServe13GetEventQueryC4DataV"
+- "11LettUsServe15ListEventsQueryC4DataV"
+- "11LettUsServe16AddEventMutationC4DataV"
+- "11LettUsServe19DeleteEventMutationC4DataV"
+- "11LettUsServe22CommentOnEventMutationC4DataV"
+- "11LettUsServe29NewCommentOnEventSubscriptionC4DataV"
+- "11LettUsServe13GetEventQueryC4DataV"
+- "11LettUsServe15ListEventsQueryC4DataV"
+- "11LettUsServe16AddEventMutationC4DataV"
+- "11LettUsServe19DeleteEventMutationC4DataV"
+- "11LettUsServe22CommentOnEventMutationC4DataV"
+- "11LettUsServe29NewCommentOnEventSubscriptionC4DataV"
+- "11LettUsServe13GetEventQueryC4DataV"
+- "11LettUsServe15ListEventsQueryC4DataV"
+- "11LettUsServe16AddEventMutationC4DataV"
+- "11LettUsServe19DeleteEventMutationC4DataV"
+- "11LettUsServe22CommentOnEventMutationC4DataV"
+- "11LettUsServe29NewCommentOnEventSubscriptionC4DataV"
+- "11LettUsServe15ListEventsQueryC4DataV"
+- "11LettUsServe13GetEventQueryC4DataV"
+- "11LettUsServe15ListEventsQueryC4DataV"
+- "11LettUsServe16AddEventMutationC4DataV"
+- "11LettUsServe19DeleteEventMutationC4DataV"
+- "11LettUsServe22CommentOnEventMutationC4DataV"
+- "11LettUsServe29NewCommentOnEventSubscriptionC4DataV"
+- "11LettUsServe13GetEventQueryC4DataV"
+- "11LettUsServe15ListEventsQueryC4DataV"
+- "11LettUsServe16AddEventMutationC4DataV"
+- "11LettUsServe19DeleteEventMutationC4DataV"
+- "11LettUsServe22CommentOnEventMutationC4DataV"
+- "11LettUsServe29NewCommentOnEventSubscriptionC4DataV"
+- "11LettUsServe22CommentOnEventMutationC4DataV"
+- "11LettUsServe16AddEventMutationC4DataV"
+- "11LettUsServe13GetEventQueryC4DataV"
+- "11LettUsServe15ListEventsQueryC4DataV"
+- "11LettUsServe16AddEventMutationC4DataV"
+- "11LettUsServe19DeleteEventMutationC4DataV"
+- "11LettUsServe22CommentOnEventMutationC4DataV"
+- "11LettUsServe29NewCommentOnEventSubscriptionC4DataV"
+- "11LettUsServe19DeleteEventMutationC4DataV"
+- "11LettUsServe13GetEventQueryC4DataV"
+- "11LettUsServe15ListEventsQueryC4DataV"
+- "11LettUsServe16AddEventMutationC4DataV"
+- "11LettUsServe19DeleteEventMutationC4DataV"
+- "11LettUsServe22CommentOnEventMutationC4DataV"
+- "11LettUsServe29NewCommentOnEventSubscriptionC4DataV"
+- "11LettUsServe15ListEventsQueryC4DataV"
+- "11LettUsServe13GetEventQueryC4DataV"
+- "11LettUsServe15ListEventsQueryC4DataV"
+- "11LettUsServe16AddEventMutationC4DataV"
+- "11LettUsServe19DeleteEventMutationC4DataV"
+- "11LettUsServe22CommentOnEventMutationC4DataV"
+- "11LettUsServe29NewCommentOnEventSubscriptionC4DataV"
+- "11LettUsServe13GetEventQueryC4DataV"
+- "11LettUsServe15ListEventsQueryC4DataV"
+- "11LettUsServe16AddEventMutationC4DataV"
+- "11LettUsServe19DeleteEventMutationC4DataV"
+- "11LettUsServe22CommentOnEventMutationC4DataV"
+- "11LettUsServe29NewCommentOnEventSubscriptionC4DataV"
+- "11LettUsServe13GetEventQueryC4DataV"
+- "11LettUsServe15ListEventsQueryC4DataV"
+- "11LettUsServe16AddEventMutationC4DataV"
+- "11LettUsServe19DeleteEventMutationC4DataV"
+- "11LettUsServe22CommentOnEventMutationC4DataV"
+- "11LettUsServe29NewCommentOnEventSubscriptionC4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- "11LettUsServe19DeleteEventMutationC4DataV0dE0V"
+- "11LettUsServe19DeleteEventMutationC"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- "11LettUsServe5EventV"
+- !private "6SQLite11ExpressibleP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V9FragmentsV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV9FragmentsV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V9FragmentsV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V9FragmentsV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV9FragmentsV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V9FragmentsV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V9FragmentsV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV9FragmentsV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V9FragmentsV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V9FragmentsV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV9FragmentsV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V9FragmentsV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V9FragmentsV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV9FragmentsV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V9FragmentsV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V"
+- "11LettUsServe13GetEventQueryC"
+- "10AWSAppSync12GraphQLFieldV"
+- "10AWSAppSync15GraphQLFragmentP"
+- "10AWSAppSync17GraphQLInputValueP"
+- "10AWSAppSync15GraphQLMutationP"
+- "10AWSAppSync16GraphQLOperationP"
+- "10AWSAppSync17GraphQLOutputTypeO"
+- "10AWSAppSync12GraphQLQueryP"
+- "10AWSAppSync16GraphQLSelectionP"
+- "10AWSAppSync19GraphQLSelectionSetP"
+- "10AWSAppSync19GraphQLSubscriptionP"
+- "10AWSAppSync15GraphQLVariableV"
+- !private "SH"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV"
+- "11LettUsServe5EventV7CommentV4ItemV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV"
+- "11LettUsServe5EventV7CommentV4ItemV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV"
+- "11LettUsServe5EventV7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV"
+- "11LettUsServe5EventV7CommentV4ItemV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV"
+- "11LettUsServe5EventV7CommentV4ItemV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV"
+- "11LettUsServe5EventV7CommentV4ItemV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV"
+- "11LettUsServe5EventV7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV"
+- "11LettUsServe5EventV7CommentV4ItemV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV"
+- "11LettUsServe5EventV7CommentV4ItemV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV"
+- "11LettUsServe5EventV7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV"
+- "11LettUsServe5EventV7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV"
+- "11LettUsServe5EventV7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV"
+- "11LettUsServe5EventV7CommentV4ItemV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV"
+- "11LettUsServe5EventV7CommentV4ItemV"
+- "11LettUsServe13GetEventQueryC4DataV0dE0V7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV7CommentVAHV"
+- "11LettUsServe16AddEventMutationC4DataV06CreateE0V7CommentV4ItemV"
+- "11LettUsServe5EventV7CommentV4ItemV"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV4ItemV"
+- !private "10AWSAppSync13JSONDecodableP"
+- !private "10AWSAppSync13JSONEncodableP"
+- "11LettUsServe15ListEventsQueryC4DataV0D5EventV"
+- "11LettUsServe15ListEventsQueryC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "11LettUsServe29NewCommentOnEventSubscriptionC"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- "11LettUsServe29NewCommentOnEventSubscriptionC4DataV011SubscribeTogE0V"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "6SQLite5ValueP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "6SQLite13_OptionalTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Modules/AWSAppSync.swiftmodule/arm64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Modules/SQLite.swiftmodule/arm64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLog+LOGV.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AWSAppSync-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite.swift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSGeneric.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AWSAppSync.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDASLLogCapture.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLog.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCocoaLumberjack.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLReflection.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSError+AWSMTLModelException.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDASLLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDOSLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDTTYLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDFileLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDAbstractDatabaseLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AppSyncLogHelper.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDDispatchQueueLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDContextFilterLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDMultiFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AWSIoTMQTTTypes.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLogMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDAssertMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLegacyMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDB+AWSHelpers.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AWSAppSync-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AWSIoTMQTTClient.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6381e67c3a15ed26226636c9fd9f190f"

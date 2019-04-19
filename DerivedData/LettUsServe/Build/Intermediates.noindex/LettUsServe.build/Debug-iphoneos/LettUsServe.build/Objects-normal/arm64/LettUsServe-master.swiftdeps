@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "5355c04f2f42d5ba32008c558c4dcece"
+build_time: [1555557636, 334037000]
+inputs:
+  "/Users/sangheonlee/Desktop/LettUsServe/LettUsServe/EventsAPI.swift": [1555358791, 159727950]
+  "/Users/sangheonlee/Desktop/LettUsServe/LettUsServe/EventListViewController.swift": [1555553507, 890543388]
+  "/Users/sangheonlee/Desktop/LettUsServe/LettUsServe/EventDetails.swift": [1555557575, 473786980]
+  "/Users/sangheonlee/Desktop/LettUsServe/LettUsServe/AppDelegate.swift": [1554758240, 0]

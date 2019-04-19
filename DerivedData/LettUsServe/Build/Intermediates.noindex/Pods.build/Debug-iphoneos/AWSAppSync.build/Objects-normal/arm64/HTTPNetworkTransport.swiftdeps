@@ -1,0 +1,544 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GraphQLHTTPResponseError"
+- "HTTPNetworkTransport"
+provides-nominal:
+- "So16NSURLSessionTaskC"
+- "10AWSAppSync24GraphQLHTTPResponseErrorV"
+- "10AWSAppSync24GraphQLHTTPResponseErrorV0E4KindO"
+- "10AWSAppSync20HTTPNetworkTransportC"
+provides-member:
+- ["So16NSURLSessionTaskC", ""]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", ""]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV0E4KindO", ""]
+- ["10AWSAppSync20HTTPNetworkTransportC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "Cancellable"
+- !private "CastingPrecedence"
+- "Data"
+- "Error"
+- "GraphQLHTTPResponseError"
+- "GraphQLMap"
+- "GraphQLOperation"
+- "GraphQLResponse"
+- "HTTPNetworkTransport"
+- "HTTPURLResponse"
+- !private "JSONObject"
+- "JSONSerializationFormat"
+- "LocalizedError"
+- "NetworkTransport"
+- "String"
+- "URL"
+- !private "URLRequest"
+- !private "URLResponse"
+- "URLSession"
+- "URLSessionConfiguration"
+- "URLSessionTask"
+- "Void"
+- !private "fatalError"
+- !private "preconditionFailure"
+- !private "type"
+depends-member:
+- !private ["SK", "init"]
+- !private ["6SQLite7BindingP", "init"]
+- ["s7CVarArgP", "cancel"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isSuccessful"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "statusCodeDescription"]
+- !private ["s7CVarArgP", "textEncoding"]
+- ["10AWSAppSync11CancellableP", ""]
+- ["10AWSAppSync11CancellableP", "cancel"]
+- !private ["10AWSAppSync11CancellableP", "resume"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "httpBody"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isSuccessful"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCodeDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "textEncoding"]
+- !private ["s17CustomReflectableP", "httpBody"]
+- !private ["s17CustomReflectableP", "httpMethod"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "httpBody"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isSuccessful"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "statusCodeDescription"]
+- !private ["s23CustomStringConvertibleP", "textEncoding"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "deinit"]
+- !private ["SE", "init"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "cancel"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "default"]
+- !private ["SQ", "description"]
+- ["SQ", "errorResponse"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "httpBody"]
+- !private ["SQ", "httpMethod"]
+- !private ["SQ", "init"]
+- ["SQ", "invalidResponse"]
+- !private ["SQ", "isSuccessful"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "setValue"]
+- !private ["SQ", "statusCode"]
+- !private ["SQ", "statusCodeDescription"]
+- !private ["SQ", "textEncoding"]
+- !private ["SQ", "utf8"]
+- !private ["s5ErrorP", "String"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "body"]
+- !private ["s5ErrorP", "bodyDescription"]
+- ["s5ErrorP", "errorDescription"]
+- ["s5ErrorP", "failureReason"]
+- ["s5ErrorP", "helpAnchor"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "kind"]
+- ["s5ErrorP", "recoverySuggestion"]
+- !private ["s5ErrorP", "response"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV0E4KindO", "=="]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV0E4KindO", "String"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV0E4KindO", "__derived_enum_equals"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV0E4KindO", "_rawHashValue"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV0E4KindO", "deinit"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV0E4KindO", "description"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV0E4KindO", "errorResponse"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV0E4KindO", "hash"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV0E4KindO", "hashValue"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV0E4KindO", "invalidResponse"]
+- !private ["6SQLite11ExpressibleP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "Data"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "ErrorKind"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "HTTPURLResponse"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "String"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "_code"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "_domain"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "_getEmbeddedNSError"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "_userInfo"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "body"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "bodyDescription"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "deinit"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "errorDescription"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "failureReason"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "helpAnchor"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "init"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "kind"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "recoverySuggestion"]
+- ["10AWSAppSync24GraphQLHTTPResponseErrorV", "response"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "init"]
+- !private ["10AWSAppSync16GraphQLOperationP", "operationIdentifier"]
+- !private ["10AWSAppSync16GraphQLOperationP", "requestString"]
+- !private ["10AWSAppSync16GraphQLOperationP", "variables"]
+- !private ["10AWSAppSync15GraphQLResponseC", "init"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "Bool"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "Cancellable"]
+- !private ["10AWSAppSync20HTTPNetworkTransportC", "Data"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "Error"]
+- !private ["10AWSAppSync20HTTPNetworkTransportC", "GraphQLHTTPResponseError"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "GraphQLMap"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "GraphQLOperation"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "GraphQLResponse"]
+- !private ["10AWSAppSync20HTTPNetworkTransportC", "HTTPURLResponse"]
+- !private ["10AWSAppSync20HTTPNetworkTransportC", "JSONObject"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "JSONSerializationFormat"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "URL"]
+- !private ["10AWSAppSync20HTTPNetworkTransportC", "URLRequest"]
+- !private ["10AWSAppSync20HTTPNetworkTransportC", "URLResponse"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "URLSession"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "URLSessionConfiguration"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "Void"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "deinit"]
+- !private ["10AWSAppSync20HTTPNetworkTransportC", "fatalError"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "init"]
+- !private ["10AWSAppSync20HTTPNetworkTransportC", "preconditionFailure"]
+- !private ["10AWSAppSync20HTTPNetworkTransportC", "requestBody"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "send"]
+- !private ["10AWSAppSync20HTTPNetworkTransportC", "sendOperationIdentifiers"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "serializationFormat"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "session"]
+- !private ["10AWSAppSync20HTTPNetworkTransportC", "type"]
+- ["10AWSAppSync20HTTPNetworkTransportC", "url"]
+- !private ["So17NSHTTPURLResponseC", "isSuccessful"]
+- !private ["So17NSHTTPURLResponseC", "statusCode"]
+- !private ["So17NSHTTPURLResponseC", "statusCodeDescription"]
+- !private ["So17NSHTTPURLResponseC", "textEncoding"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "cancel"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "default"]
+- !private ["SH", "description"]
+- ["SH", "errorResponse"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "httpBody"]
+- !private ["SH", "httpMethod"]
+- !private ["SH", "init"]
+- ["SH", "invalidResponse"]
+- !private ["SH", "isSuccessful"]
+- !private ["SH", "resume"]
+- !private ["SH", "setValue"]
+- !private ["SH", "statusCode"]
+- !private ["SH", "statusCodeDescription"]
+- !private ["SH", "textEncoding"]
+- !private ["SH", "utf8"]
+- !private ["s6HasherV", "combine"]
+- !private ["10AWSAppSync13JSONDecodableP", "init"]
+- !private ["10AWSAppSync13JSONEncodableP", "init"]
+- !private ["10AWSAppSync23JSONSerializationFormatC", "deserialize"]
+- !private ["10AWSAppSync23JSONSerializationFormatC", "serialize"]
+- !private ["10Foundation14LocalizedErrorP", "String"]
+- ["10Foundation14LocalizedErrorP", ""]
+- ["10Foundation14LocalizedErrorP", "_code"]
+- ["10Foundation14LocalizedErrorP", "_domain"]
+- ["10Foundation14LocalizedErrorP", "_getEmbeddedNSError"]
+- ["10Foundation14LocalizedErrorP", "_userInfo"]
+- !private ["10Foundation14LocalizedErrorP", "body"]
+- !private ["10Foundation14LocalizedErrorP", "bodyDescription"]
+- ["10Foundation14LocalizedErrorP", "errorDescription"]
+- ["10Foundation14LocalizedErrorP", "failureReason"]
+- ["10Foundation14LocalizedErrorP", "helpAnchor"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["10Foundation14LocalizedErrorP", "kind"]
+- ["10Foundation14LocalizedErrorP", "recoverySuggestion"]
+- !private ["10Foundation14LocalizedErrorP", "response"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "isSuccessful"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So8NSCodingP", "statusCodeDescription"]
+- !private ["So8NSCodingP", "textEncoding"]
+- ["So9NSCopyingP", "cancel"]
+- !private ["So9NSCopyingP", "default"]
+- !private ["So9NSCopyingP", "isSuccessful"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So9NSCopyingP", "statusCodeDescription"]
+- !private ["So9NSCopyingP", "textEncoding"]
+- ["So8NSObjectC", "cancel"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isSuccessful"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So8NSObjectC", "statusCodeDescription"]
+- !private ["So8NSObjectC", "textEncoding"]
+- ["So8NSObjectP", "cancel"]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isSuccessful"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "statusCode"]
+- !private ["So8NSObjectP", "statusCodeDescription"]
+- !private ["So8NSObjectP", "textEncoding"]
+- !private ["So14NSSecureCodingP", "isSuccessful"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["So14NSSecureCodingP", "statusCodeDescription"]
+- !private ["So14NSSecureCodingP", "textEncoding"]
+- !private ["10AWSAppSync16NetworkTransportP", "GraphQLHTTPResponseError"]
+- !private ["10AWSAppSync16NetworkTransportP", "GraphQLResponse"]
+- ["10AWSAppSync16NetworkTransportP", "JSONSerializationFormat"]
+- !private ["10AWSAppSync16NetworkTransportP", "URLRequest"]
+- !private ["10AWSAppSync16NetworkTransportP", "URLSession"]
+- !private ["10AWSAppSync16NetworkTransportP", "URLSessionConfiguration"]
+- ["10AWSAppSync16NetworkTransportP", ""]
+- !private ["10AWSAppSync16NetworkTransportP", "fatalError"]
+- !private ["10AWSAppSync16NetworkTransportP", "preconditionFailure"]
+- !private ["10AWSAppSync16NetworkTransportP", "requestBody"]
+- ["10AWSAppSync16NetworkTransportP", "send"]
+- !private ["10AWSAppSync16NetworkTransportP", "sendOperationIdentifiers"]
+- !private ["10AWSAppSync16NetworkTransportP", "serializationFormat"]
+- !private ["10AWSAppSync16NetworkTransportP", "session"]
+- !private ["10AWSAppSync16NetworkTransportP", "type"]
+- !private ["10AWSAppSync16NetworkTransportP", "url"]
+- ["So19NSProgressReportingP", "cancel"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["Sm", "init"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpBody"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpMethod"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "setValue"]
+- !private ["ST", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation10URLRequestV", "httpBody"]
+- !private ["10Foundation10URLRequestV", "httpMethod"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["10Foundation10URLRequestV", "setValue"]
+- !private ["So13NSURLResponseC", "isSuccessful"]
+- !private ["So13NSURLResponseC", "statusCode"]
+- !private ["So13NSURLResponseC", "statusCodeDescription"]
+- !private ["So13NSURLResponseC", "textEncoding"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "init"]
+- !private ["So25NSURLSessionConfigurationC", "default"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- ["So16NSURLSessionTaskC", "cancel"]
+- ["So16NSURLSessionTaskC", "deinit"]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["6SQLite5ValueP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "cancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSuccessful"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCodeDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textEncoding"]
+- !private ["s21_ObjectiveCBridgeableP", "httpBody"]
+- !private ["s21_ObjectiveCBridgeableP", "httpMethod"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "setValue"]
+depends-nominal:
+- !private "SK"
+- !private "6SQLite7BindingP"
+- "s7CVarArgP"
+- "10AWSAppSync11CancellableP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- "s5ErrorP"
+- "10AWSAppSync24GraphQLHTTPResponseErrorV0E4KindO"
+- !private "6SQLite11ExpressibleP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "10AWSAppSync24GraphQLHTTPResponseErrorV"
+- !private "10AWSAppSync17GraphQLInputValueP"
+- !private "10AWSAppSync16GraphQLOperationP"
+- !private "10AWSAppSync15GraphQLResponseC"
+- "10AWSAppSync20HTTPNetworkTransportC"
+- !private "So17NSHTTPURLResponseC"
+- "SH"
+- !private "s6HasherV"
+- !private "10AWSAppSync13JSONDecodableP"
+- !private "10AWSAppSync13JSONEncodableP"
+- !private "10AWSAppSync23JSONSerializationFormatC"
+- "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "10AWSAppSync16NetworkTransportP"
+- "So19NSProgressReportingP"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation10URLRequestV"
+- !private "So13NSURLResponseC"
+- !private "So12NSURLSessionC"
+- !private "So25NSURLSessionConfigurationC"
+- !private "So20NSURLSessionDataTaskC"
+- "So16NSURLSessionTaskC"
+- !private "6SQLite5ValueP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Modules/SQLite.swiftmodule/arm64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDB.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/GZIP/AWSGZIP.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTS.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLog+LOGV.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/AWSAppSync/AWSAppSync-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/AWSCore/AWSCore-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSGeneric.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/AWSAppSync.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSTaskCompletionSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMDiskCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMMemoryCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMantle.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/AWSCore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/UICKeyChainStore/AWSUICKeyChainStore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSSignature.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDASLLogCapture.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabase.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLite/SQLite.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseQueue.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel+NSCoding.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLiteObjc/include/SQLite-Bridging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSLogging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Networking/AWSNetworking.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLog.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSCocoaLumberjack.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSTask.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabasePool.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSServiceEnum.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationToken.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSValidation.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenRegistration.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLResponseSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLReflection.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSError+AWSMTLModelException.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSInfo.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSCredentialsProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSIdentityProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Networking/AWSURLSessionManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDASLLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDOSLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDTTYLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDFileLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDAbstractDatabaseLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestRetryHandler.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLValueTransformer.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/Internal/AppSyncLogHelper.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLJSONAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLManagedObjectAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDDispatchQueueLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDContextFilterLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDMultiFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSExecutor.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/MQTTSDK/AWSIoTMQTTTypes.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLogMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDAssertMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLegacyMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDB+AWSHelpers.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSBolts.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMResultSet.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/MQTTSDK/AWSIoTMQTTClient.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSClientContext.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSSynchronizedMutableDictionary.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSCategory.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/KSReachability/AWSKSReachability.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentity.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSAppSync.build/unextended-module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ReachabilitySwift.build/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SQLite.swift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "22206f981c365a23b898e5cb33560447"

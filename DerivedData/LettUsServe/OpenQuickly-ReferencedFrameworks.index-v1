@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>objc</string>
+	<string>unicode</string>
+	<string>CoreData</string>
+	<string>Foundation</string>
+	<string>LettUsServe</string>
+	<string>Dispatch</string>
+	<string>arpa</string>
+	<string>AppKit</string>
+	<string>mach</string>
+	<string>CSQLite</string>
+	<string>Security</string>
+	<string>libkern</string>
+	<string>CocoaLumberjack</string>
+	<string>SQLCipher</string>
+	<string>Reachability</string>
+	<string>AWSAppSync</string>
+	<string>CoreServices</string>
+	<string>sys</string>
+	<string>AWSCore</string>
+	<string>UIKit</string>
+	<string>SQLiteObjc</string>
+	<string>os</string>
+	<string>SystemConfiguration</string>
+	<string>SQLite</string>
+	<string>SQLite3</string>
+	<string>XCTest</string>
+	<string>dispatch</string>
+	<string>sqlite3</string>
+	<string>CommonCrypto</string>
+</array>
+</plist>
