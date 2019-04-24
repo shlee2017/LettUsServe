@@ -1,0 +1,371 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["Sq", ""]
+- ["So18OS_dispatch_sourceC", ""]
+- ["Sq", "isEmpty"]
+- ["So18OS_dispatch_sourceC", "makeOneOffDispatchSourceTimer"]
+- ["So18OS_dispatch_sourceC", "makeOneOffDispatchSourceTimer"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "Bool"
+- "Collection"
+- "DispatchQueue"
+- "DispatchSource"
+- "DispatchSourceTimer"
+- "DispatchTime"
+- "DispatchTimeInterval"
+- "Optional"
+- "Void"
+depends-member:
+- !private ["s7CVarArgP", "DispatchSource"]
+- !private ["s7CVarArgP", "DispatchTime"]
+- !private ["s7CVarArgP", "TimerFlags"]
+- !private ["s7CVarArgP", "makeOneOffDispatchSourceTimer"]
+- !private ["s7CVarArgP", "makeTimerSource"]
+- !private ["Sl", "isEmpty"]
+- !private ["SL", "now"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchSource"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchTime"]
+- !private ["s28CustomDebugStringConvertibleP", "TimerFlags"]
+- !private ["s28CustomDebugStringConvertibleP", "makeOneOffDispatchSourceTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "makeTimerSource"]
+- ["s28CustomDebugStringConvertibleP", "none"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- ["s17CustomReflectableP", "none"]
+- ["s17CustomReflectableP", "some"]
+- !private ["s23CustomStringConvertibleP", "DispatchSource"]
+- !private ["s23CustomStringConvertibleP", "DispatchTime"]
+- !private ["s23CustomStringConvertibleP", "TimerFlags"]
+- !private ["s23CustomStringConvertibleP", "makeOneOffDispatchSourceTimer"]
+- !private ["s23CustomStringConvertibleP", "makeTimerSource"]
+- ["Se", "none"]
+- ["Se", "some"]
+- ["So18OS_dispatch_objectC", "DispatchQueue"]
+- !private ["So18OS_dispatch_objectC", "DispatchSource"]
+- ["So18OS_dispatch_objectC", "DispatchSourceTimer"]
+- ["So18OS_dispatch_objectC", "DispatchTime"]
+- ["So18OS_dispatch_objectC", "DispatchTimeInterval"]
+- !private ["So18OS_dispatch_objectC", "TimerFlags"]
+- ["So18OS_dispatch_objectC", "Void"]
+- ["So18OS_dispatch_objectC", "makeOneOffDispatchSourceTimer"]
+- !private ["So18OS_dispatch_objectC", "makeTimerSource"]
+- ["So18OS_dispatch_sourceC", "DispatchQueue"]
+- !private ["So18OS_dispatch_sourceC", "DispatchSource"]
+- ["So18OS_dispatch_sourceC", "DispatchSourceTimer"]
+- ["So18OS_dispatch_sourceC", "DispatchTime"]
+- ["So18OS_dispatch_sourceC", "DispatchTimeInterval"]
+- !private ["So18OS_dispatch_sourceC", "TimerFlags"]
+- ["So18OS_dispatch_sourceC", "Void"]
+- ["So18OS_dispatch_sourceC", "makeOneOffDispatchSourceTimer"]
+- !private ["So18OS_dispatch_sourceC", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_vnodeP", "DispatchSource"]
+- !private ["So24OS_dispatch_source_vnodeP", "DispatchTime"]
+- !private ["So24OS_dispatch_source_vnodeP", "TimerFlags"]
+- !private ["So24OS_dispatch_source_vnodeP", "makeOneOffDispatchSourceTimer"]
+- !private ["So24OS_dispatch_source_vnodeP", "makeTimerSource"]
+- !private ["So28OS_dispatch_source_mach_recvP", "DispatchSource"]
+- !private ["So28OS_dispatch_source_mach_recvP", "DispatchTime"]
+- !private ["So28OS_dispatch_source_mach_recvP", "TimerFlags"]
+- !private ["So28OS_dispatch_source_mach_recvP", "makeOneOffDispatchSourceTimer"]
+- !private ["So28OS_dispatch_source_mach_recvP", "makeTimerSource"]
+- !private ["So28OS_dispatch_source_mach_sendP", "DispatchSource"]
+- !private ["So28OS_dispatch_source_mach_sendP", "DispatchTime"]
+- !private ["So28OS_dispatch_source_mach_sendP", "TimerFlags"]
+- !private ["So28OS_dispatch_source_mach_sendP", "makeOneOffDispatchSourceTimer"]
+- !private ["So28OS_dispatch_source_mach_sendP", "makeTimerSource"]
+- !private ["So33OS_dispatch_source_memorypressureP", "DispatchSource"]
+- !private ["So33OS_dispatch_source_memorypressureP", "DispatchTime"]
+- !private ["So33OS_dispatch_source_memorypressureP", "TimerFlags"]
+- !private ["So33OS_dispatch_source_memorypressureP", "makeOneOffDispatchSourceTimer"]
+- !private ["So33OS_dispatch_source_memorypressureP", "makeTimerSource"]
+- !private ["So23OS_dispatch_source_procP", "DispatchSource"]
+- !private ["So23OS_dispatch_source_procP", "DispatchTime"]
+- !private ["So23OS_dispatch_source_procP", "TimerFlags"]
+- !private ["So23OS_dispatch_source_procP", "makeOneOffDispatchSourceTimer"]
+- !private ["So23OS_dispatch_source_procP", "makeTimerSource"]
+- !private ["So18OS_dispatch_sourceP", "DispatchSource"]
+- !private ["So18OS_dispatch_sourceP", "DispatchTime"]
+- !private ["So18OS_dispatch_sourceP", "TimerFlags"]
+- !private ["So18OS_dispatch_sourceP", "makeOneOffDispatchSourceTimer"]
+- !private ["So18OS_dispatch_sourceP", "makeTimerSource"]
+- !private ["So18OS_dispatch_sourceP", "schedule"]
+- !private ["So18OS_dispatch_sourceP", "setEventHandler"]
+- !private ["So23OS_dispatch_source_readP", "DispatchSource"]
+- !private ["So23OS_dispatch_source_readP", "DispatchTime"]
+- !private ["So23OS_dispatch_source_readP", "TimerFlags"]
+- !private ["So23OS_dispatch_source_readP", "makeOneOffDispatchSourceTimer"]
+- !private ["So23OS_dispatch_source_readP", "makeTimerSource"]
+- !private ["So25OS_dispatch_source_signalP", "DispatchSource"]
+- !private ["So25OS_dispatch_source_signalP", "DispatchTime"]
+- !private ["So25OS_dispatch_source_signalP", "TimerFlags"]
+- !private ["So25OS_dispatch_source_signalP", "makeOneOffDispatchSourceTimer"]
+- !private ["So25OS_dispatch_source_signalP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_timerP", "DispatchSource"]
+- !private ["So24OS_dispatch_source_timerP", "DispatchTime"]
+- !private ["So24OS_dispatch_source_timerP", "TimerFlags"]
+- !private ["So24OS_dispatch_source_timerP", "makeOneOffDispatchSourceTimer"]
+- !private ["So24OS_dispatch_source_timerP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_timerP", "schedule"]
+- !private ["So24OS_dispatch_source_timerP", "setEventHandler"]
+- !private ["So27OS_dispatch_source_data_addP", "DispatchSource"]
+- !private ["So27OS_dispatch_source_data_addP", "DispatchTime"]
+- !private ["So27OS_dispatch_source_data_addP", "TimerFlags"]
+- !private ["So27OS_dispatch_source_data_addP", "makeOneOffDispatchSourceTimer"]
+- !private ["So27OS_dispatch_source_data_addP", "makeTimerSource"]
+- !private ["So26OS_dispatch_source_data_orP", "DispatchSource"]
+- !private ["So26OS_dispatch_source_data_orP", "DispatchTime"]
+- !private ["So26OS_dispatch_source_data_orP", "TimerFlags"]
+- !private ["So26OS_dispatch_source_data_orP", "makeOneOffDispatchSourceTimer"]
+- !private ["So26OS_dispatch_source_data_orP", "makeTimerSource"]
+- !private ["So31OS_dispatch_source_data_replaceP", "DispatchSource"]
+- !private ["So31OS_dispatch_source_data_replaceP", "DispatchTime"]
+- !private ["So31OS_dispatch_source_data_replaceP", "TimerFlags"]
+- !private ["So31OS_dispatch_source_data_replaceP", "makeOneOffDispatchSourceTimer"]
+- !private ["So31OS_dispatch_source_data_replaceP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_writeP", "DispatchSource"]
+- !private ["So24OS_dispatch_source_writeP", "DispatchTime"]
+- !private ["So24OS_dispatch_source_writeP", "TimerFlags"]
+- !private ["So24OS_dispatch_source_writeP", "makeOneOffDispatchSourceTimer"]
+- !private ["So24OS_dispatch_source_writeP", "makeTimerSource"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- ["SE", "none"]
+- ["SE", "some"]
+- !private ["SQ", "DispatchSource"]
+- !private ["SQ", "DispatchTime"]
+- !private ["SQ", "TimerFlags"]
+- !private ["SQ", "init"]
+- !private ["SQ", "makeOneOffDispatchSourceTimer"]
+- !private ["SQ", "makeTimerSource"]
+- ["SQ", "none"]
+- !private ["SQ", "now"]
+- ["SQ", "some"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- ["10AWSAppSync17GraphQLInputValueP", "none"]
+- ["10AWSAppSync17GraphQLInputValueP", "some"]
+- !private ["SH", "DispatchSource"]
+- !private ["SH", "DispatchTime"]
+- !private ["SH", "TimerFlags"]
+- !private ["SH", "makeOneOffDispatchSourceTimer"]
+- !private ["SH", "makeTimerSource"]
+- ["SH", "none"]
+- ["SH", "some"]
+- ["10AWSAppSync13JSONEncodableP", "none"]
+- ["10AWSAppSync13JSONEncodableP", "some"]
+- ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "DispatchSource"]
+- ["So8NSObjectC", "DispatchSourceTimer"]
+- ["So8NSObjectC", "DispatchTime"]
+- ["So8NSObjectC", "DispatchTimeInterval"]
+- !private ["So8NSObjectC", "TimerFlags"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "makeOneOffDispatchSourceTimer"]
+- !private ["So8NSObjectC", "makeTimerSource"]
+- !private ["So8NSObjectP", "DispatchSource"]
+- !private ["So8NSObjectP", "DispatchTime"]
+- !private ["So8NSObjectP", "TimerFlags"]
+- !private ["So8NSObjectP", "makeOneOffDispatchSourceTimer"]
+- !private ["So8NSObjectP", "makeTimerSource"]
+- !private ["So8NSObjectP", "schedule"]
+- !private ["So8NSObjectP", "setEventHandler"]
+- ["So9OS_objectC", "DispatchQueue"]
+- !private ["So9OS_objectC", "DispatchSource"]
+- ["So9OS_objectC", "DispatchSourceTimer"]
+- ["So9OS_objectC", "DispatchTime"]
+- ["So9OS_objectC", "DispatchTimeInterval"]
+- !private ["So9OS_objectC", "TimerFlags"]
+- ["So9OS_objectC", "Void"]
+- ["So9OS_objectC", "makeOneOffDispatchSourceTimer"]
+- !private ["So9OS_objectC", "makeTimerSource"]
+- !private ["s9OptionSetP", "init"]
+- ["Sq", "Bool"]
+- ["Sq", "Collection"]
+- ["Sq", "isEmpty"]
+- ["Sq", "none"]
+- ["Sq", "some"]
+- !private ["SY", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["So18OS_dispatch_sourceC8DispatchE10TimerFlagsV", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TimerFlags"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeOneOffDispatchSourceTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeTimerSource"]
+- ["s21_ObjectiveCBridgeableP", "none"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+- ["6SQLite13_OptionalTypeP", "none"]
+- ["6SQLite13_OptionalTypeP", "some"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "Se"
+- "So18OS_dispatch_objectC"
+- "So18OS_dispatch_sourceC"
+- !private "So24OS_dispatch_source_vnodeP"
+- !private "So28OS_dispatch_source_mach_recvP"
+- !private "So28OS_dispatch_source_mach_sendP"
+- !private "So33OS_dispatch_source_memorypressureP"
+- !private "So23OS_dispatch_source_procP"
+- !private "So18OS_dispatch_sourceP"
+- !private "So23OS_dispatch_source_readP"
+- !private "So25OS_dispatch_source_signalP"
+- !private "So24OS_dispatch_source_timerP"
+- !private "So27OS_dispatch_source_data_addP"
+- !private "So26OS_dispatch_source_data_orP"
+- !private "So31OS_dispatch_source_data_replaceP"
+- !private "So24OS_dispatch_source_writeP"
+- !private "8Dispatch0A4TimeV"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "10AWSAppSync17GraphQLInputValueP"
+- "SH"
+- "10AWSAppSync13JSONEncodableP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- "So9OS_objectC"
+- !private "s9OptionSetP"
+- "Sq"
+- !private "SY"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "So18OS_dispatch_sourceC8DispatchE10TimerFlagsV"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "6SQLite13_OptionalTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Modules/SQLite.swiftmodule/arm64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDB.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/GZIP/AWSGZIP.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTS.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLog+LOGV.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/AWSAppSync/AWSAppSync-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/AWSCore/AWSCore-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSGeneric.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/AWSAppSync.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSTaskCompletionSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMDiskCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMMemoryCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMantle.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/AWSCore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/UICKeyChainStore/AWSUICKeyChainStore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSSignature.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDASLLogCapture.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabase.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLite/SQLite.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseQueue.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel+NSCoding.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLiteObjc/include/SQLite-Bridging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSLogging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Networking/AWSNetworking.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLog.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSCocoaLumberjack.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSTask.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabasePool.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSServiceEnum.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationToken.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSValidation.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenRegistration.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLResponseSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLReflection.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSError+AWSMTLModelException.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSInfo.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSCredentialsProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSIdentityProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Networking/AWSURLSessionManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDASLLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDOSLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDTTYLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDFileLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDAbstractDatabaseLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestRetryHandler.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLValueTransformer.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/Internal/AppSyncLogHelper.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLJSONAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLManagedObjectAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDDispatchQueueLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDContextFilterLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDMultiFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSExecutor.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/MQTTSDK/AWSIoTMQTTTypes.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLogMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDAssertMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLegacyMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDB+AWSHelpers.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSBolts.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMResultSet.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/MQTTSDK/AWSIoTMQTTClient.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSClientContext.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSSynchronizedMutableDictionary.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSCategory.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/KSReachability/AWSKSReachability.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentity.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSAppSync.build/unextended-module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ReachabilitySwift.build/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SQLite.swift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "336d49146b9b4fdeaa93c203b7f91ced"

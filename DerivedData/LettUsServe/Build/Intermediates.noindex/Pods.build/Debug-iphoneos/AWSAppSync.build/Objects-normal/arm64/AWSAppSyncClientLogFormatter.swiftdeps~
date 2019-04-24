@@ -1,0 +1,491 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AWSAppSyncClientLogFormatter"
+provides-nominal:
+- "10AWSAppSync0aB18ClientLogFormatterC"
+provides-member:
+- ["10AWSAppSync0aB18ClientLogFormatterC", ""]
+provides-dynamic-lookup:
+- "format"
+depends-top-level:
+- !private "+="
+- !private "??"
+- "AWSAppSyncClientLogFormatter"
+- !private "AWSDDExtractFileNameWithoutExtension"
+- "AWSDDLogFormatter"
+- "AWSDDLogMessage"
+- "AssignmentPrecedence"
+- "DateFormatter"
+- "NSObject"
+- "String"
+- !private "~="
+depends-member:
+- !private ["10AWSAppSync0aB18ClientLogFormatterC", "AWSAppSyncClientLogFormatter"]
+- !private ["10AWSAppSync0aB18ClientLogFormatterC", "AWSDDExtractFileNameWithoutExtension"]
+- ["10AWSAppSync0aB18ClientLogFormatterC", "AWSDDLogMessage"]
+- ["10AWSAppSync0aB18ClientLogFormatterC", "DateFormatter"]
+- ["10AWSAppSync0aB18ClientLogFormatterC", "String"]
+- ["10AWSAppSync0aB18ClientLogFormatterC", "dateFormatter"]
+- ["10AWSAppSync0aB18ClientLogFormatterC", "deinit"]
+- ["10AWSAppSync0aB18ClientLogFormatterC", "didAdd"]
+- ["10AWSAppSync0aB18ClientLogFormatterC", "didAddToLogger"]
+- ["10AWSAppSync0aB18ClientLogFormatterC", "format"]
+- ["10AWSAppSync0aB18ClientLogFormatterC", "formatLogMessage"]
+- ["10AWSAppSync0aB18ClientLogFormatterC", "init"]
+- ["10AWSAppSync0aB18ClientLogFormatterC", "willRemove"]
+- ["10AWSAppSync0aB18ClientLogFormatterC", "willRemoveFromLogger"]
+- ["So12AWSDDLogFlagV", "debug"]
+- ["So12AWSDDLogFlagV", "error"]
+- ["So12AWSDDLogFlagV", "info"]
+- ["So12AWSDDLogFlagV", "warning"]
+- !private ["So17AWSDDLogFormatterP", "AWSAppSyncClientLogFormatter"]
+- !private ["So17AWSDDLogFormatterP", "AWSDDExtractFileNameWithoutExtension"]
+- ["So17AWSDDLogFormatterP", "DateFormatter"]
+- !private ["So17AWSDDLogFormatterP", "String"]
+- ["So17AWSDDLogFormatterP", ""]
+- !private ["So17AWSDDLogFormatterP", "dateFormatter"]
+- ["So17AWSDDLogFormatterP", "didAdd"]
+- ["So17AWSDDLogFormatterP", "didAddToLogger"]
+- ["So17AWSDDLogFormatterP", "format"]
+- ["So17AWSDDLogFormatterP", "formatLogMessage"]
+- ["So17AWSDDLogFormatterP", "willRemove"]
+- ["So17AWSDDLogFormatterP", "willRemoveFromLogger"]
+- !private ["So15AWSDDLogMessageC", "file"]
+- !private ["So15AWSDDLogMessageC", "flag"]
+- !private ["So15AWSDDLogMessageC", "function"]
+- !private ["So15AWSDDLogMessageC", "line"]
+- !private ["So15AWSDDLogMessageC", "message"]
+- !private ["So15AWSDDLogMessageC", "timestamp"]
+- !private ["SK", "init"]
+- !private ["6SQLite7BindingP", "init"]
+- !private ["s7CVarArgP", "AWSAppSyncClientLogFormatter"]
+- !private ["s7CVarArgP", "AWSDDExtractFileNameWithoutExtension"]
+- ["s7CVarArgP", "DateFormatter"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "dateFormatter"]
+- ["s7CVarArgP", "didAdd"]
+- ["s7CVarArgP", "didAddToLogger"]
+- !private ["s7CVarArgP", "file"]
+- !private ["s7CVarArgP", "flag"]
+- ["s7CVarArgP", "format"]
+- ["s7CVarArgP", "formatLogMessage"]
+- !private ["s7CVarArgP", "function"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "line"]
+- !private ["s7CVarArgP", "message"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "timestamp"]
+- ["s7CVarArgP", "willRemove"]
+- ["s7CVarArgP", "willRemoveFromLogger"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AWSAppSyncClientLogFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "AWSDDExtractFileNameWithoutExtension"]
+- ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormatter"]
+- ["s28CustomDebugStringConvertibleP", "didAdd"]
+- ["s28CustomDebugStringConvertibleP", "didAddToLogger"]
+- !private ["s28CustomDebugStringConvertibleP", "file"]
+- !private ["s28CustomDebugStringConvertibleP", "flag"]
+- ["s28CustomDebugStringConvertibleP", "format"]
+- ["s28CustomDebugStringConvertibleP", "formatLogMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "function"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "line"]
+- !private ["s28CustomDebugStringConvertibleP", "message"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "timestamp"]
+- ["s28CustomDebugStringConvertibleP", "willRemove"]
+- ["s28CustomDebugStringConvertibleP", "willRemoveFromLogger"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "AWSAppSyncClientLogFormatter"]
+- !private ["s23CustomStringConvertibleP", "AWSDDExtractFileNameWithoutExtension"]
+- ["s23CustomStringConvertibleP", "DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "dateFormatter"]
+- ["s23CustomStringConvertibleP", "didAdd"]
+- ["s23CustomStringConvertibleP", "didAddToLogger"]
+- !private ["s23CustomStringConvertibleP", "file"]
+- !private ["s23CustomStringConvertibleP", "flag"]
+- ["s23CustomStringConvertibleP", "format"]
+- ["s23CustomStringConvertibleP", "formatLogMessage"]
+- !private ["s23CustomStringConvertibleP", "function"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "line"]
+- !private ["s23CustomStringConvertibleP", "message"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "timestamp"]
+- ["s23CustomStringConvertibleP", "willRemove"]
+- ["s23CustomStringConvertibleP", "willRemoveFromLogger"]
+- ["So15NSDateFormatterC", "dateFormat"]
+- ["So15NSDateFormatterC", "init"]
+- !private ["So15NSDateFormatterC", "string"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "init"]
+- !private ["SQ", "AWSAppSyncClientLogFormatter"]
+- !private ["SQ", "AWSDDExtractFileNameWithoutExtension"]
+- ["SQ", "DateFormatter"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- ["SQ", "dateFormat"]
+- !private ["SQ", "dateFormatter"]
+- ["SQ", "debug"]
+- ["SQ", "didAdd"]
+- ["SQ", "didAddToLogger"]
+- ["SQ", "error"]
+- !private ["SQ", "file"]
+- !private ["SQ", "flag"]
+- ["SQ", "format"]
+- ["SQ", "formatLogMessage"]
+- !private ["SQ", "function"]
+- ["SQ", "info"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "line"]
+- !private ["SQ", "message"]
+- !private ["SQ", "string"]
+- !private ["SQ", "timestamp"]
+- ["SQ", "warning"]
+- ["SQ", "willRemove"]
+- ["SQ", "willRemoveFromLogger"]
+- !private ["6SQLite11ExpressibleP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "debug"]
+- ["s25ExpressibleByArrayLiteralP", "error"]
+- ["s25ExpressibleByArrayLiteralP", "info"]
+- ["s25ExpressibleByArrayLiteralP", "warning"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["So11NSFormatterC", "dateFormat"]
+- ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "init"]
+- !private ["SH", "AWSAppSyncClientLogFormatter"]
+- !private ["SH", "AWSDDExtractFileNameWithoutExtension"]
+- ["SH", "DateFormatter"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- ["SH", "dateFormat"]
+- !private ["SH", "dateFormatter"]
+- ["SH", "didAdd"]
+- ["SH", "didAddToLogger"]
+- !private ["SH", "file"]
+- !private ["SH", "flag"]
+- ["SH", "format"]
+- ["SH", "formatLogMessage"]
+- !private ["SH", "function"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "line"]
+- !private ["SH", "message"]
+- !private ["SH", "string"]
+- !private ["SH", "timestamp"]
+- ["SH", "willRemove"]
+- ["SH", "willRemoveFromLogger"]
+- !private ["10AWSAppSync13JSONDecodableP", "init"]
+- !private ["10AWSAppSync13JSONEncodableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "dateFormat"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "string"]
+- ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "file"]
+- !private ["So9NSCopyingP", "flag"]
+- !private ["So9NSCopyingP", "function"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "line"]
+- !private ["So9NSCopyingP", "message"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "timestamp"]
+- !private ["So8NSObjectC", "AWSAppSyncClientLogFormatter"]
+- !private ["So8NSObjectC", "AWSDDExtractFileNameWithoutExtension"]
+- ["So8NSObjectC", "AWSDDLogMessage"]
+- ["So8NSObjectC", "DateFormatter"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "dateFormat"]
+- ["So8NSObjectC", "dateFormatter"]
+- ["So8NSObjectC", "didAdd"]
+- ["So8NSObjectC", "didAddToLogger"]
+- !private ["So8NSObjectC", "file"]
+- !private ["So8NSObjectC", "flag"]
+- ["So8NSObjectC", "format"]
+- ["So8NSObjectC", "formatLogMessage"]
+- !private ["So8NSObjectC", "function"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "line"]
+- !private ["So8NSObjectC", "message"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "timestamp"]
+- ["So8NSObjectC", "willRemove"]
+- ["So8NSObjectC", "willRemoveFromLogger"]
+- !private ["So8NSObjectP", "AWSAppSyncClientLogFormatter"]
+- !private ["So8NSObjectP", "AWSDDExtractFileNameWithoutExtension"]
+- ["So8NSObjectP", "DateFormatter"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "dateFormat"]
+- !private ["So8NSObjectP", "dateFormatter"]
+- ["So8NSObjectP", "didAdd"]
+- ["So8NSObjectP", "didAddToLogger"]
+- !private ["So8NSObjectP", "file"]
+- !private ["So8NSObjectP", "flag"]
+- ["So8NSObjectP", "format"]
+- ["So8NSObjectP", "formatLogMessage"]
+- !private ["So8NSObjectP", "function"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "line"]
+- !private ["So8NSObjectP", "message"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "timestamp"]
+- ["So8NSObjectP", "willRemove"]
+- ["So8NSObjectP", "willRemoveFromLogger"]
+- ["s9OptionSetP", "debug"]
+- ["s9OptionSetP", "error"]
+- ["s9OptionSetP", "info"]
+- ["s9OptionSetP", "warning"]
+- !private ["Sm", "init"]
+- ["SY", "debug"]
+- ["SY", "error"]
+- ["SY", "info"]
+- ["SY", "warning"]
+- !private ["ST", "init"]
+- ["s10SetAlgebraP", "debug"]
+- ["s10SetAlgebraP", "error"]
+- ["s10SetAlgebraP", "info"]
+- ["s10SetAlgebraP", "warning"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["6SQLite5ValueP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AWSAppSyncClientLogFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AWSDDExtractFileNameWithoutExtension"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormatter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "didAdd"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "didAddToLogger"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "file"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flag"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "format"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "formatLogMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "function"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "line"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "message"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timestamp"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "willRemove"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "willRemoveFromLogger"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "10AWSAppSync0aB18ClientLogFormatterC"
+- "So12AWSDDLogFlagV"
+- "So17AWSDDLogFormatterP"
+- !private "So15AWSDDLogMessageC"
+- !private "SK"
+- !private "6SQLite7BindingP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "So15NSDateFormatterC"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "6SQLite11ExpressibleP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "So11NSFormatterC"
+- !private "10AWSAppSync17GraphQLInputValueP"
+- "SH"
+- !private "10AWSAppSync13JSONDecodableP"
+- !private "10AWSAppSync13JSONEncodableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "s9OptionSetP"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- "s10SetAlgebraP"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "6SQLite5ValueP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Modules/SQLite.swiftmodule/arm64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDB.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/GZIP/AWSGZIP.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTS.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLog+LOGV.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/AWSAppSync/AWSAppSync-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/AWSCore/AWSCore-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSGeneric.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/AWSAppSync.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSTaskCompletionSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMDiskCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMMemoryCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMantle.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/AWSCore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/UICKeyChainStore/AWSUICKeyChainStore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSSignature.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDASLLogCapture.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabase.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLite/SQLite.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseQueue.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel+NSCoding.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLiteObjc/include/SQLite-Bridging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSLogging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Networking/AWSNetworking.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLog.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSCocoaLumberjack.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSTask.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabasePool.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSServiceEnum.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationToken.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSValidation.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenRegistration.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLResponseSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLReflection.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSError+AWSMTLModelException.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSInfo.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSCredentialsProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSIdentityProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Networking/AWSURLSessionManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDASLLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDOSLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDTTYLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDFileLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDAbstractDatabaseLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestRetryHandler.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLValueTransformer.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/Internal/AppSyncLogHelper.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLJSONAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLManagedObjectAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDDispatchQueueLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDContextFilterLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDMultiFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSExecutor.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/MQTTSDK/AWSIoTMQTTTypes.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLogMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDAssertMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLegacyMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDB+AWSHelpers.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSBolts.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMResultSet.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/MQTTSDK/AWSIoTMQTTClient.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSClientContext.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSSynchronizedMutableDictionary.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSCategory.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/KSReachability/AWSKSReachability.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentity.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSAppSync.build/unextended-module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ReachabilitySwift.build/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SQLite.swift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "84262c4407e4605589386a16b3492b19"

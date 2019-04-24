@@ -1,6 +1,6 @@
-version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "87e5022d53a5c2831d766c91b314dd35"
-build_time: [1555557610, 817860000]
+build_time: [1556118130, 120343000]
 inputs:
   "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLite/Typed/AggregateFunctions.swift": [1555549083, 359626682]
   "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLite/Core/Blob.swift": [1555549083, 350256938]

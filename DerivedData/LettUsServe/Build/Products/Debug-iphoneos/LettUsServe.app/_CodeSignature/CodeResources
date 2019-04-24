@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		3hwazMr7JAXf8VyQHpdUOtqMiOg=
+		QyKg1/gqChbeOey/L5IsaFgyt3U=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,79 +14,79 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		7lgQHL9/sPlWQBj8dntjPXsquuY=
+		YvCEK4w2+jXh9SMnPetJbiFf1m0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		vDj/k07u198gkxWZ6GP64K49CmQ=
+		WbOrRxnZXAKPOYLgCKvk/CdMf5U=
 		</data>
 		<key>Base.lproj/Main.storyboardc/EventDetailsViewController.nib</key>
 		<data>
-		KuQie6T8VHwuwKa2DUzPqOrY1mQ=
+		fjScKwiQetcoAz/sZSHvuMGKCrs=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		6EYCFS1aBNLboF2mDaib7E9x+o4=
+		ECzG+zV1vCWcjnM0zWK6n4OWMAA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-ofX-09-xfK.nib</key>
 		<data>
-		N+qdYYMImwYLFeIi+jv0Chvi0vM=
+		keI2nhGuewBvTWdYqNcCmsGH0WU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/z4m-oo-FEm-view-CM7-Gb-kke.nib</key>
 		<data>
-		O03aczqC2jRZknJxSOirU6QjGCw=
+		sCSgmJ/8BTMGZDFmAgStHWXcfNU=
 		</data>
 		<key>Frameworks/AWSAppSync.framework/AWSAppSync</key>
 		<data>
-		oUd3e3+7GylK0FT+E88D8ISyxbI=
+		hsP60wLSfEVV5YeYsiSErva42OM=
 		</data>
 		<key>Frameworks/AWSAppSync.framework/Info.plist</key>
 		<data>
-		+GNSDifT82QCbbWswa123VA8fVI=
+		SwXMBMpyLRrz2JhRot8PiJfukzQ=
 		</data>
 		<key>Frameworks/AWSAppSync.framework/_CodeSignature/CodeResources</key>
 		<data>
-		OZeunTA1m3FnhVhnEl3MipTrxIQ=
+		QHQSZIiTz0NKKq+s0ZcfFgr5lOQ=
 		</data>
 		<key>Frameworks/AWSCore.framework/AWSCore</key>
 		<data>
-		JXpjfCfq3X+SVOPRiZWS5Sqlbrs=
+		bgtxUgviIN4uwlrueXYxhPkOaBg=
 		</data>
 		<key>Frameworks/AWSCore.framework/Info.plist</key>
 		<data>
-		KT2PbRsswZmBZJphqSGxAj94r4w=
+		Z5673blzaPC8z9+ky2wWPiNZiDc=
 		</data>
 		<key>Frameworks/AWSCore.framework/_CodeSignature/CodeResources</key>
 		<data>
-		ZpBYrMeZGUinO7AGLOvtqKyL2HE=
+		pV/uuF1Hv8PgnwQCAJgNWu+jpJc=
 		</data>
 		<key>Frameworks/Reachability.framework/Info.plist</key>
 		<data>
-		Ovxo7IYwgElJoJEsFSN2xdRlnFo=
+		k6fUqi2EMPphmQFfr7LSm+JMZKQ=
 		</data>
 		<key>Frameworks/Reachability.framework/Reachability</key>
 		<data>
-		0M3wWePd4WuJgq1WoWmnoX5jwDY=
+		I0ki9RDJiMAMcRxHvyMRVKahGuM=
 		</data>
 		<key>Frameworks/Reachability.framework/_CodeSignature/CodeResources</key>
 		<data>
-		BEMQ/DMdw26Q3zMG1N8tCMG9rt8=
+		eGMd8fn9wpdaxv4eo3m6JiSQNJ0=
 		</data>
 		<key>Frameworks/SQLite.framework/Info.plist</key>
 		<data>
-		q/lvBZNlM2rXyOgJsIylyDWgqXw=
+		zlVkeXuRzFtLLXOa6PlH585LEh8=
 		</data>
 		<key>Frameworks/SQLite.framework/SQLite</key>
 		<data>
-		gPcI8ofo0B3TgQLwA2M/Oz7nvgg=
+		9xSjI8wvqEM5K2ZfoVjWoUE8JwY=
 		</data>
 		<key>Frameworks/SQLite.framework/_CodeSignature/CodeResources</key>
 		<data>
-		EepiE1vUrunGvlCLKpSmKs/ZXJY=
+		nn+veIAtO4v2pGvzzMds4Vt4B08=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kGKdGiTuFIEt0oNeixgstBmeheY=
+		/6T1T8UIb7cIlBiqNiVc2oZ/6Jc=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
-		SN3PSEwIRMRNRnfylNnWcPhB9WY=
+		X0sm2WcfhE6SFYsEBAslK23mXd0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oxmkRQ6VdrgYfbzp3MM7jZ4SeWXqs+nqoml6QVIRQYo=
+			VlUzWr+ZN5IYrdnlbL4UuPnvTdSbRQyCM1VFRS8a7Ns=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -125,126 +125,126 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CObad3SZR4+NeQrvy9fs0Qro83bGZ+tZ2h1U0QO6ENo=
+			UOXqwIA6jMAslZhIg5CXnPaSwGfXpR41GDhmRZLa2+s=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XqbItiOFv/gSbkh9XQ2XVLMppu6a4GvoW6/qBeXHBbE=
+			O5fg2APzi3deK8QxwOUWioHso3oCyAhkzSm0dKQU4+k=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/EventDetailsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B8EcsGmauIdF4lymNG4OoOFJgX/UJ7v5M9+drmdA954=
+			EBd874yBzsWJVyv95nItxYeXPwKXHpyEPH3ayD+a3w4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MI3M2W+wAaB1YldshdvW0/GNvHuGSEIbovvifFVICsY=
+			vbgw83DPKY/raCdZb+SH4QpqS7tPzsrJ4d57Hbzx2Hk=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-ofX-09-xfK.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z/Z/FEWYhvkhIObSyxocJUGABV99HW58S8Fpfpm/BTg=
+			4JY3mOQ2NE5q8s3/cbA15VrmLiADMk57JEt4cSS3T7w=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/z4m-oo-FEm-view-CM7-Gb-kke.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fl/q12dFZ0f/GpFMgt+OWD/qFsu/VjKo3kCs2FCJnB8=
+			pJbz2PGq7cq6ICv7az/86aX2yCVFby+7qzwduyi6eJY=
 			</data>
 		</dict>
 		<key>Frameworks/AWSAppSync.framework/AWSAppSync</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GlNl8cQSoKXT/j8JYhHlXeIhH80DzA2OKwZI6ygsALw=
+			RvyXzg+2/Nt0WgQoxibyZV3eaRtDmkfrVeiDvicx7jU=
 			</data>
 		</dict>
 		<key>Frameworks/AWSAppSync.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9NA4RgaT0pe8r/7w4it7F2Qb/3BGCl1HnVYskEc8fII=
+			AohAyjy3eAdxYcZeByYapdjykUJ0ypk1bXyiD8re7zE=
 			</data>
 		</dict>
 		<key>Frameworks/AWSAppSync.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			877JfQiMHOqQMZA5aLAZZxeLJBSCQtkfQKMRDeLDdPg=
+			dxkBDnhS3Hc+ivRIgL76iGmbfhzwX8MqIMdDyVH4j6E=
 			</data>
 		</dict>
 		<key>Frameworks/AWSCore.framework/AWSCore</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bGAtbCeaUhKQTWjn4vWBhmX9pnTsEFZymjygn5Pkpzc=
+			cq4dslEIyBw69TLdDc+2MBbe5dBYlR/PBfOuzApJ/JI=
 			</data>
 		</dict>
 		<key>Frameworks/AWSCore.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CSdv0RCCdcwRxtmHQ2Ew95Rm/5xi3eTLSrsHr2KKKQE=
+			RleHmIkVZQhvYtrCvC9PEK9CvUFZ6rk6pnr0lJCKL24=
 			</data>
 		</dict>
 		<key>Frameworks/AWSCore.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BaTbT1QG61T0yjyFXcM70YPDT2Oi0mpZAZo88+MefnY=
+			ne4XKOXn6044GxfRxISMa6IWM3hiV1dguChbT3ZesMA=
 			</data>
 		</dict>
 		<key>Frameworks/Reachability.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wzLDFFvP1HyAB1dXkGfFpJ4dOuXTymnQcSlO2F28QBk=
+			Tt6+gW6lKec34FxJ+ms9vutVQeOsoXiCrhKglNJ6mE4=
 			</data>
 		</dict>
 		<key>Frameworks/Reachability.framework/Reachability</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dCVnCH45yc/Q+Wny42sSB20l3xPXii+vahWZTU8Mz/0=
+			sYkpAT9bsPzPAt8IevbezgnXZAsDWB9hfCqvBEKi1tw=
 			</data>
 		</dict>
 		<key>Frameworks/Reachability.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kagaffP5f99u1oDUJ0fGavES4wqp2kQS28HuVqB1QhA=
+			aEZc7O8J+cGnC6vFJ7DpoQNLB9wtnpMuaDKWLXXU9vc=
 			</data>
 		</dict>
 		<key>Frameworks/SQLite.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ENV+4AuCkWZXmj/rpsDT+DmP4rNtNYmSnB7mUznGG08=
+			vfp9YSbJazbriiAO0Vom2RWibXRo26b5ej2GUaIQ/K8=
 			</data>
 		</dict>
 		<key>Frameworks/SQLite.framework/SQLite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/AX2rKQKekNM994YPoke38U403fR7JNo/xXm/JA9vdM=
+			zcAUd+nvEl3hk0g0YnkaLRfry/5PsgBOrY7isQAPP0U=
 			</data>
 		</dict>
 		<key>Frameworks/SQLite.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SmSP9oBrQRLTA+Ja4xsPRjl00hjX8GFpbqmzkhXrh8g=
+			rhq2LUDu6uJrUEhzCQ3NiP4jPUpHACrpuu0GsWrVdE0=
 			</data>
 		</dict>
 		<key>awsconfiguration.json</key>
@@ -265,7 +265,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a6Xn6Lc0ASta1FDCc4JYP1iq3nIQi57np0ZzOUx/wxY=
+			lgMmVkcvqMzLDlJkWdp0vn61KGpz6m7jOURi25IfLfg=
 			</data>
 		</dict>
 	</dict>

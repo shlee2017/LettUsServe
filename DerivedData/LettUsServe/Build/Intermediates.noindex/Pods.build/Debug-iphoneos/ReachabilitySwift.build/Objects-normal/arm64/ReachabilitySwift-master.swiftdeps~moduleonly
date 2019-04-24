@@ -1,5 +1,5 @@
-version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "83cc44f6380c338626e343974e930847"
-build_time: [1555557610, 818057000]
+build_time: [1556118118, 421561000]
 inputs:
   "/Users/sangheonlee/Desktop/LettUsServe/Pods/ReachabilitySwift/Sources/Reachability.swift": [1555549083, 329315538]

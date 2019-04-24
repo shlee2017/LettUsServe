@@ -1,6 +1,6 @@
-version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "ad51e968d58ce901711e3d4707cb45bb"
-build_time: [1555557624, 939719000]
+build_time: [1556118138, 967558000]
 inputs:
   "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/Apollo/Sources/Apollo/ApolloClient.swift": [1555549083, 170913461]
   "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/Apollo/Sources/Apollo/ApolloStore.swift": [1555549083, 166910403]

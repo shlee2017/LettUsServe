@@ -1,0 +1,894 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "sqlBusyTimeoutConstant"
+- "AWSSQLiteNormalizedCache"
+provides-nominal:
+- "10AWSAppSync24AWSSQLiteNormalizedCacheC"
+provides-member:
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "<-"
+- !private "=="
+- !private ">"
+- "AWSAppSyncClient"
+- !private "AWSAppSyncQueriesCacheError"
+- "AWSSQLiteNormalizedCache"
+- !private "AppSyncLog"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CacheKey"
+- "Connection"
+- "Expression"
+- "FloatLiteralType"
+- "Int64"
+- !private "IntegerLiteralType"
+- "NormalizedCache"
+- "Promise"
+- "Record"
+- "RecordSet"
+- "Row"
+- !private "SQLiteSerialization"
+- "Set"
+- "String"
+- "StringLiteralType"
+- "Table"
+- "URL"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "assertionFailure"
+- "sqlBusyTimeoutConstant"
+depends-member:
+- ["10AWSAppSync0aB6ClientC", "EmptyQuery"]
+- !private ["10AWSAppSync0aB17QueriesCacheErrorO", "deinit"]
+- !private ["10AWSAppSync0aB17QueriesCacheErrorO", "invalidRecordEncoding"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "AWSAppSyncClient"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "AWSAppSyncQueriesCacheError"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "AWSSQLiteNormalizedCache"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "AppSyncLog"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "CacheKey"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "Connection"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "Expression"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "Int64"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "Promise"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "Record"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "RecordSet"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "Row"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "SQLiteSerialization"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "Set"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "String"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "Table"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "URL"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "Void"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "assertionFailure"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "clear"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "createTableIfNeeded"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "db"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "deinit"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "id"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "init"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "key"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "loadRecords"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "merge"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "mergeRecords"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "parse"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "queryRootKey"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "record"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "recordCacheKeyCandidates"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "records"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "selectRecords"]
+- !private ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "sqlBusyTimeoutConstant"]
+- ["10AWSAppSync24AWSSQLiteNormalizedCacheC", "tableName"]
+- !private ["s11AnySequenceV", "map"]
+- !private ["10AWSAppSync03AppB3LogC", "verbose"]
+- !private ["Sa", "append"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["Sa", "flatMap"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "last"]
+- !private ["Sa", "map"]
+- !private ["Sa", "removeFirst"]
+- !private ["Sa", "removeLast"]
+- !private ["SK", "append"]
+- !private ["SK", "components"]
+- !private ["SK", "contains"]
+- !private ["SK", "count"]
+- !private ["SK", "data"]
+- !private ["SK", "first"]
+- !private ["SK", "flatMap"]
+- !private ["SK", "init"]
+- !private ["SK", "joined"]
+- !private ["SK", "last"]
+- !private ["SK", "map"]
+- !private ["SK", "removeFirst"]
+- !private ["SK", "removeLast"]
+- !private ["SK", "uri"]
+- !private ["6SQLite7BindingP", "autoincrement"]
+- !private ["6SQLite7BindingP", "components"]
+- !private ["6SQLite7BindingP", "data"]
+- !private ["6SQLite7BindingP", "init"]
+- !private ["6SQLite7BindingP", "uri"]
+- !private ["Sb", "autoincrement"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "autoincrement"]
+- !private ["s7CVarArgP", "components"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "flatMap"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "removeFirst"]
+- !private ["s7CVarArgP", "removeLast"]
+- !private ["s7CVarArgP", "uri"]
+- !private ["Sl", "append"]
+- !private ["Sl", "components"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "data"]
+- !private ["Sl", "first"]
+- !private ["Sl", "flatMap"]
+- !private ["Sl", "init"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "last"]
+- !private ["Sl", "map"]
+- !private ["Sl", "removeFirst"]
+- !private ["Sl", "removeLast"]
+- !private ["Sl", "uri"]
+- !private ["SL", "components"]
+- !private ["SL", "data"]
+- !private ["SL", "init"]
+- !private ["SL", "uri"]
+- !private ["6SQLite10ConnectionC", "busyTimeout"]
+- !private ["6SQLite10ConnectionC", "init"]
+- !private ["6SQLite10ConnectionC", "prepare"]
+- !private ["6SQLite10ConnectionC", "run"]
+- !private ["6SQLite10ConnectionC", "scalar"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "flatMap"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "removeFirst"]
+- !private ["10Foundation15ContiguousBytesP", "removeLast"]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "components"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFirst"]
+- !private ["s28CustomDebugStringConvertibleP", "removeLast"]
+- !private ["s28CustomDebugStringConvertibleP", "uri"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "init"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "keys"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "merge"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "storage"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "autoincrement"]
+- !private ["s17CustomReflectableP", "components"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "removeFirst"]
+- !private ["s17CustomReflectableP", "removeLast"]
+- !private ["s17CustomReflectableP", "uri"]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "autoincrement"]
+- !private ["s23CustomStringConvertibleP", "busyTimeout"]
+- !private ["s23CustomStringConvertibleP", "components"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "fields"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "flatMap"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "key"]
+- !private ["s23CustomStringConvertibleP", "keys"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "merge"]
+- !private ["s23CustomStringConvertibleP", "prepare"]
+- !private ["s23CustomStringConvertibleP", "removeFirst"]
+- !private ["s23CustomStringConvertibleP", "removeLast"]
+- !private ["s23CustomStringConvertibleP", "run"]
+- !private ["s23CustomStringConvertibleP", "scalar"]
+- !private ["s23CustomStringConvertibleP", "storage"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "uri"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "flatMap"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "removeFirst"]
+- !private ["10Foundation12DataProtocolP", "removeLast"]
+- !private ["Se", "absoluteString"]
+- !private ["Se", "append"]
+- !private ["Se", "autoincrement"]
+- !private ["Se", "components"]
+- !private ["Se", "contains"]
+- !private ["Se", "count"]
+- !private ["Se", "data"]
+- !private ["Se", "first"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["Se", "last"]
+- !private ["Se", "map"]
+- !private ["Se", "removeFirst"]
+- !private ["Se", "removeLast"]
+- !private ["Se", "uri"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "count"]
+- ["10AWSAppSync0aB6ClientC10EmptyQueryC", "deinit"]
+- ["10AWSAppSync0aB6ClientC10EmptyQueryC", "rootCacheKey"]
+- !private ["SE", "absoluteString"]
+- !private ["SE", "append"]
+- !private ["SE", "autoincrement"]
+- !private ["SE", "components"]
+- !private ["SE", "contains"]
+- !private ["SE", "count"]
+- !private ["SE", "data"]
+- !private ["SE", "first"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SE", "last"]
+- !private ["SE", "map"]
+- !private ["SE", "removeFirst"]
+- !private ["SE", "removeLast"]
+- !private ["SE", "uri"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "absoluteString"]
+- !private ["SQ", "append"]
+- !private ["SQ", "autoincrement"]
+- !private ["SQ", "components"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- !private ["SQ", "data"]
+- !private ["SQ", "first"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "init"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "last"]
+- !private ["SQ", "map"]
+- !private ["SQ", "removeFirst"]
+- !private ["SQ", "removeLast"]
+- !private ["SQ", "replace"]
+- !private ["SQ", "uri"]
+- !private ["SQ", "utf8"]
+- !private ["s5ErrorP", "invalidRecordEncoding"]
+- !private ["6SQLite11ExpressibleP", "autoincrement"]
+- !private ["6SQLite11ExpressibleP", "components"]
+- !private ["6SQLite11ExpressibleP", "count"]
+- !private ["6SQLite11ExpressibleP", "create"]
+- !private ["6SQLite11ExpressibleP", "createIndex"]
+- !private ["6SQLite11ExpressibleP", "data"]
+- !private ["6SQLite11ExpressibleP", "delete"]
+- !private ["6SQLite11ExpressibleP", "filter"]
+- ["6SQLite11ExpressibleP", "init"]
+- !private ["6SQLite11ExpressibleP", "insert"]
+- !private ["6SQLite11ExpressibleP", "uri"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "flatMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeFirst"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeLast"]
+- !private ["s27ExpressibleByBooleanLiteralP", "autoincrement"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "count"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "keys"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "merge"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "storage"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "uri"]
+- !private ["s32ExpressibleByStringInterpolationP", "components"]
+- !private ["s32ExpressibleByStringInterpolationP", "data"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "uri"]
+- !private ["s26ExpressibleByStringLiteralP", "components"]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "uri"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "components"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "uri"]
+- ["6SQLite10ExpressionV", "init"]
+- ["6SQLite14ExpressionTypeP", "init"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "absoluteString"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "append"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "autoincrement"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "components"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "contains"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "count"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "data"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "first"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "flatMap"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "init"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "joined"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "last"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "map"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "removeFirst"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "removeLast"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "uri"]
+- ["10AWSAppSync16GraphQLOperationP", "rootCacheKey"]
+- ["10AWSAppSync12GraphQLQueryP", "rootCacheKey"]
+- !private ["SH", "absoluteString"]
+- !private ["SH", "append"]
+- !private ["SH", "autoincrement"]
+- !private ["SH", "components"]
+- !private ["SH", "contains"]
+- !private ["SH", "count"]
+- !private ["SH", "data"]
+- !private ["SH", "first"]
+- !private ["SH", "flatMap"]
+- !private ["SH", "init"]
+- !private ["SH", "joined"]
+- !private ["SH", "last"]
+- !private ["SH", "map"]
+- !private ["SH", "removeFirst"]
+- !private ["SH", "removeLast"]
+- !private ["SH", "replace"]
+- !private ["SH", "uri"]
+- !private ["SH", "utf8"]
+- !private ["10AWSAppSync13JSONDecodableP", "absoluteString"]
+- !private ["10AWSAppSync13JSONDecodableP", "autoincrement"]
+- !private ["10AWSAppSync13JSONDecodableP", "components"]
+- !private ["10AWSAppSync13JSONDecodableP", "data"]
+- !private ["10AWSAppSync13JSONDecodableP", "init"]
+- !private ["10AWSAppSync13JSONDecodableP", "uri"]
+- !private ["10AWSAppSync13JSONEncodableP", "absoluteString"]
+- !private ["10AWSAppSync13JSONEncodableP", "append"]
+- !private ["10AWSAppSync13JSONEncodableP", "autoincrement"]
+- !private ["10AWSAppSync13JSONEncodableP", "components"]
+- !private ["10AWSAppSync13JSONEncodableP", "contains"]
+- !private ["10AWSAppSync13JSONEncodableP", "count"]
+- !private ["10AWSAppSync13JSONEncodableP", "data"]
+- !private ["10AWSAppSync13JSONEncodableP", "first"]
+- !private ["10AWSAppSync13JSONEncodableP", "flatMap"]
+- !private ["10AWSAppSync13JSONEncodableP", "init"]
+- !private ["10AWSAppSync13JSONEncodableP", "joined"]
+- !private ["10AWSAppSync13JSONEncodableP", "last"]
+- !private ["10AWSAppSync13JSONEncodableP", "map"]
+- !private ["10AWSAppSync13JSONEncodableP", "removeFirst"]
+- !private ["10AWSAppSync13JSONEncodableP", "removeLast"]
+- !private ["10AWSAppSync13JSONEncodableP", "uri"]
+- !private ["6SQLite10ConnectionC8LocationO", "uri"]
+- !private ["s25LosslessStringConvertibleP", "autoincrement"]
+- !private ["s25LosslessStringConvertibleP", "components"]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "uri"]
+- !private ["s10MirrorPathP", "components"]
+- !private ["s10MirrorPathP", "data"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "uri"]
+- !private ["SM", "append"]
+- !private ["SM", "contains"]
+- !private ["SM", "count"]
+- !private ["SM", "first"]
+- !private ["SM", "flatMap"]
+- !private ["SM", "joined"]
+- !private ["SM", "last"]
+- !private ["SM", "map"]
+- !private ["SM", "removeFirst"]
+- !private ["SM", "removeLast"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "flatMap"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "removeFirst"]
+- !private ["10Foundation19MutableDataProtocolP", "removeLast"]
+- !private ["So8NSCodingP", "components"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So9NSCopyingP", "components"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So21NSItemProviderReadingP", "components"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderWritingP", "components"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So16NSMutableCopyingP", "components"]
+- !private ["So16NSMutableCopyingP", "data"]
+- !private ["So8NSObjectC", "components"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectP", "components"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So14NSSecureCodingP", "components"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So8NSStringC", "components"]
+- !private ["So8NSStringC", "data"]
+- ["10AWSAppSync15NormalizedCacheP", "AWSAppSyncClient"]
+- !private ["10AWSAppSync15NormalizedCacheP", "AWSAppSyncQueriesCacheError"]
+- !private ["10AWSAppSync15NormalizedCacheP", "AWSSQLiteNormalizedCache"]
+- !private ["10AWSAppSync15NormalizedCacheP", "AppSyncLog"]
+- !private ["10AWSAppSync15NormalizedCacheP", "Connection"]
+- ["10AWSAppSync15NormalizedCacheP", "Expression"]
+- !private ["10AWSAppSync15NormalizedCacheP", "Promise"]
+- !private ["10AWSAppSync15NormalizedCacheP", "Record"]
+- !private ["10AWSAppSync15NormalizedCacheP", "RecordSet"]
+- !private ["10AWSAppSync15NormalizedCacheP", "SQLiteSerialization"]
+- !private ["10AWSAppSync15NormalizedCacheP", "Set"]
+- !private ["10AWSAppSync15NormalizedCacheP", "String"]
+- ["10AWSAppSync15NormalizedCacheP", "Table"]
+- ["10AWSAppSync15NormalizedCacheP", ""]
+- !private ["10AWSAppSync15NormalizedCacheP", "assertionFailure"]
+- ["10AWSAppSync15NormalizedCacheP", "clear"]
+- !private ["10AWSAppSync15NormalizedCacheP", "createTableIfNeeded"]
+- !private ["10AWSAppSync15NormalizedCacheP", "db"]
+- !private ["10AWSAppSync15NormalizedCacheP", "id"]
+- !private ["10AWSAppSync15NormalizedCacheP", "key"]
+- ["10AWSAppSync15NormalizedCacheP", "loadRecords"]
+- ["10AWSAppSync15NormalizedCacheP", "merge"]
+- !private ["10AWSAppSync15NormalizedCacheP", "mergeRecords"]
+- !private ["10AWSAppSync15NormalizedCacheP", "parse"]
+- !private ["10AWSAppSync15NormalizedCacheP", "queryRootKey"]
+- !private ["10AWSAppSync15NormalizedCacheP", "record"]
+- !private ["10AWSAppSync15NormalizedCacheP", "recordCacheKeyCandidates"]
+- !private ["10AWSAppSync15NormalizedCacheP", "records"]
+- !private ["10AWSAppSync15NormalizedCacheP", "selectRecords"]
+- !private ["10AWSAppSync15NormalizedCacheP", "sqlBusyTimeoutConstant"]
+- ["10AWSAppSync15NormalizedCacheP", "tableName"]
+- !private ["6SQLite10OnConflictO", "replace"]
+- !private ["6SQLite10PrimaryKeyO", "autoincrement"]
+- !private ["10AWSAppSync7PromiseC", "await"]
+- !private ["10AWSAppSync7PromiseC", "init"]
+- !private ["10AWSAppSync7PromiseC", "map"]
+- !private ["6SQLite9QueryTypeP", "count"]
+- !private ["6SQLite9QueryTypeP", "create"]
+- !private ["6SQLite9QueryTypeP", "createIndex"]
+- !private ["6SQLite9QueryTypeP", "delete"]
+- !private ["6SQLite9QueryTypeP", "filter"]
+- ["6SQLite9QueryTypeP", "init"]
+- !private ["6SQLite9QueryTypeP", "insert"]
+- !private ["Sk", "append"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "count"]
+- !private ["Sk", "first"]
+- !private ["Sk", "flatMap"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "last"]
+- !private ["Sk", "map"]
+- !private ["Sk", "removeFirst"]
+- !private ["Sk", "removeLast"]
+- !private ["Sm", "append"]
+- !private ["Sm", "components"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "count"]
+- !private ["Sm", "data"]
+- !private ["Sm", "first"]
+- !private ["Sm", "flatMap"]
+- !private ["Sm", "init"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "last"]
+- !private ["Sm", "map"]
+- !private ["Sm", "removeFirst"]
+- !private ["Sm", "removeLast"]
+- !private ["Sm", "uri"]
+- !private ["SY", "replace"]
+- !private ["SY", "utf8"]
+- !private ["10AWSAppSync6RecordV", "fields"]
+- !private ["10AWSAppSync6RecordV", "init"]
+- !private ["10AWSAppSync6RecordV", "key"]
+- !private ["10AWSAppSync9RecordSetV", "deinit"]
+- !private ["10AWSAppSync9RecordSetV", "init"]
+- !private ["10AWSAppSync9RecordSetV", "keys"]
+- !private ["10AWSAppSync9RecordSetV", "merge"]
+- !private ["10AWSAppSync9RecordSetV", "storage"]
+- !private ["10AWSAppSync9RecordSetV", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- !private ["6SQLite3RowV", "subscript"]
+- !private ["10AWSAppSync19SQLiteSerializationC", "deserialize"]
+- !private ["10AWSAppSync19SQLiteSerializationC", "serialize"]
+- !private ["6SQLite10SchemaTypeP", "count"]
+- !private ["6SQLite10SchemaTypeP", "create"]
+- !private ["6SQLite10SchemaTypeP", "createIndex"]
+- !private ["6SQLite10SchemaTypeP", "delete"]
+- !private ["6SQLite10SchemaTypeP", "filter"]
+- ["6SQLite10SchemaTypeP", "init"]
+- !private ["6SQLite10SchemaTypeP", "insert"]
+- !private ["ST", "append"]
+- !private ["ST", "components"]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- !private ["ST", "data"]
+- !private ["ST", "first"]
+- !private ["ST", "flatMap"]
+- !private ["ST", "init"]
+- !private ["ST", "joined"]
+- !private ["ST", "last"]
+- !private ["ST", "map"]
+- !private ["ST", "removeFirst"]
+- !private ["ST", "removeLast"]
+- !private ["ST", "uri"]
+- !private ["Sh", "init"]
+- !private ["Sh", "map"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "map"]
+- !private ["SS", "components"]
+- !private ["SS", "data"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "uri"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "components"]
+- !private ["Sy", "data"]
+- !private ["Sy", "init"]
+- !private ["Sy", "uri"]
+- !private ["6SQLite5TableV", "count"]
+- !private ["6SQLite5TableV", "create"]
+- !private ["6SQLite5TableV", "createIndex"]
+- !private ["6SQLite5TableV", "delete"]
+- !private ["6SQLite5TableV", "filter"]
+- ["6SQLite5TableV", "init"]
+- !private ["6SQLite5TableV", "insert"]
+- !private ["6SQLite12TableBuilderC", "column"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "components"]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "uri"]
+- !private ["s20TextOutputStreamableP", "components"]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "uri"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- !private ["6SQLite5ValueP", "autoincrement"]
+- !private ["6SQLite5ValueP", "components"]
+- !private ["6SQLite5ValueP", "data"]
+- !private ["6SQLite5ValueP", "init"]
+- !private ["6SQLite5ValueP", "uri"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "flatMap"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "removeFirst"]
+- !private ["s14_ArrayProtocolP", "removeLast"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "absoluteString"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "autoincrement"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "components"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "uri"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "flatMap"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "removeFirst"]
+- !private ["s24_DestructorSafeContainerP", "removeLast"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "autoincrement"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "uri"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "components"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "uri"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "components"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "uri"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "components"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "data"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "flatMap"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "removeFirst"]
+- !private ["s19_HasContiguousBytesP", "removeLast"]
+- !private ["s19_HasContiguousBytesP", "uri"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "components"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "flatMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeFirst"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeLast"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "components"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "autoincrement"]
+- !private ["s21_ObjectiveCBridgeableP", "components"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "removeFirst"]
+- !private ["s21_ObjectiveCBridgeableP", "removeLast"]
+- !private ["s21_ObjectiveCBridgeableP", "uri"]
+depends-nominal:
+- "10AWSAppSync0aB6ClientC"
+- !private "10AWSAppSync0aB17QueriesCacheErrorO"
+- "10AWSAppSync24AWSSQLiteNormalizedCacheC"
+- !private "s11AnySequenceV"
+- !private "10AWSAppSync03AppB3LogC"
+- !private "Sa"
+- !private "SK"
+- !private "6SQLite7BindingP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "6SQLite10ConnectionC"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s34CustomPlaygroundDisplayConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- "10AWSAppSync0aB6ClientC10EmptyQueryC"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- !private "SQ"
+- !private "s5ErrorP"
+- "6SQLite11ExpressibleP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "6SQLite10ExpressionV"
+- "6SQLite14ExpressionTypeP"
+- !private "10AWSAppSync17GraphQLInputValueP"
+- "10AWSAppSync16GraphQLOperationP"
+- "10AWSAppSync12GraphQLQueryP"
+- !private "SH"
+- !private "10AWSAppSync13JSONDecodableP"
+- !private "10AWSAppSync13JSONEncodableP"
+- !private "6SQLite10ConnectionC8LocationO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "10AWSAppSync15NormalizedCacheP"
+- !private "6SQLite10OnConflictO"
+- !private "6SQLite10PrimaryKeyO"
+- !private "10AWSAppSync7PromiseC"
+- "6SQLite9QueryTypeP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10AWSAppSync6RecordV"
+- !private "10AWSAppSync9RecordSetV"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "6SQLite3RowV"
+- !private "10AWSAppSync19SQLiteSerializationC"
+- "6SQLite10SchemaTypeP"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- "6SQLite5TableV"
+- !private "6SQLite12TableBuilderC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "6SQLite5ValueP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Modules/SQLite.swiftmodule/arm64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDB.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/GZIP/AWSGZIP.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTS.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLog+LOGV.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/AWSAppSync/AWSAppSync-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/AWSCore/AWSCore-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSGeneric.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/AWSAppSync.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSTaskCompletionSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMDiskCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMMemoryCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMantle.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/AWSCore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/UICKeyChainStore/AWSUICKeyChainStore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSSignature.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDASLLogCapture.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabase.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLite/SQLite.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseQueue.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel+NSCoding.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLiteObjc/include/SQLite-Bridging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSLogging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Networking/AWSNetworking.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLog.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSCocoaLumberjack.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSTask.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabasePool.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSServiceEnum.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationToken.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSValidation.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenRegistration.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLResponseSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLReflection.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSError+AWSMTLModelException.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSInfo.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSCredentialsProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSIdentityProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Networking/AWSURLSessionManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDASLLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDOSLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDTTYLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDFileLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDAbstractDatabaseLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestRetryHandler.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLValueTransformer.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/Internal/AppSyncLogHelper.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLJSONAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLManagedObjectAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDDispatchQueueLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDContextFilterLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDMultiFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSExecutor.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/MQTTSDK/AWSIoTMQTTTypes.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLogMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDAssertMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLegacyMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDB+AWSHelpers.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSBolts.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMResultSet.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/MQTTSDK/AWSIoTMQTTClient.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSClientContext.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSSynchronizedMutableDictionary.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSCategory.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/KSReachability/AWSKSReachability.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentity.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSAppSync.build/unextended-module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ReachabilitySwift.build/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SQLite.swift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "200296a8bd8515fb2b02485b879fa77b"

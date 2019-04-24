@@ -1,0 +1,977 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "SS"
+- "Si"
+- "Sf"
+- "Sd"
+- "Sb"
+- "Sq"
+- "SD"
+- "Sa"
+- "10Foundation3URLV"
+provides-member:
+- ["SS", ""]
+- ["Si", ""]
+- ["Sf", ""]
+- ["Sd", ""]
+- ["Sb", ""]
+- ["SY", ""]
+- ["Sq", ""]
+- ["SD", ""]
+- ["Sa", ""]
+- ["10Foundation3URLV", ""]
+- ["SY", "init"]
+- ["SY", "jsonValue"]
+- ["Sq", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "Dictionary"
+- "Double"
+- "Float"
+- "Int"
+- "JSONDecodable"
+- !private "JSONDecodingError"
+- "JSONEncodable"
+- "JSONObject"
+- "JSONValue"
+- !private "NSNull"
+- !private "NSNumber"
+- "Optional"
+- "RawRepresentable"
+- "String"
+- "URL"
+- !private "fatalError"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "Double"]
+- !private ["s18AdditiveArithmeticP", "Float"]
+- !private ["s18AdditiveArithmeticP", "Int"]
+- !private ["s18AdditiveArithmeticP", "JSONDecodingError"]
+- ["s18AdditiveArithmeticP", "evaluate"]
+- ["s18AdditiveArithmeticP", "init"]
+- ["s18AdditiveArithmeticP", "jsonValue"]
+- !private ["Sa", "JSONEncodable"]
+- ["Sa", "JSONValue"]
+- ["Sa", "deinit"]
+- !private ["Sa", "fatalError"]
+- ["Sa", "jsonValue"]
+- !private ["Sa", "map"]
+- !private ["SK", "JSONDecodingError"]
+- !private ["SK", "String"]
+- ["SK", "evaluate"]
+- !private ["SK", "fatalError"]
+- ["SK", "init"]
+- ["SK", "jsonValue"]
+- !private ["SK", "map"]
+- !private ["SB", "Double"]
+- !private ["SB", "Float"]
+- !private ["SB", "JSONDecodingError"]
+- ["SB", "evaluate"]
+- ["SB", "init"]
+- ["SB", "jsonValue"]
+- !private ["Sz", "Int"]
+- !private ["Sz", "JSONDecodingError"]
+- ["Sz", "evaluate"]
+- ["Sz", "init"]
+- ["Sz", "jsonValue"]
+- !private ["6SQLite7BindingP", "Bool"]
+- !private ["6SQLite7BindingP", "Double"]
+- !private ["6SQLite7BindingP", "Int"]
+- !private ["6SQLite7BindingP", "JSONDecodingError"]
+- !private ["6SQLite7BindingP", "String"]
+- ["6SQLite7BindingP", "evaluate"]
+- ["6SQLite7BindingP", "init"]
+- ["6SQLite7BindingP", "jsonValue"]
+- !private ["Sb", "Bool"]
+- !private ["Sb", "JSONDecodingError"]
+- ["Sb", "JSONValue"]
+- ["Sb", "deinit"]
+- ["Sb", "evaluate"]
+- ["Sb", "init"]
+- ["Sb", "jsonValue"]
+- !private ["So8CAActionP", "init"]
+- !private ["s7CVarArgP", "Bool"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Float"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "JSONDecodingError"]
+- !private ["s7CVarArgP", "JSONObject"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "doubleValue"]
+- ["s7CVarArgP", "evaluate"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "floatValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intValue"]
+- !private ["s7CVarArgP", "jsonObject"]
+- ["s7CVarArgP", "jsonValue"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "JSONDecodingError"]
+- !private ["Sl", "JSONObject"]
+- !private ["Sl", "String"]
+- !private ["Sl", "count"]
+- ["Sl", "evaluate"]
+- !private ["Sl", "fatalError"]
+- ["Sl", "init"]
+- !private ["Sl", "jsonObject"]
+- ["Sl", "jsonValue"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "Double"]
+- !private ["SL", "Float"]
+- !private ["SL", "Int"]
+- !private ["SL", "JSONDecodingError"]
+- !private ["SL", "String"]
+- ["SL", "evaluate"]
+- ["SL", "init"]
+- ["SL", "jsonValue"]
+- !private ["10Foundation15ContiguousBytesP", "fatalError"]
+- ["10Foundation15ContiguousBytesP", "jsonValue"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONDecodingError"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONObject"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNull"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "doubleValue"]
+- ["s28CustomDebugStringConvertibleP", "evaluate"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "floatValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- ["s28CustomDebugStringConvertibleP", "jsonValue"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "none"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "Bool"]
+- !private ["s17CustomReflectableP", "Double"]
+- !private ["s17CustomReflectableP", "Float"]
+- !private ["s17CustomReflectableP", "Int"]
+- !private ["s17CustomReflectableP", "JSONDecodingError"]
+- !private ["s17CustomReflectableP", "JSONObject"]
+- !private ["s17CustomReflectableP", "NSNull"]
+- !private ["s17CustomReflectableP", "String"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "evaluate"]
+- !private ["s17CustomReflectableP", "fatalError"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "jsonObject"]
+- ["s17CustomReflectableP", "jsonValue"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s17CustomReflectableP", "none"]
+- ["s17CustomReflectableP", "some"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Bool"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "JSONDecodingError"]
+- !private ["s23CustomStringConvertibleP", "JSONObject"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "doubleValue"]
+- ["s23CustomStringConvertibleP", "evaluate"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "floatValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- ["s23CustomStringConvertibleP", "jsonValue"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "fatalError"]
+- ["10Foundation12DataProtocolP", "jsonValue"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "Bool"]
+- !private ["Se", "Double"]
+- !private ["Se", "Float"]
+- !private ["Se", "Int"]
+- !private ["Se", "JSONDecodingError"]
+- !private ["Se", "JSONObject"]
+- !private ["Se", "NSNull"]
+- !private ["Se", "String"]
+- !private ["Se", "URL"]
+- !private ["Se", "absoluteString"]
+- !private ["Se", "count"]
+- ["Se", "evaluate"]
+- !private ["Se", "fatalError"]
+- ["Se", "init"]
+- !private ["Se", "jsonObject"]
+- ["Se", "jsonValue"]
+- !private ["Se", "map"]
+- ["Se", "none"]
+- ["Se", "some"]
+- !private ["Se", "subscript"]
+- !private ["SD", "JSONEncodable"]
+- ["SD", "JSONObject"]
+- ["SD", "JSONValue"]
+- !private ["SD", "String"]
+- !private ["SD", "count"]
+- ["SD", "deinit"]
+- !private ["SD", "fatalError"]
+- !private ["SD", "init"]
+- ["SD", "jsonObject"]
+- ["SD", "jsonValue"]
+- !private ["SD", "subscript"]
+- !private ["Sd", "Double"]
+- !private ["Sd", "JSONDecodingError"]
+- ["Sd", "JSONValue"]
+- !private ["Sd", "NSNumber"]
+- ["Sd", "deinit"]
+- ["Sd", "evaluate"]
+- ["Sd", "init"]
+- ["Sd", "jsonValue"]
+- !private ["SE", "Bool"]
+- !private ["SE", "Double"]
+- !private ["SE", "Float"]
+- !private ["SE", "Int"]
+- !private ["SE", "JSONDecodingError"]
+- !private ["SE", "JSONObject"]
+- !private ["SE", "NSNull"]
+- !private ["SE", "String"]
+- !private ["SE", "URL"]
+- !private ["SE", "absoluteString"]
+- !private ["SE", "count"]
+- ["SE", "evaluate"]
+- !private ["SE", "fatalError"]
+- ["SE", "init"]
+- !private ["SE", "jsonObject"]
+- ["SE", "jsonValue"]
+- !private ["SE", "map"]
+- ["SE", "none"]
+- ["SE", "some"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Bool"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Float"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "JSONDecodingError"]
+- !private ["SQ", "JSONObject"]
+- !private ["SQ", "NSNull"]
+- !private ["SQ", "String"]
+- !private ["SQ", "URL"]
+- !private ["SQ", "absoluteString"]
+- !private ["SQ", "count"]
+- !private ["SQ", "doubleValue"]
+- ["SQ", "evaluate"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "floatValue"]
+- ["SQ", "init"]
+- !private ["SQ", "intValue"]
+- !private ["SQ", "jsonObject"]
+- ["SQ", "jsonValue"]
+- !private ["SQ", "map"]
+- ["SQ", "none"]
+- ["SQ", "some"]
+- !private ["SQ", "subscript"]
+- !private ["s5ErrorP", "couldNotConvert"]
+- !private ["6SQLite11ExpressibleP", "Bool"]
+- !private ["6SQLite11ExpressibleP", "Double"]
+- !private ["6SQLite11ExpressibleP", "Int"]
+- !private ["6SQLite11ExpressibleP", "JSONDecodingError"]
+- !private ["6SQLite11ExpressibleP", "String"]
+- ["6SQLite11ExpressibleP", "evaluate"]
+- ["6SQLite11ExpressibleP", "init"]
+- ["6SQLite11ExpressibleP", "jsonValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "fatalError"]
+- ["s25ExpressibleByArrayLiteralP", "jsonValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "Bool"]
+- !private ["s27ExpressibleByBooleanLiteralP", "JSONDecodingError"]
+- !private ["s27ExpressibleByBooleanLiteralP", "doubleValue"]
+- ["s27ExpressibleByBooleanLiteralP", "evaluate"]
+- !private ["s27ExpressibleByBooleanLiteralP", "floatValue"]
+- ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "intValue"]
+- ["s27ExpressibleByBooleanLiteralP", "jsonValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "JSONObject"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "count"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "fatalError"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "jsonObject"]
+- ["s30ExpressibleByDictionaryLiteralP", "jsonValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "JSONDecodingError"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "String"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "evaluate"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "jsonValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "Double"]
+- !private ["s25ExpressibleByFloatLiteralP", "Float"]
+- !private ["s25ExpressibleByFloatLiteralP", "JSONDecodingError"]
+- !private ["s25ExpressibleByFloatLiteralP", "doubleValue"]
+- ["s25ExpressibleByFloatLiteralP", "evaluate"]
+- !private ["s25ExpressibleByFloatLiteralP", "floatValue"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "intValue"]
+- ["s25ExpressibleByFloatLiteralP", "jsonValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Double"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Float"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Int"]
+- !private ["s27ExpressibleByIntegerLiteralP", "JSONDecodingError"]
+- !private ["s27ExpressibleByIntegerLiteralP", "doubleValue"]
+- ["s27ExpressibleByIntegerLiteralP", "evaluate"]
+- !private ["s27ExpressibleByIntegerLiteralP", "floatValue"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- ["s27ExpressibleByIntegerLiteralP", "jsonValue"]
+- !private ["s23ExpressibleByNilLiteralP", "NSNull"]
+- ["s23ExpressibleByNilLiteralP", "evaluate"]
+- !private ["s23ExpressibleByNilLiteralP", "fatalError"]
+- ["s23ExpressibleByNilLiteralP", "jsonValue"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s32ExpressibleByStringInterpolationP", "JSONDecodingError"]
+- !private ["s32ExpressibleByStringInterpolationP", "String"]
+- ["s32ExpressibleByStringInterpolationP", "evaluate"]
+- ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s32ExpressibleByStringInterpolationP", "jsonValue"]
+- !private ["s26ExpressibleByStringLiteralP", "JSONDecodingError"]
+- !private ["s26ExpressibleByStringLiteralP", "String"]
+- ["s26ExpressibleByStringLiteralP", "evaluate"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "jsonValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "JSONDecodingError"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "String"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "evaluate"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "jsonValue"]
+- !private ["s17FixedWidthIntegerP", "Int"]
+- !private ["s17FixedWidthIntegerP", "JSONDecodingError"]
+- ["s17FixedWidthIntegerP", "evaluate"]
+- ["s17FixedWidthIntegerP", "init"]
+- ["s17FixedWidthIntegerP", "jsonValue"]
+- !private ["Sf", "Float"]
+- !private ["Sf", "JSONDecodingError"]
+- ["Sf", "JSONValue"]
+- !private ["Sf", "NSNumber"]
+- ["Sf", "deinit"]
+- ["Sf", "evaluate"]
+- ["Sf", "init"]
+- ["Sf", "jsonValue"]
+- !private ["SF", "Double"]
+- !private ["SF", "Float"]
+- !private ["SF", "JSONDecodingError"]
+- ["SF", "evaluate"]
+- ["SF", "init"]
+- ["SF", "jsonValue"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "Bool"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "Double"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "Float"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "Int"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "JSONDecodingError"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "JSONObject"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "NSNull"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "String"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "URL"]
+- ["10AWSAppSync17GraphQLInputValueP", ""]
+- !private ["10AWSAppSync17GraphQLInputValueP", "absoluteString"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "count"]
+- ["10AWSAppSync17GraphQLInputValueP", "evaluate"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "fatalError"]
+- ["10AWSAppSync17GraphQLInputValueP", "init"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "jsonObject"]
+- ["10AWSAppSync17GraphQLInputValueP", "jsonValue"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "map"]
+- ["10AWSAppSync17GraphQLInputValueP", "none"]
+- ["10AWSAppSync17GraphQLInputValueP", "some"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "subscript"]
+- !private ["SH", "Bool"]
+- !private ["SH", "Double"]
+- !private ["SH", "Float"]
+- !private ["SH", "Int"]
+- !private ["SH", "JSONDecodingError"]
+- !private ["SH", "JSONObject"]
+- !private ["SH", "NSNull"]
+- !private ["SH", "String"]
+- !private ["SH", "URL"]
+- !private ["SH", "absoluteString"]
+- !private ["SH", "count"]
+- !private ["SH", "doubleValue"]
+- ["SH", "evaluate"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "floatValue"]
+- ["SH", "init"]
+- !private ["SH", "intValue"]
+- !private ["SH", "jsonObject"]
+- ["SH", "jsonValue"]
+- !private ["SH", "map"]
+- ["SH", "none"]
+- ["SH", "some"]
+- !private ["SH", "subscript"]
+- !private ["Si", "Int"]
+- !private ["Si", "JSONDecodingError"]
+- ["Si", "JSONValue"]
+- !private ["Si", "NSNumber"]
+- ["Si", "deinit"]
+- ["Si", "evaluate"]
+- ["Si", "init"]
+- ["Si", "jsonValue"]
+- !private ["10AWSAppSync13JSONDecodableP", "Bool"]
+- !private ["10AWSAppSync13JSONDecodableP", "Double"]
+- !private ["10AWSAppSync13JSONDecodableP", "Float"]
+- !private ["10AWSAppSync13JSONDecodableP", "Int"]
+- !private ["10AWSAppSync13JSONDecodableP", "JSONDecodingError"]
+- !private ["10AWSAppSync13JSONDecodableP", "String"]
+- !private ["10AWSAppSync13JSONDecodableP", "URL"]
+- ["10AWSAppSync13JSONDecodableP", ""]
+- !private ["10AWSAppSync13JSONDecodableP", "absoluteString"]
+- ["10AWSAppSync13JSONDecodableP", "evaluate"]
+- ["10AWSAppSync13JSONDecodableP", "init"]
+- ["10AWSAppSync13JSONDecodableP", "jsonValue"]
+- !private ["10AWSAppSync17JSONDecodingErrorO", "couldNotConvert"]
+- !private ["10AWSAppSync17JSONDecodingErrorO", "deinit"]
+- !private ["10AWSAppSync13JSONEncodableP", "Bool"]
+- !private ["10AWSAppSync13JSONEncodableP", "Double"]
+- !private ["10AWSAppSync13JSONEncodableP", "Float"]
+- !private ["10AWSAppSync13JSONEncodableP", "Int"]
+- !private ["10AWSAppSync13JSONEncodableP", "JSONDecodingError"]
+- !private ["10AWSAppSync13JSONEncodableP", "JSONObject"]
+- !private ["10AWSAppSync13JSONEncodableP", "NSNull"]
+- !private ["10AWSAppSync13JSONEncodableP", "String"]
+- !private ["10AWSAppSync13JSONEncodableP", "URL"]
+- ["10AWSAppSync13JSONEncodableP", ""]
+- !private ["10AWSAppSync13JSONEncodableP", "absoluteString"]
+- !private ["10AWSAppSync13JSONEncodableP", "count"]
+- ["10AWSAppSync13JSONEncodableP", "evaluate"]
+- !private ["10AWSAppSync13JSONEncodableP", "fatalError"]
+- ["10AWSAppSync13JSONEncodableP", "init"]
+- !private ["10AWSAppSync13JSONEncodableP", "jsonObject"]
+- ["10AWSAppSync13JSONEncodableP", "jsonValue"]
+- !private ["10AWSAppSync13JSONEncodableP", "map"]
+- ["10AWSAppSync13JSONEncodableP", "none"]
+- ["10AWSAppSync13JSONEncodableP", "some"]
+- !private ["10AWSAppSync13JSONEncodableP", "subscript"]
+- !private ["10Foundation14LocalizedErrorP", "couldNotConvert"]
+- !private ["s25LosslessStringConvertibleP", "Bool"]
+- !private ["s25LosslessStringConvertibleP", "Double"]
+- !private ["s25LosslessStringConvertibleP", "Float"]
+- !private ["s25LosslessStringConvertibleP", "Int"]
+- !private ["s25LosslessStringConvertibleP", "JSONDecodingError"]
+- !private ["s25LosslessStringConvertibleP", "String"]
+- ["s25LosslessStringConvertibleP", "evaluate"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "jsonValue"]
+- !private ["10AWSAppSync9MatchableP", "couldNotConvert"]
+- !private ["s10MirrorPathP", "Int"]
+- !private ["s10MirrorPathP", "JSONDecodingError"]
+- !private ["s10MirrorPathP", "String"]
+- ["s10MirrorPathP", "evaluate"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "jsonValue"]
+- !private ["SM", "fatalError"]
+- ["SM", "jsonValue"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "fatalError"]
+- ["10Foundation19MutableDataProtocolP", "jsonValue"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So8NSCodingP", "doubleValue"]
+- !private ["So8NSCodingP", "floatValue"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "intValue"]
+- !private ["So9NSCopyingP", "doubleValue"]
+- !private ["So9NSCopyingP", "floatValue"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "intValue"]
+- !private ["So20NSFetchRequestResultP", "doubleValue"]
+- !private ["So20NSFetchRequestResultP", "floatValue"]
+- !private ["So20NSFetchRequestResultP", "intValue"]
+- !private ["So6NSNullC", "init"]
+- !private ["So8NSNumberC", "doubleValue"]
+- !private ["So8NSNumberC", "floatValue"]
+- !private ["So8NSNumberC", "intValue"]
+- !private ["So8NSObjectC", "doubleValue"]
+- !private ["So8NSObjectC", "floatValue"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "intValue"]
+- !private ["So8NSObjectP", "doubleValue"]
+- !private ["So8NSObjectP", "floatValue"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "intValue"]
+- !private ["So14NSSecureCodingP", "doubleValue"]
+- !private ["So14NSSecureCodingP", "floatValue"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "intValue"]
+- !private ["So7NSValueC", "doubleValue"]
+- !private ["So7NSValueC", "floatValue"]
+- !private ["So7NSValueC", "intValue"]
+- !private ["6SQLite6NumberP", "Double"]
+- !private ["6SQLite6NumberP", "Int"]
+- !private ["6SQLite6NumberP", "JSONDecodingError"]
+- ["6SQLite6NumberP", "evaluate"]
+- ["6SQLite6NumberP", "init"]
+- ["6SQLite6NumberP", "jsonValue"]
+- !private ["Sj", "Double"]
+- !private ["Sj", "Float"]
+- !private ["Sj", "Int"]
+- !private ["Sj", "JSONDecodingError"]
+- ["Sj", "evaluate"]
+- ["Sj", "init"]
+- ["Sj", "jsonValue"]
+- ["Sq", "JSONDecodable"]
+- !private ["Sq", "JSONEncodable"]
+- ["Sq", "JSONValue"]
+- !private ["Sq", "NSNull"]
+- ["Sq", "deinit"]
+- ["Sq", "evaluate"]
+- !private ["Sq", "fatalError"]
+- ["Sq", "init"]
+- ["Sq", "jsonValue"]
+- ["Sq", "none"]
+- ["Sq", "some"]
+- !private ["Sk", "fatalError"]
+- ["Sk", "jsonValue"]
+- !private ["Sk", "map"]
+- !private ["Sm", "JSONDecodingError"]
+- !private ["Sm", "String"]
+- ["Sm", "evaluate"]
+- !private ["Sm", "fatalError"]
+- ["Sm", "init"]
+- ["Sm", "jsonValue"]
+- !private ["Sm", "map"]
+- ["SY", "JSONDecodable"]
+- !private ["SY", "JSONDecodingError"]
+- ["SY", "JSONEncodable"]
+- ["SY", "JSONValue"]
+- ["SY", "RawValue"]
+- ["SY", "init"]
+- ["SY", "jsonValue"]
+- !private ["SY", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "JSONDecodingError"]
+- !private ["10Foundation20ReferenceConvertibleP", "URL"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- ["10Foundation20ReferenceConvertibleP", "evaluate"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["10Foundation20ReferenceConvertibleP", "jsonValue"]
+- !private ["s10SIMDScalarP", "Double"]
+- !private ["s10SIMDScalarP", "Float"]
+- !private ["s10SIMDScalarP", "Int"]
+- !private ["s10SIMDScalarP", "JSONDecodingError"]
+- ["s10SIMDScalarP", "evaluate"]
+- ["s10SIMDScalarP", "init"]
+- ["s10SIMDScalarP", "jsonValue"]
+- !private ["ST", "JSONDecodingError"]
+- !private ["ST", "JSONObject"]
+- !private ["ST", "String"]
+- !private ["ST", "count"]
+- ["ST", "evaluate"]
+- !private ["ST", "fatalError"]
+- ["ST", "init"]
+- !private ["ST", "jsonObject"]
+- ["ST", "jsonValue"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "Int"]
+- !private ["SZ", "JSONDecodingError"]
+- ["SZ", "evaluate"]
+- ["SZ", "init"]
+- ["SZ", "jsonValue"]
+- !private ["s13SignedNumericP", "Double"]
+- !private ["s13SignedNumericP", "Float"]
+- !private ["s13SignedNumericP", "Int"]
+- !private ["s13SignedNumericP", "JSONDecodingError"]
+- ["s13SignedNumericP", "evaluate"]
+- ["s13SignedNumericP", "init"]
+- ["s13SignedNumericP", "jsonValue"]
+- !private ["Sx", "Double"]
+- !private ["Sx", "Float"]
+- !private ["Sx", "Int"]
+- !private ["Sx", "JSONDecodingError"]
+- ["Sx", "evaluate"]
+- ["Sx", "init"]
+- ["Sx", "jsonValue"]
+- !private ["SS", "JSONDecodingError"]
+- ["SS", "JSONValue"]
+- !private ["SS", "String"]
+- ["SS", "deinit"]
+- ["SS", "evaluate"]
+- ["SS", "init"]
+- ["SS", "jsonValue"]
+- !private ["Sy", "JSONDecodingError"]
+- !private ["Sy", "String"]
+- ["Sy", "evaluate"]
+- ["Sy", "init"]
+- ["Sy", "jsonValue"]
+- !private ["s16TextOutputStreamP", "JSONDecodingError"]
+- !private ["s16TextOutputStreamP", "String"]
+- ["s16TextOutputStreamP", "evaluate"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "jsonValue"]
+- !private ["s20TextOutputStreamableP", "Double"]
+- !private ["s20TextOutputStreamableP", "Float"]
+- !private ["s20TextOutputStreamableP", "JSONDecodingError"]
+- !private ["s20TextOutputStreamableP", "String"]
+- ["s20TextOutputStreamableP", "evaluate"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "jsonValue"]
+- !private ["10Foundation3URLV", "JSONDecodingError"]
+- ["10Foundation3URLV", "JSONValue"]
+- !private ["10Foundation3URLV", "String"]
+- !private ["10Foundation3URLV", "URL"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- ["10Foundation3URLV", "deinit"]
+- ["10Foundation3URLV", "evaluate"]
+- ["10Foundation3URLV", "init"]
+- ["10Foundation3URLV", "jsonValue"]
+- !private ["6SQLite5ValueP", "Bool"]
+- !private ["6SQLite5ValueP", "Double"]
+- !private ["6SQLite5ValueP", "Int"]
+- !private ["6SQLite5ValueP", "JSONDecodingError"]
+- !private ["6SQLite5ValueP", "String"]
+- ["6SQLite5ValueP", "evaluate"]
+- ["6SQLite5ValueP", "init"]
+- ["6SQLite5ValueP", "jsonValue"]
+- !private ["s14_ArrayProtocolP", "fatalError"]
+- ["s14_ArrayProtocolP", "jsonValue"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s15_CVarArgAlignedP", "Double"]
+- !private ["s15_CVarArgAlignedP", "Float"]
+- !private ["s15_CVarArgAlignedP", "JSONDecodingError"]
+- ["s15_CVarArgAlignedP", "evaluate"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s15_CVarArgAlignedP", "jsonValue"]
+- !private ["s22_CVarArgPassedAsDoubleP", "Double"]
+- !private ["s22_CVarArgPassedAsDoubleP", "Float"]
+- !private ["s22_CVarArgPassedAsDoubleP", "JSONDecodingError"]
+- ["s22_CVarArgPassedAsDoubleP", "evaluate"]
+- ["s22_CVarArgPassedAsDoubleP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "jsonValue"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Bool"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Double"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Float"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Int"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "JSONDecodingError"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "String"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "URL"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "absoluteString"]
+- ["s30_CustomPlaygroundQuickLookableP", "evaluate"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "jsonValue"]
+- !private ["s24_DestructorSafeContainerP", "fatalError"]
+- ["s24_DestructorSafeContainerP", "jsonValue"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "Bool"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "JSONDecodingError"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "evaluate"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "jsonValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "JSONDecodingError"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "String"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "evaluate"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "jsonValue"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "Double"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "Float"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "JSONDecodingError"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "evaluate"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "jsonValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Double"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Float"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Int"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "JSONDecodingError"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "evaluate"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "jsonValue"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "JSONDecodingError"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "String"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "evaluate"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "jsonValue"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "JSONDecodingError"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "String"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "evaluate"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "jsonValue"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "JSONDecodingError"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "URL"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "evaluate"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "jsonValue"]
+- !private ["s19_HasContiguousBytesP", "JSONDecodingError"]
+- !private ["s19_HasContiguousBytesP", "String"]
+- ["s19_HasContiguousBytesP", "evaluate"]
+- !private ["s19_HasContiguousBytesP", "fatalError"]
+- ["s19_HasContiguousBytesP", "init"]
+- ["s19_HasContiguousBytesP", "jsonValue"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Double"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Float"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Int"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "JSONDecodingError"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "JSONObject"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "doubleValue"]
+- ["s35_HasCustomAnyHashableRepresentationP", "evaluate"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "fatalError"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "floatValue"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "intValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "jsonObject"]
+- ["s35_HasCustomAnyHashableRepresentationP", "jsonValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doubleValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "floatValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intValue"]
+- !private ["s21_ObjectiveCBridgeableP", "Bool"]
+- !private ["s21_ObjectiveCBridgeableP", "Double"]
+- !private ["s21_ObjectiveCBridgeableP", "Float"]
+- !private ["s21_ObjectiveCBridgeableP", "Int"]
+- !private ["s21_ObjectiveCBridgeableP", "JSONDecodingError"]
+- !private ["s21_ObjectiveCBridgeableP", "JSONObject"]
+- !private ["s21_ObjectiveCBridgeableP", "NSNull"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- !private ["s21_ObjectiveCBridgeableP", "URL"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "evaluate"]
+- !private ["s21_ObjectiveCBridgeableP", "fatalError"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "jsonObject"]
+- ["s21_ObjectiveCBridgeableP", "jsonValue"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- ["s21_ObjectiveCBridgeableP", "none"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["6SQLite13_OptionalTypeP", "NSNull"]
+- ["6SQLite13_OptionalTypeP", "evaluate"]
+- !private ["6SQLite13_OptionalTypeP", "fatalError"]
+- ["6SQLite13_OptionalTypeP", "jsonValue"]
+- ["6SQLite13_OptionalTypeP", "none"]
+- ["6SQLite13_OptionalTypeP", "some"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "Sa"
+- "SK"
+- "SB"
+- "Sz"
+- "6SQLite7BindingP"
+- "Sb"
+- !private "So8CAActionP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "SD"
+- "Sd"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "6SQLite11ExpressibleP"
+- "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "Sf"
+- "SF"
+- "10AWSAppSync17GraphQLInputValueP"
+- "SH"
+- "Si"
+- "10AWSAppSync13JSONDecodableP"
+- !private "10AWSAppSync17JSONDecodingErrorO"
+- "10AWSAppSync13JSONEncodableP"
+- !private "10Foundation14LocalizedErrorP"
+- "s25LosslessStringConvertibleP"
+- !private "10AWSAppSync9MatchableP"
+- "s10MirrorPathP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So20NSFetchRequestResultP"
+- !private "So6NSNullC"
+- !private "So8NSNumberC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- "6SQLite6NumberP"
+- "Sj"
+- "Sq"
+- "Sk"
+- "Sm"
+- "SY"
+- "10Foundation20ReferenceConvertibleP"
+- "s10SIMDScalarP"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "10Foundation3URLV"
+- "6SQLite5ValueP"
+- "s14_ArrayProtocolP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "6SQLite13_OptionalTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Modules/SQLite.swiftmodule/arm64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDB.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/GZIP/AWSGZIP.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTS.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLog+LOGV.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/AWSAppSync/AWSAppSync-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/AWSCore/AWSCore-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSGeneric.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/AWSAppSync.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityService.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSTaskCompletionSource.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMDiskCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMMemoryCache.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMantle.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/AWSCore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/UICKeyChainStore/AWSUICKeyChainStore.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSSignature.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDASLLogCapture.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabase.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLite/SQLite.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseQueue.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel+NSCoding.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLiteObjc/include/SQLite-Bridging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSLogging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Networking/AWSNetworking.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLog.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSCocoaLumberjack.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSTask.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityModel.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabasePool.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSServiceEnum.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationToken.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSValidation.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenRegistration.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLResponseSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestSerialization.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLReflection.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSError+AWSMTLModelException.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSInfo.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSCredentialsProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Authentication/AWSIdentityProvider.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/TMCache/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Networking/AWSURLSessionManager.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDASLLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDOSLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDTTYLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDFileLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDAbstractDatabaseLogger.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestRetryHandler.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLValueTransformer.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/Internal/AppSyncLogHelper.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLJSONAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/AWSMTLManagedObjectAdapter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDDispatchQueueLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDContextFilterLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDMultiFormatter.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSExecutor.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/STS/AWSSTSResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityResources.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/MQTTSDK/AWSIoTMQTTTypes.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLogMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDAssertMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Logging/AWSDDLegacyMacros.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMDB+AWSHelpers.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Bolts/AWSBolts.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/FMDB/AWSFMResultSet.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSAppSync/AWSAppSyncClient/MQTTSDK/AWSIoTMQTTClient.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Service/AWSClientContext.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSSynchronizedMutableDictionary.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/Utility/AWSCategory.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/KSReachability/AWSKSReachability.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentity.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSAppSync.build/unextended-module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ReachabilitySwift.build/module.modulemap"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SQLite.swift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d9b080fec2b2a7cc5203dccb96d4f0a0"

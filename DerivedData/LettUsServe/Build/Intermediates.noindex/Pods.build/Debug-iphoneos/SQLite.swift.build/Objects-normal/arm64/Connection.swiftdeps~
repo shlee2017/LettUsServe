@@ -1,0 +1,945 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Connection"
+- "Result"
+provides-nominal:
+- "6SQLite10ConnectionC"
+- "6SQLite10ConnectionC8LocationO"
+- "6SQLite10ConnectionC9OperationO"
+- "6SQLite10ConnectionC15TransactionModeO"
+- "6SQLite6ResultO"
+provides-member:
+- ["6SQLite10ConnectionC", ""]
+- ["6SQLite10ConnectionC8LocationO", ""]
+- ["6SQLite10ConnectionC9OperationO", ""]
+- ["6SQLite10ConnectionC15TransactionModeO", ""]
+- ["6SQLite6ResultO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "*"
+- !private "..<"
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Binding"
+- !private "Blob"
+- "Bool"
+- !private "CastingPrecedence"
+- "ComparisonResult"
+- "Connection"
+- "CustomStringConvertible"
+- "DispatchQueue"
+- "DispatchSpecificKey"
+- "Double"
+- "Error"
+- !private "ExtendedGraphemeClusterType"
+- "Int"
+- "Int32"
+- "Int64"
+- "Int8"
+- "OpaquePointer"
+- "Result"
+- !private "SQLITE_BLOB"
+- !private "SQLITE_DELETE"
+- !private "SQLITE_DETERMINISTIC"
+- "SQLITE_DONE"
+- !private "SQLITE_FLOAT"
+- !private "SQLITE_INSERT"
+- !private "SQLITE_INTEGER"
+- !private "SQLITE_NULL"
+- "SQLITE_OK"
+- !private "SQLITE_OPEN_CREATE"
+- !private "SQLITE_OPEN_FULLMUTEX"
+- !private "SQLITE_OPEN_READONLY"
+- !private "SQLITE_OPEN_READWRITE"
+- "SQLITE_ROW"
+- !private "SQLITE_TEXT"
+- !private "SQLITE_TRACE_STMT"
+- !private "SQLITE_TRANSIENT"
+- !private "SQLITE_UPDATE"
+- !private "SQLITE_UTF8"
+- "Set"
+- "Statement"
+- "String"
+- "TernaryPrecedence"
+- "UInt"
+- !private "UInt32"
+- !private "UInt8"
+- !private "UUID"
+- "UnsafeMutablePointer"
+- !private "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- "UnsafeRawPointer"
+- "Void"
+- !private "_findStringSwitchCase"
+- !private "fatalError"
+- !private "sqlite3_busy_handler"
+- !private "sqlite3_busy_timeout"
+- !private "sqlite3_changes"
+- !private "sqlite3_close"
+- !private "sqlite3_commit_hook"
+- !private "sqlite3_create_collation_v2"
+- !private "sqlite3_create_function_v2"
+- !private "sqlite3_db_filename"
+- !private "sqlite3_db_readonly"
+- !private "sqlite3_errmsg"
+- !private "sqlite3_exec"
+- !private "sqlite3_expanded_sql"
+- !private "sqlite3_free"
+- !private "sqlite3_interrupt"
+- !private "sqlite3_last_insert_rowid"
+- !private "sqlite3_open_v2"
+- !private "sqlite3_result_blob"
+- !private "sqlite3_result_double"
+- !private "sqlite3_result_int64"
+- !private "sqlite3_result_null"
+- !private "sqlite3_result_text"
+- !private "sqlite3_rollback_hook"
+- !private "sqlite3_total_changes"
+- !private "sqlite3_trace"
+- !private "sqlite3_trace_v2"
+- !private "sqlite3_update_hook"
+- !private "sqlite3_user_data"
+- !private "sqlite3_value_blob"
+- !private "sqlite3_value_bytes"
+- !private "sqlite3_value_double"
+- !private "sqlite3_value_int64"
+- !private "sqlite3_value_text"
+- !private "sqlite3_value_type"
+- "unsafeBitCast"
+- !private "|"
+- !private "|="
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "count"]
+- !private ["Sa", "isEmpty"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "map"]
+- !private ["SK", "quote"]
+- !private ["SK", "uri"]
+- !private ["Sz", "init"]
+- !private ["6SQLite7BindingP", "bytes"]
+- !private ["6SQLite7BindingP", "count"]
+- !private ["6SQLite7BindingP", "init"]
+- !private ["6SQLite7BindingP", "quote"]
+- !private ["6SQLite7BindingP", "uri"]
+- !private ["6SQLite4BlobV", "bytes"]
+- !private ["6SQLite4BlobV", "deinit"]
+- !private ["6SQLite4BlobV", "init"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "getSpecific"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "quote"]
+- !private ["s7CVarArgP", "setSpecific"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "sync"]
+- !private ["s7CVarArgP", "uri"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "map"]
+- !private ["Sl", "quote"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "uri"]
+- !private ["SL", "assumingMemoryBound"]
+- !private ["SL", "count"]
+- !private ["SL", "init"]
+- !private ["SL", "quote"]
+- !private ["SL", "subscript"]
+- !private ["SL", "uri"]
+- !private ["So18NSComparisonResultV", "rawValue"]
+- ["6SQLite10ConnectionC", "Binding"]
+- !private ["6SQLite10ConnectionC", "Blob"]
+- ["6SQLite10ConnectionC", "Bool"]
+- ["6SQLite10ConnectionC", "BusyHandler"]
+- ["6SQLite10ConnectionC", "Collation"]
+- ["6SQLite10ConnectionC", "CommitHook"]
+- ["6SQLite10ConnectionC", "ComparisonResult"]
+- !private ["6SQLite10ConnectionC", "Connection"]
+- ["6SQLite10ConnectionC", "DispatchQueue"]
+- ["6SQLite10ConnectionC", "DispatchSpecificKey"]
+- ["6SQLite10ConnectionC", "Double"]
+- ["6SQLite10ConnectionC", "Function"]
+- ["6SQLite10ConnectionC", "Int"]
+- ["6SQLite10ConnectionC", "Int32"]
+- ["6SQLite10ConnectionC", "Int64"]
+- ["6SQLite10ConnectionC", "Int8"]
+- ["6SQLite10ConnectionC", "Location"]
+- ["6SQLite10ConnectionC", "OpaquePointer"]
+- ["6SQLite10ConnectionC", "Operation"]
+- !private ["6SQLite10ConnectionC", "Result"]
+- ["6SQLite10ConnectionC", "RollbackHook"]
+- !private ["6SQLite10ConnectionC", "SQLITE_BLOB"]
+- !private ["6SQLite10ConnectionC", "SQLITE_DELETE"]
+- !private ["6SQLite10ConnectionC", "SQLITE_DETERMINISTIC"]
+- !private ["6SQLite10ConnectionC", "SQLITE_FLOAT"]
+- !private ["6SQLite10ConnectionC", "SQLITE_INSERT"]
+- !private ["6SQLite10ConnectionC", "SQLITE_INTEGER"]
+- !private ["6SQLite10ConnectionC", "SQLITE_NULL"]
+- !private ["6SQLite10ConnectionC", "SQLITE_OPEN_CREATE"]
+- !private ["6SQLite10ConnectionC", "SQLITE_OPEN_FULLMUTEX"]
+- !private ["6SQLite10ConnectionC", "SQLITE_OPEN_READONLY"]
+- !private ["6SQLite10ConnectionC", "SQLITE_OPEN_READWRITE"]
+- !private ["6SQLite10ConnectionC", "SQLITE_TEXT"]
+- !private ["6SQLite10ConnectionC", "SQLITE_TRACE_STMT"]
+- !private ["6SQLite10ConnectionC", "SQLITE_TRANSIENT"]
+- !private ["6SQLite10ConnectionC", "SQLITE_UPDATE"]
+- !private ["6SQLite10ConnectionC", "SQLITE_UTF8"]
+- ["6SQLite10ConnectionC", "Statement"]
+- ["6SQLite10ConnectionC", "String"]
+- ["6SQLite10ConnectionC", "Trace"]
+- ["6SQLite10ConnectionC", "TransactionMode"]
+- ["6SQLite10ConnectionC", "UInt"]
+- !private ["6SQLite10ConnectionC", "UInt32"]
+- !private ["6SQLite10ConnectionC", "UInt8"]
+- !private ["6SQLite10ConnectionC", "UUID"]
+- ["6SQLite10ConnectionC", "UnsafeMutablePointer"]
+- !private ["6SQLite10ConnectionC", "UnsafeMutableRawPointer"]
+- ["6SQLite10ConnectionC", "UnsafePointer"]
+- ["6SQLite10ConnectionC", "UnsafeRawPointer"]
+- ["6SQLite10ConnectionC", "UpdateHook"]
+- ["6SQLite10ConnectionC", "Void"]
+- !private ["6SQLite10ConnectionC", "_findStringSwitchCase"]
+- !private ["6SQLite10ConnectionC", "_handle"]
+- ["6SQLite10ConnectionC", "busyHandler"]
+- ["6SQLite10ConnectionC", "busyTimeout"]
+- ["6SQLite10ConnectionC", "changes"]
+- ["6SQLite10ConnectionC", "check"]
+- !private ["6SQLite10ConnectionC", "collations"]
+- ["6SQLite10ConnectionC", "commitHook"]
+- ["6SQLite10ConnectionC", "createCollation"]
+- ["6SQLite10ConnectionC", "createFunction"]
+- ["6SQLite10ConnectionC", "deinit"]
+- ["6SQLite10ConnectionC", "description"]
+- ["6SQLite10ConnectionC", "execute"]
+- !private ["6SQLite10ConnectionC", "fatalError"]
+- !private ["6SQLite10ConnectionC", "functions"]
+- ["6SQLite10ConnectionC", "handle"]
+- ["6SQLite10ConnectionC", "init"]
+- ["6SQLite10ConnectionC", "interrupt"]
+- ["6SQLite10ConnectionC", "lastInsertRowid"]
+- ["6SQLite10ConnectionC", "prepare"]
+- !private ["6SQLite10ConnectionC", "queue"]
+- !private ["6SQLite10ConnectionC", "queueContext"]
+- !private ["6SQLite10ConnectionC", "queueContext.storage"]
+- !private ["6SQLite10ConnectionC", "queueKey"]
+- ["6SQLite10ConnectionC", "readonly"]
+- ["6SQLite10ConnectionC", "rollbackHook"]
+- ["6SQLite10ConnectionC", "run"]
+- ["6SQLite10ConnectionC", "savepoint"]
+- ["6SQLite10ConnectionC", "scalar"]
+- !private ["6SQLite10ConnectionC", "sqlite3_busy_handler"]
+- !private ["6SQLite10ConnectionC", "sqlite3_busy_timeout"]
+- !private ["6SQLite10ConnectionC", "sqlite3_changes"]
+- !private ["6SQLite10ConnectionC", "sqlite3_close"]
+- !private ["6SQLite10ConnectionC", "sqlite3_commit_hook"]
+- !private ["6SQLite10ConnectionC", "sqlite3_create_collation_v2"]
+- !private ["6SQLite10ConnectionC", "sqlite3_create_function_v2"]
+- !private ["6SQLite10ConnectionC", "sqlite3_db_filename"]
+- !private ["6SQLite10ConnectionC", "sqlite3_db_readonly"]
+- !private ["6SQLite10ConnectionC", "sqlite3_exec"]
+- !private ["6SQLite10ConnectionC", "sqlite3_expanded_sql"]
+- !private ["6SQLite10ConnectionC", "sqlite3_free"]
+- !private ["6SQLite10ConnectionC", "sqlite3_interrupt"]
+- !private ["6SQLite10ConnectionC", "sqlite3_last_insert_rowid"]
+- !private ["6SQLite10ConnectionC", "sqlite3_open_v2"]
+- !private ["6SQLite10ConnectionC", "sqlite3_result_blob"]
+- !private ["6SQLite10ConnectionC", "sqlite3_result_double"]
+- !private ["6SQLite10ConnectionC", "sqlite3_result_int64"]
+- !private ["6SQLite10ConnectionC", "sqlite3_result_null"]
+- !private ["6SQLite10ConnectionC", "sqlite3_result_text"]
+- !private ["6SQLite10ConnectionC", "sqlite3_rollback_hook"]
+- !private ["6SQLite10ConnectionC", "sqlite3_total_changes"]
+- !private ["6SQLite10ConnectionC", "sqlite3_trace"]
+- !private ["6SQLite10ConnectionC", "sqlite3_trace_v2"]
+- !private ["6SQLite10ConnectionC", "sqlite3_update_hook"]
+- !private ["6SQLite10ConnectionC", "sqlite3_user_data"]
+- !private ["6SQLite10ConnectionC", "sqlite3_value_blob"]
+- !private ["6SQLite10ConnectionC", "sqlite3_value_bytes"]
+- !private ["6SQLite10ConnectionC", "sqlite3_value_double"]
+- !private ["6SQLite10ConnectionC", "sqlite3_value_int64"]
+- !private ["6SQLite10ConnectionC", "sqlite3_value_text"]
+- !private ["6SQLite10ConnectionC", "sqlite3_value_type"]
+- ["6SQLite10ConnectionC", "sync"]
+- ["6SQLite10ConnectionC", "totalChanges"]
+- ["6SQLite10ConnectionC", "trace"]
+- !private ["6SQLite10ConnectionC", "trace_v1"]
+- !private ["6SQLite10ConnectionC", "trace_v2"]
+- ["6SQLite10ConnectionC", "transaction"]
+- ["6SQLite10ConnectionC", "unsafeBitCast"]
+- ["6SQLite10ConnectionC", "updateHook"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "getSpecific"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "quote"]
+- !private ["s28CustomDebugStringConvertibleP", "setSpecific"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "sync"]
+- !private ["s28CustomDebugStringConvertibleP", "uri"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "quote"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "uri"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "Blob"]
+- !private ["s23CustomStringConvertibleP", "BusyHandler"]
+- ["s23CustomStringConvertibleP", "Collation"]
+- !private ["s23CustomStringConvertibleP", "CommitHook"]
+- !private ["s23CustomStringConvertibleP", "Connection"]
+- ["s23CustomStringConvertibleP", "DispatchQueue"]
+- ["s23CustomStringConvertibleP", "DispatchSpecificKey"]
+- ["s23CustomStringConvertibleP", "Function"]
+- ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "Int32"]
+- !private ["s23CustomStringConvertibleP", "OpaquePointer"]
+- !private ["s23CustomStringConvertibleP", "Operation"]
+- !private ["s23CustomStringConvertibleP", "Result"]
+- !private ["s23CustomStringConvertibleP", "RollbackHook"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_BLOB"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_DELETE"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_DETERMINISTIC"]
+- ["s23CustomStringConvertibleP", "SQLITE_DONE"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_FLOAT"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_INSERT"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_INTEGER"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_NULL"]
+- ["s23CustomStringConvertibleP", "SQLITE_OK"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_OPEN_CREATE"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_OPEN_FULLMUTEX"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_OPEN_READONLY"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_OPEN_READWRITE"]
+- ["s23CustomStringConvertibleP", "SQLITE_ROW"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_TEXT"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_TRACE_STMT"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_TRANSIENT"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_UPDATE"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_UTF8"]
+- !private ["s23CustomStringConvertibleP", "Statement"]
+- ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "Trace"]
+- !private ["s23CustomStringConvertibleP", "UInt32"]
+- !private ["s23CustomStringConvertibleP", "UInt8"]
+- !private ["s23CustomStringConvertibleP", "UUID"]
+- !private ["s23CustomStringConvertibleP", "UnsafeMutableRawPointer"]
+- !private ["s23CustomStringConvertibleP", "UnsafePointer"]
+- !private ["s23CustomStringConvertibleP", "UpdateHook"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_code"]
+- ["s23CustomStringConvertibleP", "_domain"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_getEmbeddedNSError"]
+- !private ["s23CustomStringConvertibleP", "_handle"]
+- ["s23CustomStringConvertibleP", "_userInfo"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "bind"]
+- !private ["s23CustomStringConvertibleP", "busyHandler"]
+- !private ["s23CustomStringConvertibleP", "busyTimeout"]
+- !private ["s23CustomStringConvertibleP", "bytes"]
+- !private ["s23CustomStringConvertibleP", "check"]
+- !private ["s23CustomStringConvertibleP", "collations"]
+- !private ["s23CustomStringConvertibleP", "commitHook"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "functions"]
+- !private ["s23CustomStringConvertibleP", "getSpecific"]
+- !private ["s23CustomStringConvertibleP", "handle"]
+- ["s23CustomStringConvertibleP", "inMemory"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "prepare"]
+- !private ["s23CustomStringConvertibleP", "queue"]
+- !private ["s23CustomStringConvertibleP", "queueContext"]
+- !private ["s23CustomStringConvertibleP", "queueKey"]
+- !private ["s23CustomStringConvertibleP", "quote"]
+- !private ["s23CustomStringConvertibleP", "rollbackHook"]
+- !private ["s23CustomStringConvertibleP", "run"]
+- !private ["s23CustomStringConvertibleP", "scalar"]
+- !private ["s23CustomStringConvertibleP", "setSpecific"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_busy_handler"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_busy_timeout"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_changes"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_close"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_commit_hook"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_create_collation_v2"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_create_function_v2"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_db_filename"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_db_readonly"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_errmsg"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_exec"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_expanded_sql"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_free"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_interrupt"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_last_insert_rowid"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_open_v2"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_result_blob"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_result_double"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_result_int64"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_result_null"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_result_text"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_rollback_hook"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_total_changes"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_trace"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_trace_v2"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_update_hook"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_user_data"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_value_blob"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_value_bytes"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_value_double"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_value_int64"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_value_text"]
+- !private ["s23CustomStringConvertibleP", "sqlite3_value_type"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "successCodes"]
+- !private ["s23CustomStringConvertibleP", "sync"]
+- ["s23CustomStringConvertibleP", "temporary"]
+- !private ["s23CustomStringConvertibleP", "trace"]
+- !private ["s23CustomStringConvertibleP", "trace_v1"]
+- !private ["s23CustomStringConvertibleP", "trace_v2"]
+- !private ["s23CustomStringConvertibleP", "transaction"]
+- ["s23CustomStringConvertibleP", "unsafeBitCast"]
+- !private ["s23CustomStringConvertibleP", "updateHook"]
+- ["s23CustomStringConvertibleP", "uri"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["Se", "contains"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "map"]
+- !private ["Se", "quote"]
+- !private ["Se", "subscript"]
+- !private ["Se", "uri"]
+- !private ["Se", "uuidString"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["So18OS_dispatch_objectC", "getSpecific"]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "setSpecific"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "getSpecific"]
+- ["So17OS_dispatch_queueC", "init"]
+- !private ["So17OS_dispatch_queueC", "setSpecific"]
+- !private ["So17OS_dispatch_queueC", "sync"]
+- ["8Dispatch0A11SpecificKeyC", "init"]
+- !private ["Sd", "deinit"]
+- !private ["SE", "contains"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "map"]
+- !private ["SE", "quote"]
+- !private ["SE", "subscript"]
+- !private ["SE", "uri"]
+- !private ["SE", "uuidString"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- !private ["SQ", "SQLITE_DELETE"]
+- !private ["SQ", "SQLITE_INSERT"]
+- !private ["SQ", "SQLITE_UPDATE"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "assumingMemoryBound"]
+- !private ["SQ", "bytes"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- !private ["SQ", "deferred"]
+- !private ["SQ", "delete"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "getSpecific"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "insert"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "map"]
+- !private ["SQ", "quote"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "setSpecific"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "sync"]
+- !private ["SQ", "update"]
+- !private ["SQ", "uri"]
+- !private ["SQ", "uuidString"]
+- !private ["s5ErrorP", "Result"]
+- ["s5ErrorP", "SQLITE_DONE"]
+- ["s5ErrorP", "SQLITE_OK"]
+- ["s5ErrorP", "SQLITE_ROW"]
+- !private ["s5ErrorP", "String"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "description"]
+- ["s5ErrorP", "error"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "sqlite3_errmsg"]
+- !private ["s5ErrorP", "successCodes"]
+- !private ["6SQLite11ExpressibleP", "bytes"]
+- !private ["6SQLite11ExpressibleP", "count"]
+- !private ["6SQLite11ExpressibleP", "init"]
+- !private ["6SQLite11ExpressibleP", "quote"]
+- !private ["6SQLite11ExpressibleP", "uri"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "quote"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "uri"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s32ExpressibleByStringInterpolationP", "count"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "quote"]
+- !private ["s32ExpressibleByStringInterpolationP", "uri"]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "quote"]
+- !private ["s26ExpressibleByStringLiteralP", "uri"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "quote"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "uri"]
+- !private ["6SQLite16FailableIteratorP", "bind"]
+- !private ["6SQLite16FailableIteratorP", "init"]
+- !private ["6SQLite16FailableIteratorP", "run"]
+- !private ["6SQLite16FailableIteratorP", "scalar"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- !private ["SH", "SQLITE_DELETE"]
+- !private ["SH", "SQLITE_INSERT"]
+- !private ["SH", "SQLITE_UPDATE"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "assumingMemoryBound"]
+- !private ["SH", "contains"]
+- !private ["SH", "count"]
+- !private ["SH", "deferred"]
+- !private ["SH", "delete"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "getSpecific"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "insert"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "map"]
+- !private ["SH", "quote"]
+- ["SH", "rawValue"]
+- !private ["SH", "setSpecific"]
+- !private ["SH", "subscript"]
+- !private ["SH", "sync"]
+- !private ["SH", "update"]
+- !private ["SH", "uri"]
+- !private ["SH", "uuidString"]
+- !private ["s6HasherV", "combine"]
+- !private ["Si", "init"]
+- !private ["s5Int32V", "init"]
+- !private ["s5Int64V", "deinit"]
+- !private ["St", "bind"]
+- !private ["St", "init"]
+- !private ["St", "run"]
+- !private ["St", "scalar"]
+- ["6SQLite10ConnectionC8LocationO", "String"]
+- ["6SQLite10ConnectionC8LocationO", "deinit"]
+- ["6SQLite10ConnectionC8LocationO", "description"]
+- ["6SQLite10ConnectionC8LocationO", "inMemory"]
+- ["6SQLite10ConnectionC8LocationO", "temporary"]
+- ["6SQLite10ConnectionC8LocationO", "uri"]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "quote"]
+- !private ["s25LosslessStringConvertibleP", "uri"]
+- !private ["s10MirrorPathP", "count"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "quote"]
+- !private ["s10MirrorPathP", "uri"]
+- !private ["SM", "count"]
+- !private ["SM", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "quote"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "quote"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderReadingP", "quote"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So21NSItemProviderWritingP", "quote"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So16NSMutableCopyingP", "quote"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "getSpecific"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "quote"]
+- !private ["So8NSObjectC", "setSpecific"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "getSpecific"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "quote"]
+- !private ["So8NSObjectP", "setSpecific"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "quote"]
+- !private ["So8NSStringC", "count"]
+- !private ["So8NSStringC", "quote"]
+- !private ["6SQLite6NumberP", "init"]
+- !private ["Sj", "init"]
+- !private ["So9OS_objectC", "getSpecific"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "setSpecific"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["s13OpaquePointerV", "init"]
+- ["6SQLite10ConnectionC9OperationO", "=="]
+- ["6SQLite10ConnectionC9OperationO", "Int32"]
+- !private ["6SQLite10ConnectionC9OperationO", "SQLITE_DELETE"]
+- !private ["6SQLite10ConnectionC9OperationO", "SQLITE_INSERT"]
+- !private ["6SQLite10ConnectionC9OperationO", "SQLITE_UPDATE"]
+- ["6SQLite10ConnectionC9OperationO", "__derived_enum_equals"]
+- ["6SQLite10ConnectionC9OperationO", "_rawHashValue"]
+- ["6SQLite10ConnectionC9OperationO", "deinit"]
+- ["6SQLite10ConnectionC9OperationO", "delete"]
+- !private ["6SQLite10ConnectionC9OperationO", "fatalError"]
+- ["6SQLite10ConnectionC9OperationO", "hash"]
+- ["6SQLite10ConnectionC9OperationO", "hashValue"]
+- !private ["6SQLite10ConnectionC9OperationO", "init"]
+- ["6SQLite10ConnectionC9OperationO", "insert"]
+- ["6SQLite10ConnectionC9OperationO", "update"]
+- !private ["Sq", "map"]
+- !private ["Sk", "count"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "map"]
+- !private ["Sn", "map"]
+- !private ["SX", "map"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "quote"]
+- !private ["Sm", "uri"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "deferred"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- ["6SQLite6ResultO", "Connection"]
+- ["6SQLite6ResultO", "Int32"]
+- !private ["6SQLite6ResultO", "Result"]
+- ["6SQLite6ResultO", "SQLITE_DONE"]
+- ["6SQLite6ResultO", "SQLITE_OK"]
+- ["6SQLite6ResultO", "SQLITE_ROW"]
+- ["6SQLite6ResultO", "Set"]
+- ["6SQLite6ResultO", "Statement"]
+- ["6SQLite6ResultO", "String"]
+- ["6SQLite6ResultO", "_code"]
+- ["6SQLite6ResultO", "_domain"]
+- ["6SQLite6ResultO", "_getEmbeddedNSError"]
+- ["6SQLite6ResultO", "_userInfo"]
+- ["6SQLite6ResultO", "deinit"]
+- ["6SQLite6ResultO", "description"]
+- ["6SQLite6ResultO", "error"]
+- ["6SQLite6ResultO", "init"]
+- !private ["6SQLite6ResultO", "sqlite3_errmsg"]
+- !private ["6SQLite6ResultO", "successCodes"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "bind"]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "map"]
+- !private ["ST", "quote"]
+- !private ["ST", "run"]
+- !private ["ST", "scalar"]
+- !private ["ST", "subscript"]
+- !private ["ST", "uri"]
+- !private ["Sh", "contains"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["6SQLite9StatementC", "bind"]
+- !private ["6SQLite9StatementC", "deinit"]
+- !private ["6SQLite9StatementC", "init"]
+- !private ["6SQLite9StatementC", "run"]
+- !private ["6SQLite9StatementC", "scalar"]
+- !private ["Sx", "assumingMemoryBound"]
+- !private ["Sx", "init"]
+- !private ["Sx", "subscript"]
+- !private ["SS", "count"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "quote"]
+- !private ["SS", "uri"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "count"]
+- !private ["Sy", "init"]
+- !private ["Sy", "quote"]
+- !private ["Sy", "uri"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "quote"]
+- !private ["s16TextOutputStreamP", "uri"]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "quote"]
+- !private ["s20TextOutputStreamableP", "uri"]
+- ["6SQLite10ConnectionC15TransactionModeO", "=="]
+- ["6SQLite10ConnectionC15TransactionModeO", "RawValue"]
+- ["6SQLite10ConnectionC15TransactionModeO", "_Default_RawValue"]
+- !private ["6SQLite10ConnectionC15TransactionModeO", "_findStringSwitchCase"]
+- ["6SQLite10ConnectionC15TransactionModeO", "_rawHashValue"]
+- ["6SQLite10ConnectionC15TransactionModeO", "deferred"]
+- ["6SQLite10ConnectionC15TransactionModeO", "deinit"]
+- ["6SQLite10ConnectionC15TransactionModeO", "exclusive"]
+- ["6SQLite10ConnectionC15TransactionModeO", "hash"]
+- ["6SQLite10ConnectionC15TransactionModeO", "hashValue"]
+- ["6SQLite10ConnectionC15TransactionModeO", "immediate"]
+- ["6SQLite10ConnectionC15TransactionModeO", "init"]
+- ["6SQLite10ConnectionC15TransactionModeO", "rawValue"]
+- !private ["s6UInt32V", "init"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- !private ["Sp", "subscript"]
+- !private ["SP", "init"]
+- !private ["SV", "assumingMemoryBound"]
+- !private ["SU", "init"]
+- !private ["6SQLite5ValueP", "bytes"]
+- !private ["6SQLite5ValueP", "count"]
+- !private ["6SQLite5ValueP", "init"]
+- !private ["6SQLite5ValueP", "quote"]
+- !private ["6SQLite5ValueP", "uri"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "quote"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "uri"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "quote"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "uri"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "quote"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "uri"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "quote"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "uri"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "quote"]
+- !private ["s19_HasContiguousBytesP", "uri"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "quote"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getSpecific"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "quote"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSpecific"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sync"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "quote"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "uri"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+- !private ["6SQLite13_OptionalTypeP", "map"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "6SQLite7BindingP"
+- !private "6SQLite4BlobV"
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- !private "So18NSComparisonResultV"
+- "6SQLite10ConnectionC"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SD"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- "8Dispatch0A11SpecificKeyC"
+- !private "Sd"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "6SQLite11ExpressibleP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "6SQLite16FailableIteratorP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- !private "Si"
+- !private "s5Int32V"
+- !private "s5Int64V"
+- !private "St"
+- "6SQLite10ConnectionC8LocationO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "6SQLite6NumberP"
+- !private "Sj"
+- "So9OS_objectC"
+- !private "s13OpaquePointerV"
+- "6SQLite10ConnectionC9OperationO"
+- !private "Sq"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "6SQLite6ResultO"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "6SQLite9StatementC"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "6SQLite10ConnectionC15TransactionModeO"
+- !private "s6UInt32V"
+- !private "10Foundation4UUIDV"
+- !private "Sp"
+- !private "SP"
+- !private "SV"
+- !private "SU"
+- !private "6SQLite5ValueP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "6SQLite13_OptionalTypeP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLite/SQLite.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/Pods/SQLite.swift/Sources/SQLiteObjc/include/SQLite-Bridging.h"
+- "/Users/sangheonlee/Desktop/LettUsServe/DerivedData/LettUsServe/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SQLite.swift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2c8503ba94f5b4fd988b129742bb5f39"
